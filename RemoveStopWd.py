@@ -18,8 +18,9 @@ import codecs # otherwise, it has ascii encoding error
 ps = PorterStemmer()
 
 def RemoveStopwdStem(inputfolder, outputfolder, url):
-	# load the file
-	init_file = open(inputfolder+"/"+url,'r')
+	#os.chdir("./cleaned")
+	init_file = open(inputfolder+"/"+url,'r')#this has unicode error
+	# init_file = codecs.open(inputfolder+"/"+url,encoding='utf-8')
 	init_word = init_file.read()
 	init_word = unicode(init_word,'utf-8')
 	init_file.close()	
@@ -42,13 +43,25 @@ def RemoveStopwdStem(inputfolder, outputfolder, url):
 	stemmed_words = []
 	for w in removedstop_word:
 		stemmed_words.append(ps.stem(w))
+	#print(stemmed_words)
+	#stemmedword = len(stemmed_words)
+	#print(stemmedword)
 
+	# There are some problems on the encoding, I need to figure it out.
+
+	# mid_file = codecs.open(outputfolder+"/"+url, "w") 
 	mid_file = open(outputfolder+"/"+url+".removed", "w")
 	mid_file.write(str(stemmed_words))
 	mid_file.close()
 
+	# text_file = codecs.open(outputfolder+"/"+url+".removed", "w")
+	# text_file = open(outputfolder+"/"+url+".removed", "w")
+	# # text_file.write(text.encode('utf-8'))
+	# text_file.close()
+	# os.remove(outputfolder+"/"+url)
 
-# processing all the files
+
+
 for filename in os.listdir('cleaned/'):
     print(filename)
     RemoveStopwdStem("cleaned","Removed",filename)
