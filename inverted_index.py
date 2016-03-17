@@ -63,12 +63,12 @@ def construct_inverted_index(path):
     utils.store_datastructure('word_dict.pkl',word_dict)
     utils.store_datastructure('df_dict.pkl',df_dict)
 
-construct_inverted_index('RemovedString/')
+#construct_inverted_index('RemovedString/')
 #a = ['addit', 'text','zwinger','zwinger']
 #t_dict = tf_of_query(a)
 #for key, value in t_dict:
 #    print(key,value)
-print("Done.")
+#print("Done.")
 
 
 
