@@ -25,3 +25,6 @@ Please evaluate and compare the performance of the original search engine (step 
 You are expected to do a project presentation during the last two weeks of the semester. Please make a few powerpoint slides to introduce your search engine, especially the system architecture and design notes. Please also prepare a short demonstration of your search engine.
 
 You need to submit a project report will all your source code (please do NOT include crawled documents). It is strongly suggested that you make the search engine available when we grade your project report.
+
+Git help:
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/

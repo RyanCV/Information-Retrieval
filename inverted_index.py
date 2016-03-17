@@ -67,7 +67,7 @@ def construct_inverted_index(path):
 #t_dict = tf_of_query(a)
 #for key, value in t_dict:
 #    print(key,value)
-print("Done.")
+#print("Done.")
 
 
 
