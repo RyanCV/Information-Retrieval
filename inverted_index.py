@@ -56,12 +56,15 @@ def construct_inverted_index(path):
         for freq in value:
             if freq > 0:
                 df_dict[key]+=1
-
+    
+    utils.store_datastructure('word_dictonary.pkl',collections.OrderedDict(sorted(word_dict.items())))
+    utils.store_datastructure('df_dictonary.pkl',collections.OrderedDict(sorted(df_dict.items())))
     word_dict = sorted(word_dict.items())
     #print(word_dict)
     df_dict = sorted(df_dict.items())
     utils.store_datastructure('word_dict.pkl',word_dict)
     utils.store_datastructure('df_dict.pkl',df_dict)
+
 
 #construct_inverted_index('RemovedString/')
 #a = ['addit', 'text','zwinger','zwinger']
