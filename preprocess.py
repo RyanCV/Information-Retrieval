@@ -37,7 +37,7 @@ def cleanpage(infolder,outfoler,url):
     os.remove(outfoler+"/"+url)
 
 #preprocess query string
-def cleanquery(query)
+def cleanquery(query):
     text = ''.join(checkpuc(ch) for ch in query)
     text = ' '.join(text.split())
     text = text.lower()
