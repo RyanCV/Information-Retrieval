@@ -1,5 +1,5 @@
 #document similarity
-#by Yang Tian
+#by Yang Tian and Xi Chen
 import math
 
 def vectorlength(vec):
