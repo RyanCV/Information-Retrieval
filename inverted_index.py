@@ -41,10 +41,11 @@ for key, value in word_dict.iteritems():
     for freq in value:
         if freq > 0:
             df_dict[key]+=1
-#print(df_dict)
+
 word_dict = collections.OrderedDict(sorted(word_dict.items()))
 df_dict = collections.OrderedDict(sorted(df_dict.items()))
-
+#print(word_dict)
+#print(df_dict)
 utils.store_datastructure('word_dict.pkl',word_dict)
 utils.store_datastructure('df_dict.pkl',df_dict)
 

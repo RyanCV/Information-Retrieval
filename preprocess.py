@@ -36,6 +36,12 @@ def cleanpage(infolder,outfoler,url):
     text_file.close()
     os.remove(outfoler+"/"+url)
 
+#preprocess query string
+def cleanquery(query)
+    text = ''.join(checkpuc(ch) for ch in query)
+    text = ' '.join(text.split())
+    text = text.lower()
+    return text
 
 
 for filename in os.listdir('docsnew/'):
