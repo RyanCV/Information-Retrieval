@@ -43,8 +43,10 @@ def cleanquery(query):
     text = text.lower()
     return text
 
+def cleanallpage(path):
+    for filename in os.listdir(path):
+        print(filename)
+        cleanpage("docsnew","cleaned",filename)
 
-for filename in os.listdir('docsnew/'):
-    print(filename)
-    cleanpage("docsnew","cleaned",filename)
-print("Done.")
+#cleanallpage('docsnew/')
+#print("Done.")
