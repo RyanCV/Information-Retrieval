@@ -47,7 +47,7 @@ def construct_inverted_index(path):
                 current_value[filecount] += 1
                 word_dict[word] = current_value
         filecount+=1
-    word_dict = collections.OrderedDict(sorted(word_dict.items()))
+    #word_dict = collections.OrderedDict(sorted(word_dict.items()))
     #print(word_dict)
     dic_len = len(word_dict)
     df_dict = {}
@@ -58,16 +58,17 @@ def construct_inverted_index(path):
                 df_dict[key]+=1
 
     word_dict = sorted(word_dict.items())
+    #print(word_dict)
     df_dict = sorted(df_dict.items())
     utils.store_datastructure('word_dict.pkl',word_dict)
     utils.store_datastructure('df_dict.pkl',df_dict)
 
-#construct_inverted_index('RemovedString/')
+construct_inverted_index('RemovedString/')
 #a = ['addit', 'text','zwinger','zwinger']
 #t_dict = tf_of_query(a)
 #for key, value in t_dict:
 #    print(key,value)
-#print("Done.")
+print("Done.")
 
 
 
