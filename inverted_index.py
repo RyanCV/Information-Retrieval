@@ -89,7 +89,7 @@ def construct_inverted_index(path):
             final_boolean_dict[term][i] = out
     
     #print(sorted(final_boolean_dict.items()))
-    utils.store_datastructure('boolean_dictonary.pkl',collections.OrderedDict(sorted(final_boolean_dict.items())))
+    utils.store_datastructure('boolean_dictonary.pkl',final_boolean_dict)
     utils.store_datastructure('word_dictonary.pkl',collections.OrderedDict(sorted(word_dict.items())))
     utils.store_datastructure('df_dictonary.pkl',collections.OrderedDict(sorted(df_dict.items())))
     word_dict = sorted(word_dict.items())
@@ -102,7 +102,7 @@ def construct_inverted_index(path):
 
 
 
-#construct_inverted_index('RemovedString/')
+construct_inverted_index('RemovedString/')
 #a = ['addit', 'text','zwinger','zwinger']
 #t_dict = tf_of_query(a)
 #for key, value in t_dict:
