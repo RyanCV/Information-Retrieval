@@ -20,6 +20,15 @@ def tf_of_query(querylist):
             query_dict[word] += 1
     return sorted(query_dict.items())
 
+#build Boolean Model
+def build_boolean_model(word_dictionary):
+    w_dict = utils.read_datastructure('word_dictonary.pkl')
+    boolean_dict = dict()
+    for term,value in w_dict:
+        
+
+
+
 #build Inverted Index from path
 def construct_inverted_index(path):
     num_files = len([f for f in os.listdir(path)
