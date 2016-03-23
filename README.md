@@ -28,3 +28,8 @@ You need to submit a project report will all your source code (please do NOT inc
 
 Git help:
 https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+Niche crawler references:
+(Here are some useful materials for us to develop a niche crawler)
+https://gist.github.com/jwickett/261551/f62b5ff83d6dbfe004f9ae5941a23a2e3110c57e
+http://ipython.iteye.com/blog/685835
