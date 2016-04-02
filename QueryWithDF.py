@@ -1,6 +1,7 @@
 # Xi Chen
 # 3/16/2016
 # Let user input a query and then do tokenize, remove stop word and stemming on the string
+# Also output the tf list for query
 
 
 from lxml import html
@@ -36,13 +37,21 @@ def outputStringQuery(query):
     outcome = ' '.join(stemmed_words)
 
     return outcome
-
-
+    
+def extractValuePart(query):
+    values=[]
+    for a,b in query:
+        values.append(b)
+    return values
+    
+## the query terms after preprocess
 query = raw_input('Enter your query:')
 query = preprocess.cleanquery(query)
 query = outputStringQuery(query)
+
+## output a vectors list contain the tf values for query (0 or 1)
 querylist = query.split()
-query = inverted_index.tf_of_query(querylist)
+queryDF = inverted_index.tf_of_query(querylist)
 
 #print query
 
