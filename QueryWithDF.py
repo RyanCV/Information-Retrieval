@@ -51,7 +51,7 @@ query = outputStringQuery(query)
 
 ## output a vectors list contain the tf values for query (0 or 1)
 querylist = query.split()
-queryDF = inverted_index.tf_of_query(querylist)
+queryTF = inverted_index.tf_of_query(querylist)
 
 #print query
 
