@@ -33,3 +33,6 @@ Niche crawler references:
 (Here are some useful materials for us to develop a niche crawler)
 https://gist.github.com/jwickett/261551/f62b5ff83d6dbfe004f9ae5941a23a2e3110c57e
 http://ipython.iteye.com/blog/685835
+
+Term Proximity
+https://etd.ohiolink.edu/rws_etd/document/get/case1197213718/inline
