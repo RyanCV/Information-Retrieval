@@ -22,7 +22,7 @@ def computerSimilarity(query, listOfVectors, candidateIndice):
     indexList= []
     docIndices=[]
     
-    #print candidateIndice
+
     
     output = []
     if not listOfVectors:
@@ -31,16 +31,22 @@ def computerSimilarity(query, listOfVectors, candidateIndice):
 
     if listOfVectors:
         simiVector = [simDistance(query, value) for value in listOfVectors]
+        
+        #print simiVector
         indexList = sorted(range(len(simiVector)), key = lambda k: simiVector[k])
+    
+
+
 
     for i in indexList:
         #print i
         docIndices.append(candidateIndice[i])
 
     docIndices.reverse()
-    indexList.reverse()
+    simiVector.sort()
+    simiVector.reverse()
     output.append(docIndices)
-    output.append(indexList)
+    output.append(simiVector)
 
     return output
     
