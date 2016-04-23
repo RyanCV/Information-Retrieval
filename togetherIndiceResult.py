@@ -17,7 +17,7 @@ import preprocess
 import inverted_index
 import candidatefile
 import candidateVector
-from tfidf_for_Query import tfidf_for_Query
+from tfidf_for_Query import tfidf_Query
 from similarity import vectorlength
 from similarity import simDistance
 from similarity import computerSimilarity
