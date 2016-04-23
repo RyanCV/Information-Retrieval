@@ -35,23 +35,34 @@ def outputStringQuery(query):
             print w
 
     outcome = ' '.join(stemmed_words)
+    #return a list instead of returning str
+    outcome = outcome.split()
 
     return outcome
-    
+
 def extractValuePart(query):
     values=[]
     for a,b in query:
         values.append(b)
     return values
-    
+
 ## the query terms after preprocess
+
+"""
 query = raw_input('Enter your query:')
 query = preprocess.cleanquery(query)
 query = outputStringQuery(query)
 
 ## output a vectors list contain the tf values for query (0 or 1)
 querylist = query.split()
+
 queryTF = inverted_index.tf_of_query(querylist)
 
-#print query
+query = inverted_index.tf_of_query(querylist)
+##extract value for the final vectList
+queryTF = extractValuePart(query)
 
+
+
+print query
+"""
