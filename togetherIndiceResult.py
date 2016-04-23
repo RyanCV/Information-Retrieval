@@ -26,12 +26,12 @@ import sys
 
 query = sys.argv
 query.pop(0)
-print query
+#print query
 query = ' '.join(query)
 query = preprocess.cleanquery(query)
-print query
+#print query
 query = outputStringQuery(query)
-print query
+#print query
 #querylist = query.split()
 #query = inverted_index.tf_of_query(querylist)
 ##extract value for the final vectList
