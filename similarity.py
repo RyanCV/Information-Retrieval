@@ -31,7 +31,7 @@ def computerSimilarity(query, listOfVectors, candidateIndice):
 
     for i in indexList:
         docIndices.append(indexList[i])
-
+    docIndices.reverse()
     return docIndices
     
 ##out put value
