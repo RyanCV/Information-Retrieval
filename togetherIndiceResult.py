@@ -21,10 +21,10 @@ from tfidf_for_Query import tfidf_for_Query
 from similarity import vectorlength
 from similarity import simDistance
 from similarity import computerSimilarity
+import sys
 
 
-
-query = raw_input('Enter your query:')
+query = sys.argv
 query = preprocess.cleanquery(query)
 query = outputStringQuery(query)
 print query
@@ -48,7 +48,7 @@ CandidateList = candidateVector.extractCandidates(VectorList, candidateIndice)
 
 RankedDocList = computerSimilarity(queryTFIDF, CandidateList)
 
-#print RankedDocList
+print RankedDocList
 
 
 
