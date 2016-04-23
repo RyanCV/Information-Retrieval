@@ -18,22 +18,21 @@ def simDistance(w1,w2):
     return sim
     
 ## output index
-def computerSimilarity(query, listOfVectors,candidateIndice):
+def computerSimilarity(query, listOfVectors, candidateIndice):
     indexList= []
     docIndices=[]
     if not listOfVectors:
         print query + "did not match any documents."
         return indexList
-    
-    sortedResult = listOfVectors
+
     if listOfVectors:
-        for vector in listOfVectors:
-            value = simDistance(query,vector)
-            vector = value
-        indexList = sorted(range(len(sortedResult)), key = lambda k: sortedResult[k])
-        for i in indexList:
-            docIndices.append(candidateIndice[i])
-        return docIndices
+        simiVector = [simDistance(query, value) for value in listOfVectors]
+        indexList = sorted(range(len(simiVector)), key = lambda k: simiVector[k])
+
+    for i in indexList:
+        docIndices.append(indexList[i])
+    docIndices.reverse()
+    return docIndices
     
 ##out put value
 """
