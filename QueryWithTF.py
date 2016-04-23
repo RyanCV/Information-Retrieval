@@ -43,7 +43,8 @@ def extractValuePart(query):
     for a,b in query:
         values.append(b)
     return values
-    
+
+"""
 ## the query terms after preprocess
 query = raw_input('Enter your query:')
 query = preprocess.cleanquery(query)
@@ -54,4 +55,5 @@ querylist = query.split()
 queryTF = inverted_index.tf_of_query(querylist)
 
 #print query
+"""
 
