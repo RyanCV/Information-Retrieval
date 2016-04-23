@@ -52,6 +52,8 @@ class MyHTMLParser(HTMLParser):
 						continue
 					if 'tel:' in pglink:
 						continue
+					if '.pdf' in pglink:
+						continue
 					queue.put(pglink)
 					ToCrawl.add(pglink)
 				return pageHtml
