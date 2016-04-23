@@ -15,13 +15,13 @@ def tfidf_Query(query,df):
         else:
             query_tf[word] = 0
     for word in df:
-        query_tf[word] = query_tf[word]*math.log10(float(vector_length)/df[word]);
+        query_tf[word] = query_tf[word]*math.log10(float(vector_length)/df[word])
 
     query_tf = sorted(query_tf.items())
     query_tf = [x[1] for x in query_tf]
     normlen = math.sqrt(sum(x*x for x in query_tf))
     query_tf = [x/normlen for x in query_tf]
-    print query_tf
+    return query_tf
 
 
 def tfidf_for_Query(query, df, tf):
