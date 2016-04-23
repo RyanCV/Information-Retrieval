@@ -25,7 +25,11 @@ import sys
 
 
 query = sys.argv
+query.pop(0)
+print query
+query = ' '.join(query)
 query = preprocess.cleanquery(query)
+print query
 query = outputStringQuery(query)
 print query
 #querylist = query.split()
