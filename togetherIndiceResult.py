@@ -37,10 +37,11 @@ print query
 ##extract value for the final vectList
 #queryTF = extractValuePart(query)
 
-df_file = utils.read_datastructure('df_dict.pkl')
-tf_file = utils.read_datastructure('word_dict.pkl')
+df_file = utils.read_datastructure('df_dictonary.pkl')
+#tf_file = utils.read_datastructure('word_dict.pkl')
 
-queryTFIDF = tfidf_for_Query(query,df_file,tf_file)
+#queryTFIDF = tfidf_for_Query(query,df_file,tf_file)
+queryTFIDF = tfidf_Query(query,df_file)
 
 candidateIndice = candidatefile.candidate_files(query,91)
 

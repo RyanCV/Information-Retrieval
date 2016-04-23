@@ -1,10 +1,28 @@
-# Author: Yuanwei Wu
-# Date: 4/3/2016
+# Author: Yuanwei Wu & Yang Tian
+# Date: 4/3/2016 4/22/ 2016
 # Description: input: query, df and tf in list (use tf to find the number of documents), 
 # output: query vector, it will be used to calculate the similarity of (Q,D)
 
 import math
 import utils
+
+def tfidf_Query(query,df):
+    vector_length = len(df)
+    query_tf = dict.fromkeys(df, 0)
+    for word in query:
+        if query_tf.has_key(word):
+            query_tf[word] = query_tf[word]+1
+        else:
+            query_tf[word] = 0
+    for word in df:
+        query_tf[word] = query_tf[word]*math.log10(float(vector_length)/df[word]);
+
+    query_tf = sorted(query_tf.items())
+    query_tf = [x[1] for x in query_tf]
+    normlen = math.sqrt(sum(x*x for x in query_tf))
+    query_tf = [x/normlen for x in query_tf]
+    print query_tf
+
 
 def tfidf_for_Query(query, df, tf):
 	query_vector = dict()
@@ -50,16 +68,9 @@ def tfidf_for_Query(query, df, tf):
 
 
 
-# ## test the tfidf_for_Query(tf,df)
-# df_file = utils.read_datastructure('df_dict.pkl')
-# # print(df_file[0:5])
-# tf_file = utils.read_datastructure('word_dict.pkl')
-# # print(tf_file[0:5])
-# myquery = ['0']
-# myquery_vector = tfidf_for_Query(myquery,df_file[0:5],tf_file[0:5])
-# print(myquery_vector)
-
-
+#df_file = utils.read_datastructure('df_dictonary.pkl')
+#c = ['ku','bast']
+#tfidf_Query(c,df_file)
 
 
 

@@ -42,10 +42,12 @@ def candidate_files(query,files_num):
             if out != 0:
                 files_indice.append(i*32+j)
         i+=1
+    print files_indice
     return files_indice
 
 
 #a = ['zumwalt','zuni','zwinger']
 #b = ['zuni','zwinger']
-#candidate_files(a,91)
+#c = ['ku','bast']
+#candidate_files(c,91)
 #candidate_files(b,91)
