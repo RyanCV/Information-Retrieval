@@ -10,10 +10,8 @@ def tfidf_Query(query,df):
     vector_length = len(df)
     query_tf = dict.fromkeys(df, 0)
     for word in query:
-        if query_tf.has_key(word):
+        if df.has_key(word):
             query_tf[word] = query_tf[word]+1
-        else:
-            query_tf[word] = 0
     for word in df:
         query_tf[word] = query_tf[word]*math.log10(float(vector_length)/df[word])
 

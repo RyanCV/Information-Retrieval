@@ -38,7 +38,8 @@ query = outputStringQuery(query)
 #queryTF = extractValuePart(query)
 
 df_file = utils.read_datastructure('df_dictonary.pkl')
-#tf_file = utils.read_datastructure('word_dict.pkl')
+tf_file = utils.read_datastructure('word_dictonary.pkl')
+
 
 #queryTFIDF = tfidf_for_Query(query,df_file,tf_file)
 queryTFIDF = tfidf_Query(query,df_file)
@@ -46,6 +47,8 @@ queryTFIDF = tfidf_Query(query,df_file)
 candidateIndice = candidatefile.candidate_files(query,91)
 
 VectorList = utils.read_datastructure('doc_tfidf_matrix.pkl')
+#print 'length'
+#print VectorList[10]
 #print candidateIndice
 
 CandidateList = candidateVector.extractCandidates(VectorList, candidateIndice)
