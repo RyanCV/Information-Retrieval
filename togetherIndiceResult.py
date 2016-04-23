@@ -41,12 +41,13 @@ queryTFIDF = tfidf_for_Query(query,df_file,tf_file)
 candidateIndice = candidatefile.candidate_files(query,91)
 
 VectorList = utils.read_datastructure('doc_tfidf_matrix.pkl')
+#print candidateIndice
 
 CandidateList = candidateVector.extractCandidates(VectorList, candidateIndice)
 #print len(CandidateList[0])
 #print len(queryTFIDF)
 
-RankedDocList = computerSimilarity(queryTFIDF, CandidateList)
+RankedDocList = computerSimilarity(queryTFIDF, CandidateList,candidateIndice)
 
 print RankedDocList
 
