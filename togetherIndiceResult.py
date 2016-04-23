@@ -54,7 +54,7 @@ CandidateList = candidateVector.extractCandidates(VectorList, candidateIndice)
 
 RankedDocList = computerSimilarity(queryTFIDF, CandidateList,candidateIndice)
 
-print RankedDocList
+print RankedDocList[0]
 
 
 
