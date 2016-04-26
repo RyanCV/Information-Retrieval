@@ -37,3 +37,6 @@ http://blog.csdn.net/tingyuanss/article/details/7588700
 
 Term Proximity
 https://etd.ohiolink.edu/rws_etd/document/get/case1197213718/inline
+
+Relevalce feedback:
+https://github.com/rohanag/ADB-relevance-feedback-rocchio/blob/master/bingRelevance.py
