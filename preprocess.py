@@ -14,7 +14,9 @@ def checkpuc(ch):
 #all cleaned pages are stored in folder 'cleaned'
 def cleanpage(infolder,outfoler,url):
     
-    init_file = open(infolder+"/"+url,'r')
+    if ".DS_Store" == url:
+        return
+    init_file = open(infolder+url,'r')
     init_str = init_file.read()
     init_file.close()
     init_str = init_str.replace('</',' </');
@@ -46,7 +48,8 @@ def cleanquery(query):
 def cleanallpage(path):
     for filename in os.listdir(path):
         print(filename)
-        cleanpage("docsnew","cleaned",filename)
+        cleanpage(path,"cleaned",filename)
 
-#cleanallpage('docsnew/')
-#print("Done.")
+cleanallpage('docsnew/')
+cleanallpage('ku_crawled_files/')
+print("Done.")
