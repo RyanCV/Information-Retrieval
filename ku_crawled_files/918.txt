@@ -1,0 +1,892 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="shortcut icon" href="/LabStats/favicon.ico"/>
+<head><meta http-equiv="X-UA-Compatible" content="IE=9" /><link rel="Stylesheet" type="text/css" href="../Css/MasterStyle.css" /><title>
+	Public Group Info
+</title>   
+<link rel="Stylesheet" type="text/css" href="../css/temp.css" />
+<style type="text/css">
+    div.formLabel {
+        width:  100px;
+    }
+
+    div.formData {
+        width:  200px;
+    }
+</style>
+<link href="../App_Themes/GooStats/anytimec.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/fullcalendar.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/jquery-ui-1.8.17.custom.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/jScrollPane.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/PrettyPhoto.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/SchedulerColors.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/StyleSheet.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/GooStats/ui.jqgrid.css" type="text/css" rel="stylesheet" /></head>
+<body class="bodyContent">
+    <form name="aspnetForm" method="post" action="./public.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIxMDIxMDA0MjMPZBYCZg9kFgICAQ9kFhACBQ8PFgIeBFRleHQFFFVuaXZlcnNpdHkgb2YgS2Fuc2FzZGQCBw9kFgQCAQ8PFgIfAAU0WW91ciBjdXJyZW50IGJyb3dzZXIgaXMgbm90IHN1cHBvcnRlZCBmb3IgdGhpcyBzaXRlLmRkAgcPDxYEHwAFB1NpZ24gSW4eC05hdmlnYXRlVXJsBQx+L2xvZ2luLmFzcHhkZAIJDxYCHwBlZAILD2QWAgIBD2QWAmYPFgIeB0VuYWJsZWRoZAIND2QWAmYPEGRkFgECAWQCDw8PFgIfAAUITGFiU3RhdHNkZAIRDw8WAh8ABQ01LjIuMzA3MDguMTUwZGQCEw8PFgQfAQUjaHR0cDovL3d3dy5jb21wdXRlcmxhYnNvbHV0aW9ucy5jb20fAAUWQ29tcHV0ZXIgTGFiIFNvbHV0aW9uc2RkZPfLUFHYzH2XdNrowK7VwUnJ7E6+" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+                function toggleCollapse(elementId, imgId, hdnField) {
+                    var tr=document.getElementById(elementId); 
+                    var img = document.getElementById(imgId);
+                    var hdn = document.getElementById(hdnField);
+                    
+                    //$('#' + imgId).removeClass('ui-icon');
+                    //$('#' + imgId).removeClass('ui-icon-circle-triangle-n');
+                    //$('#' + imgId).removeClass('ui-icon-circle-triangle-s');
+                    //$('#' + imgId).toggleClass('ui-icon-circle-triangle-n ui-icon-circle-triangle-s');                    
+                    //$('#' + elementId).toggle('clip', 'slow');
+
+                    if (tr.style.display == 'block') {
+                        tr.style.display='none';
+                        $('#' + imgId).attr('class', 'ui-icon ui-icon-circle-triangle-s');                        
+                        hdn.value = 1;
+                    } else {
+                        tr.style.display='block';                        
+                        $('#' + imgId).attr('class', 'ui-icon ui-icon-circle-triangle-n');
+                        hdn.value = 0;
+                    }
+                    
+                }
+                //]]>
+</script>
+
+<script src="/LabStats/Scripts/jquery-1.6.3.min.js" type="text/javascript"></script>
+<script src="/LabStats/Scripts/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jquery.PrettyPhoto.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jScrollPane.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jquery.mousewheel.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jquery.watermark.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/i18n/fullcalendar-en.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/fullcalendar/fullcalendar.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/fullcalendar/gcal.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/DateFunctions.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jquery.jstree.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/anytimec.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/i18n/grid.locale-en.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jquery.jqGrid.min.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/grid.postext.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/jqFluidGrid.js" type="text/javascript"></script>
+<script src="/LabStats/scripts/clsForm.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function pageLoad() { $(document).ready(function () { $("a[rel^='prettyPhoto']").prettyPhoto({ theme: 'facebook' }); }); }//]]>
+</script>
+
+<script src="/LabStats/ScriptResource.axd?d=rncoc6jnJft9yzQaKPucuFlxTLtI3h7n5vixIDlwJl64QwBhk60q--69y4mc3BNyCzGKZw2c8w46LyCC0JL2A02hq0DqxyWA1o-QCRmVT61dwjpNrobrH_ctSXp4F-zqG4LPv8aQNrTCChP1hoi6a9o5Hhjzky-WhpIdwf77ZKhPtSVM0&amp;t=ffffffffaf0b2df4" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/LabStats/ScriptResource.axd?d=L5mn0VVMkUwy6mzDA4cJeRCN52F-ao4Sfxk7BHxmMlzu12xpfAEUQ_JNoq73ZSiEADPZaqhmeu3kfs5EekQWmaBKyhgrGkHIDXPb9O790C2Xzc22qbMuywEI_6vQXFo8oNkCPM7soj3_s4QmLbnsGzAL5TSS6z26hohDCGcw1vAymvwz0&amp;t=ffffffffaf0b2df4" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="29F8165C" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCAKZx6wZArfftdcHAqqpupkPApypwoYJAoyw67gLAuew77gLApiiuo8JAsCq3psDaYU5+9xqjD/ARIExeH2gcEZlVrs=" />
+
+    
+
+    <!-- Header/Logo -->
+    <table width="100%" cellpadding=0 cellspacing=0>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td><img id="ctl00_Image1" src="../images/logo.png" border="0" /></td>
+                        <td><span id="lblSiteName">University of Kansas</span></td>
+                    </tr>
+                </table>
+             </td>
+            <td align="right">
+                <div id="ctl00_SignInLinkArea">
+	
+                    
+                    <a id="ctl00_userName" class="ui-state-active removeJqBackground removeJqBorder linkButton"></a>
+                    
+                    <a id="ctl00_hlSignin" class="ui-state-active removeJqBackground removeJqBorder linkButton" href="../login.aspx">Sign In</a>
+                    
+               
+</div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Menu Bar -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="padding-top: 0px">
+        <tr>
+            <td class="ui-widget-header ui-corner-all" style="padding-top: 0px">
+               <div id="menuContent">
+                    
+               </div>
+            </td>
+        </tr>
+    </table>
+
+    <table width="100%" cellpadding="0" cellspacing="0" id="contentHeader">
+        <tr>
+            <td id="ctl00_tdContent" valign="top" style="padding:5px 0px 0px 0px; width:100%" height="500px">
+                
+    <span id="ctl00_ContentPlaceHolder1_Timer1" style="display:none;"></span>
+
+    
+<div style='margin:3px'><div class='ui-widget-content ui-corner-all' style='margin:0 auto; padding:2px; width:100%; background-color: #ffffff'>
+    <div class='ui-widget-header ui-corner-all ui-helper-clearfix' style='position:relative; height:20px; padding:3px 8px; overflow:hidden;' style='color:white'>
+		<div style='position:absolute; top:0; left:0; width:100%; text-align:left;'><div style='padding:3px 8px; line-height:20px;'>
+             Current Statistics
+            <div style='float:right; margin-top:2px;'>
+                <span style='display:inline-block;'></span>
+                <span style='display:inline-block;'></span>
+            </div>
+        </div></div>
+    </div>
+    <div  id='ctl00_ContentPlaceHolder1_pnlChart_content' style='padding:10px;'><script>$('TITLE').html('Current Statistics');</script><span id="ctl00_ContentPlaceHolder1_pnlChart">
+        <div id="dvStats" dstyle="width:100%"><h3>Public Stats</h3><table border='1' rules='all' width='100%'><tr>
+                                           <td style='font-weight:bold;width:200px'>Group Name</td><td style='font-weight:bold;text-align:center'>% Group Usage</td>
+                                           <td style='font-weight:bold;text-align:center;width:90px'>In Use</td>
+                                           <td style='font-weight:bold;text-align:center;width:90px'>Available Stations</td>
+                                           <td style='font-weight:bold;text-align:center;width:90px'>Unavailable Stations</td>
+                                           <td style='font-weight:bold;text-align:center;width:90px'>Offline Stations</td>
+                                           <td style='font-weight:bold;text-align:center;width:90px'>Total Stations</td>
+                                           <td style='font-weight:bold;text-align:center;width:150px'>Schedule</td>
+                                           <td style='font-weight:bold;text-align:center'>Description</td></tr><tr>
+                        <td><a href='javascript:loadPieChart(4)'>Anschutz 3rd floor</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:6px; height:3px' /></div></td>
+                        <td align='center'>2</td>
+                        <td align='center'>34</td>
+                        <td align='center'>0</td>
+                        <td align='center'>13</td>
+                        <td align='center'>49</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(4); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(5)'>Anschutz 4th floor</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:10px; height:3px' /></div></td>
+                        <td align='center'>6</td>
+                        <td align='center'>48</td>
+                        <td align='center'>0</td>
+                        <td align='center'>40</td>
+                        <td align='center'>94</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(5); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(28)'>BEST Open Computing</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>16</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>16</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(28); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Edwards Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(1)'>Budig Main</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:9px; height:3px' /></div></td>
+                        <td align='center'>3</td>
+                        <td align='center'>27</td>
+                        <td align='center'>0</td>
+                        <td align='center'>18</td>
+                        <td align='center'>48</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(1); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(43)'>Eaton 1005 - Self Computing Commons</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>1</td>
+                        <td align='center'>0</td>
+                        <td align='center'>43</td>
+                        <td align='center'>44</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(43); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Eaton Hall, Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(45)'>Eaton 1010</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>28</td>
+                        <td align='center'>28</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(45); return false;' style='display:block'>Show Schedule</a></td>
+                        <td>Eaton Hall, Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(46)'>Eaton 1014</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>25</td>
+                        <td align='center'>25</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(46); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Eaton Hall, Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(47)'>Eaton 1018</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>26</td>
+                        <td align='center'>26</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(47); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Eaton Hall, Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(48)'>Learned 1170 - AE </a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>8</td>
+                        <td align='center'>8</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(48); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Learned, Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(42)'>LEEP2 G400 - AE</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>37</td>
+                        <td align='center'>37</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(42); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Leep2, Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(32)'>Regents Center Library</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:24px; height:3px' /></div></td>
+                        <td align='center'>3</td>
+                        <td align='center'>16</td>
+                        <td align='center'>0</td>
+                        <td align='center'>0</td>
+                        <td align='center'>19</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(32); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Edwards Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(6)'>Watson 3rd floor</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:9px; height:3px' /></div></td>
+                        <td align='center'>5</td>
+                        <td align='center'>48</td>
+                        <td align='center'>0</td>
+                        <td align='center'>27</td>
+                        <td align='center'>80</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(6); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Lawrence Campus</td>
+                    </tr><tr>
+                        <td><a href='javascript:loadPieChart(8)'>Watson 4th floor</a></td>
+                        <td align='center' width='170px'><div style='padding:2px; border:1px solid #545454;width:150px;text-align:left'><img src='/LabStats/cls/images/greenDot.png' style='width:0px; height:3px' /></div></td>
+                        <td align='center'>0</td>
+                        <td align='center'>21</td>
+                        <td align='center'>0</td>
+                        <td align='center'>23</td>
+                        <td align='center'>44</td>
+                        <td><a href='javascript:void(0);' onclick='showSchedule(8); return false;' style='display:none'>Show Schedule</a></td>
+                        <td>Lawrence Campus</td>
+                    </tr></table></div>
+        <br />
+        <div style="display: none">
+            <input type="button" onclick="window.location='Reservations.aspx'" value="Reservation System" class="ui-button" style="margin-bottom: 5px"/>
+        </div>
+        <script type="text/javascript">        
+        $(document).ready(function () {
+            $("#dgSchedule").dialog({
+                modal: true,
+                autoOpen: false,
+                width: 700,
+                height: 600
+            });
+        });
+
+        /// Shows a schedule for a given group id
+        function showSchedule(groupId) {
+            $("#dgSchedule").dialog("open");
+
+            $('#calendar').fullCalendar("destroy");
+
+            $('#calendar').fullCalendar($.extend({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay'
+                },
+                defaultView: 'agendaWeek',
+                editable: false,
+                disableDragging: false,
+                disableResizing: false,
+                events: function (start, end, callback) {
+                    $.ajax({
+                        type: "POST",
+                        url: "/LabStats/GroupsStations/HierarchyEditor/he_groupSchedule.aspx/getEvents",
+                        dataType: 'json',
+                        contentType: "application/json; charset=utf-8",
+                        ignoreTimezone: false,
+                        data: JSON.stringify({
+                            groupId: groupId,
+                            start: start,
+                            end: end,
+                            isPublic: true
+                        }),
+                        success: function (doc) {
+
+                            var events = [];
+
+                            $(doc.d).each(function (key, value) {
+                                events.push({
+                                    id: value['id'],
+                                    title: value['title'],
+                                    start: value['startAsIsoString'],
+                                    end: value['endAsIsoString'],
+                                    className: "eventColor" + value['color'],
+                                    color: value['color'],
+                                    recurrenceParentId: value['recurrenceParentID'],
+                                    isExpandedEvent: value['isExpandedEvent'],
+                                    frequency: value['frequency'],
+                                    interval: value['interval'],
+                                    recursUntil: value['recursUntilAsIsoString'],
+                                    recurCount: value['recurCount'],
+                                    recurrenceStart: value['recurrenceStart'],
+                                    eventDuration: value['eventDuration'],
+                                    groupId: value['groupId'],
+                                    status: value['status'],
+                                    publishLevel: value['publishLevel'],
+                                    daysOfWeekMask: value['daysOfWeekMask'],
+                                    dayOfMonth: value['dayOfMonth'],
+                                    dayOrdinal: value['dayOrdinal'],
+                                    recurrenceMonth: value['recurrenceMonth'],
+                                    allDay: false,
+                                    ignoreTimezone: false,
+                                    editable: false
+                                });
+                            });
+
+                            callback(events);
+                        }
+                    });
+                },
+                theme: true,
+                eventClick: function (event, jsEvent, view) {
+                    showInfoDialog(event);
+                }
+            }, fullCalendarLocalization));
+        }
+
+        function showInfoDialog(event) {
+            var dateConverter = new AnyTime.Converter({ format: "%m/%d/%Y %h:%i %p" });
+
+            $("#eventTitleInfo").html(event.title);
+            $("#eventStartTimeInfo").html(dateConverter.format(event.start));
+            $("#eventEndTimeInfo").html(dateConverter.format(event.end));
+
+            $("#infoDialog").dialog({ width: '420px', title: 'Event Details' });
+        }
+
+
+
+    </script>
+
+        <script type="text/javascript">
+            // Script for showing and re-loading the current stats table
+            $(document).ready(function () {
+                setTimeout("loadCurrentStats();", 30000);
+                
+                $("#pieDialog").dialog({ width:420, height:400, modal:true, autoOpen: false });          
+            });
+
+            function loadPieChart(groupId) {
+                $("#pieIFrame").attr('src','GroupPie.aspx?GroupId=' + groupId).css("display","none").load(function(){$(this).css("display","block");});
+                $("#pieDialog").dialog('open');
+            }
+
+            function loadCurrentStats() {                
+                $.ajax({
+                        type: "POST",
+                        url: "/LabStats/public/public.aspx/getStatsTable",
+                        dataType: 'json',
+                        contentType: "application/json; charset=utf-8",
+                        ignoreTimezone: false,
+                        data: '',
+                        success: function (doc) {
+                            if (doc.d != "") {
+                                $("#dvStats").html(doc.d);
+                                $("#pnlChart").show();
+                            } else {
+                                $("#pnlChart").hide();
+                            }
+
+                            setTimeout("loadCurrentStats();", 30000);
+                        }
+                    }
+                );
+                
+            }
+        </script>
+    
+        <div id="dgSchedule" style="display:none">
+            <div id="calendar"></div>
+        </div>
+
+    </span><div style='clear:both'></div></div></div><input type='hidden' id='ctl00_ContentPlaceHolder1_pnlChart_collapsed' name='ctl00_ContentPlaceHolder1_pnlChart_collapsed' value='0' /></div>
+
+
+	
+	<br />
+
+	<div class="ui-widget-content ui-corner-all" style="padding:2px; overflow:hidden">
+
+		<div class="fg-toolbar ui-widget-header ui-corner-all ui-helper-clearfix">
+			<table cellpadding=0 cellspacing=0 width="100%">
+				<tr>
+					<td style="width:auto">Published Lab Maps
+					</td>
+					<td align="right" style="text-align:right; float:right">
+						<div class="ui-helper-clearfix" style="text-align:right; float:right"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+        
+        <div class="RadGrid RadGrid_Default" style="margin:20px;">
+		<table class="rgMasterTable" cellspacing="0" border="0" style="width:100%; table-layout:auto; empty-cells:show;">
+			<colgroup>
+				<col width="120" />
+				<col width="120" />
+				<col width="300" />
+			</colgroup>
+			<thead>
+			<tr>
+				<th class="rgHeader" style="text-align:left;" scope="col">View</th>
+				<th class="rgHeader" style="text-align:left;" scope="col">Map Name</th>
+				<th class="rgHeader" style="text-align:left;" scope="col">Description</th>
+			</tr>
+			</thead>
+			<tbody>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=8">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=8">List</a>
+                    
+				</td>
+				<td>Anschutz 3</td>
+				<td></td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=9">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=9">List</a>
+                    
+				</td>
+				<td>Anschutz 3rd floor</td>
+				<td></td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=4">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=4">List</a>
+                    
+				</td>
+				<td>Anschutz 4</td>
+				<td></td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=16">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=16">List</a>
+                    
+				</td>
+				<td>BEST 160</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=17">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=17">List</a>
+                    
+				</td>
+				<td>BEST 165</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=18">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=18">List</a>
+                    
+				</td>
+				<td>BEST 170</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=11">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=11">List</a>
+                    
+				</td>
+				<td>BEST Open Computing</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=2">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=2">List</a>
+                    
+				</td>
+				<td>Budig Main</td>
+				<td></td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=26">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=26">List</a>
+                    
+				</td>
+				<td>Eaton 1005 - Self Computing Commons</td>
+				<td>Eaton Hall, Lawrence Campus</td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=27">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=27">List</a>
+                    
+				</td>
+				<td>Eaton 1010</td>
+				<td>Eaton Hall, Lawrence Campus</td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=29">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=29">List</a>
+                    
+				</td>
+				<td>Eaton 1014</td>
+				<td>Eaton Hall, Lawrence Campus</td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=28">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=28">List</a>
+                    
+				</td>
+				<td>Eaton 1018</td>
+				<td>Eaton Hall, Lawrence Campus</td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=23">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=23">List</a>
+                    
+				</td>
+				<td>LEEP2 G400 - AE</td>
+				<td>Leep2, Lawrence Campus</td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=25">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=25">List</a>
+                    
+				</td>
+				<td>Regents Center 119</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=12">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=12">List</a>
+                    
+				</td>
+				<td>Regents Center Library</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=10">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=10">List</a>
+                    
+				</td>
+				<td>Regnier Hall 366</td>
+				<td>Edwards Campus</td>
+			</tr>
+			
+			<tr class="rgRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=6">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=6">List</a>
+                    
+				</td>
+				<td>Watson 3rd floor</td>
+				<td></td>
+			</tr>
+			
+			<tr class="rgAltRow">
+				<td>
+                    
+					    <a class="linkButton" href="MapViewer/MapFull.aspx?MapID=7">Map</a>
+                     / 
+                        <a class="linkButton" href="MapViewer/ListFull.aspx?MapID=7">List</a>
+                    
+				</td>
+				<td>Watson 4th floor</td>
+				<td></td>
+			</tr>
+			
+			</tbody>
+		</table>
+		</div>
+	</div>
+    
+
+    <br />
+    
+
+    <div id="infoDialog" style="display: none">
+        <div class="formLabel">
+            Description: 
+        </div>
+        <div class="formData">
+            <span id="eventTitleInfo"></span>
+        </div>
+
+        <div class="formLabel">
+            Start time:
+        </div>
+
+        <div class="formData">
+            <span id="eventStartTimeInfo"></span>
+        </div>
+
+        <div class="formLabel">
+            End time:
+        </div>
+
+        <div class="formData">
+            <span id="eventEndTimeInfo"></span>
+        </div>
+
+    </div>
+
+    <div id="pieDialog" style="display:none; text-align:center;">
+        <iframe id="pieIFrame" width="400" height="350" frameborder="0"></iframe>
+    </div>
+
+            </td>
+
+        </tr>
+    </table>
+
+    <hr />
+
+    <table width="100%" id="footerTable">
+        <tr>
+            <td>
+                <div style="width: 200px; float: left">
+                    <select name="ctl00$LanguageChooser1$languageSelector" id="ctl00_LanguageChooser1_languageSelector" onchange="submit();">
+	<option value="">Default</option>
+	<option selected="selected" value="en-US">English</option>
+	<option value="en-CA">French-English</option>
+	<option value="es">Spanish</option>
+	<option value="pt">Portuguese</option>
+	<option value="zh-CN">Chinese (Formatting)</option>
+	<option value="fr-FR">French (Formatting)</option>
+
+</select>
+                </div>
+                <div style="width: 700px; text-align: center; margin: auto" >
+                    <span id="ctl00_lblProductName">LabStats</span> Version <span id="ctl00_lblVersion">5.2.30708.150</span>&nbsp;|
+                    <a id="ctl00_hlCompanyWebsite" class="ui-state-active removeJqBackground removeJqBorder linkButton" href="http://www.computerlabsolutions.com">Computer Lab Solutions</a>
+                </div>
+            </td>
+    </table>
+           
+
+
+
+    <script type="text/javascript" charset="utf-8">
+        Sys.Application.add_load(function () {
+            $('.scroll-pane').jScrollPane({ scrollbarWidth: 6, scrollbarMargin: 7 });
+            $('.jqButton').button();
+            $('#btnUnRetire').button();
+        });
+
+        $(function () {
+            $.ajaxSetup({
+                // Disable caching of AJAX responses
+                cache: false
+            });            
+        });
+	</script>
+    
+    <div class='modalBackground' ID="pleaseWaitScreen" style="position:absolute;width:100%; left:0px; top:0px; height:100%; z-index:5000; display:none;" > 
+        <DIV STYLE="position:absolute;top:45%;left:45%;filter:alpha(opacity=100);opacity:1;">
+            <img src="../images/ajax-loader.gif" border="0" />
+        </DIV>
+    </div> 
+
+    <script type="text/javascript">
+    	var startLoader = false;
+
+    	// $(function () {
+    	$(document).ready(function () {
+    		hidePleaseWait();
+    		startLoader = true;
+
+    	});
+
+        function showPleaseWait() {
+            $('#pleaseWaitScreen').show();
+        }
+
+        function hidePleaseWait() {
+            $('#pleaseWaitScreen').hide();
+        }
+
+        $(document).ajaxComplete(function (event, request, settings) {
+        	if (!startLoader) { return; }
+        	hidePleaseWait();
+        	// DS: hotwire the loading, not sure why it isn't showing up 
+
+        	$('.jqButton').button();
+        	$('#btnUnRetire').button();
+        });
+
+        $(document).ajaxStart(function () {
+        	if (!startLoader) { return; }
+        	showPleaseWait();
+        	// DS: hotwire the loading, not sure why it isn't showing up 
+        });
+
+        // A utility for dumping an object's contents
+        function dump(arr, level) {
+            var dumped_text = "";
+            if (!level) level = 0;
+
+            //The padding given at the beginning of the line.
+            var level_padding = "";
+            for (var j = 0; j < level + 1; j++) level_padding += "    ";
+
+            if (typeof (arr) == 'object') { //Array/Hashes/Objects 
+                for (var item in arr) {
+                    var value = arr[item];
+
+                    if (typeof (value) == 'object') { //If it is an array,
+                        dumped_text += level_padding + "'" + item + "' ...\n";
+                        dumped_text += dump(value, level + 1);
+                    } else {
+                        dumped_text += level_padding + "'" + item + "' => \"" + value + "\"\n";
+                    }
+                }
+            } else { //Stings/Chars/Numbers etc.
+                dumped_text = "===>" + arr + "<===(" + typeof (arr) + ")";
+            }
+            return dumped_text;
+        }
+    </script>
+    
+    <script type="text/javascript">
+        // For all fg-buttons
+        $(function () {
+            //all hover and click logic for buttons
+            $(".fg-button:not(.ui-state-disabled)").hover(
+			function () {
+			    $(this).addClass("ui-state-hover");
+			},
+			function () {
+			    $(this).removeClass("ui-state-hover");
+			}
+		).mousedown(function () {
+		    $(this).parents('.fg-buttonset-single:first').find(".fg-button.ui-state-active").removeClass("ui-state-active");
+		    if ($(this).is('.ui-state-active.fg-button-toggleable, .fg-buttonset-multi .ui-state-active')) { $(this).removeClass("ui-state-active"); }
+		    else { $(this).addClass("ui-state-active"); }
+		}).mouseup(function () {
+		    if (!$(this).is('.fg-button-toggleable, .fg-buttonset-single .fg-button,  .fg-buttonset-multi .fg-button')) {
+		        $(this).removeClass("ui-state-active");
+		    }
+		});
+    });
+    </script>
+  
+    <script type="text/javascript" >
+      //Add hover effect to submenu items.
+        $('.hover').hover(function () {
+            $(this).addClass('ui-state-hover ui-corner-all');
+            //Move the submenu to the right if there is not enough
+            //window width left.
+            var maxLeft = $(window).width() - 440;
+            if ($(this).offset().left > maxLeft) {
+                $(this).children().css('left', '-100%');
+            }
+
+            $(this).css('z-index', '3000');
+            $(this).children().css('z-index', '4000');
+        }, function () {
+            $(this).removeClass('ui-state-hover ui-corner-all');
+            $(this).children().css('left', '100%');
+        });
+
+
+
+      $('.mainMenuItem').hover(function () {
+          $('.mainPage').removeClass('mainHover ui-state-hover ui-corner-all')
+          $(this).addClass('mainHover ui-state-hover ui-corner-all');
+      }, function () {
+          $(this).removeClass('mainHover ui-state-hover');
+          $('.mainPage').addClass('mainHover ui-state-hover ui-corner-all')
+      });
+
+    </script>
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.UI._Timer, {"enabled":false,"interval":60000,"uniqueID":"ctl00$ContentPlaceHolder1$Timer1"}, null, null, $get("ctl00_ContentPlaceHolder1_Timer1"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

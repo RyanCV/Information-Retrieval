@@ -1,0 +1,280 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head profile="http://www.w3.org/2000/08/w3c-synd/#">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta name="keywords" content="Centrally Scheduled Classrooms" />
+  <meta name="description" content=" Centrally Scheduled Classrooms at the University of Kansas." />
+  <title>Centrally Scheduled Classrooms</title>
+  <link rel="stylesheet" type="text/css" href="http://webmedia.ku.edu/css/template2009/kulayout.css" />
+  <link rel="stylesheet" type="text/css" href="http://webmedia.ku.edu/css/template2009/kupresentation.css" />
+  <!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://webmedia.ku.edu/css/template2009/ku_ie6.css" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://webmedia.ku.edu/css/template2009/ku_ie7.css" /><![endif]-->
+  <!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://webmedia.ku.edu/css/template2009/ku_ie8.css" /><![endif]-->
+  <link rel="stylesheet" type="text/css" href="http://webmedia.ku.edu/css/template2009/kuprint.css" media="print" />
+  <link rel="shortcut icon" href="http://www.ku.edu/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/~classroo/css/style.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="https://webmedia.ku.edu/js/jqueryplugins/jquery.fancybox.1.3.2/jquery.fancybox.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="/~classroo/css/jquery-ui-1.7.2.custom.css" media="all" />
+	
+  <script src="http://webmedia.ku.edu/js/jquery/jquery-1.3.2/jquery-1.3.2.min.js"  type="text/javascript"></script>
+  <script src="http://webmedia.ku.edu/js/ku/kutemplate_2009.js"  type="text/javascript"></script>
+  <script src="https://webmedia.ku.edu/js/jqueryui/1.7.1/ui.core-1.7.1.js" type="text/javascript"></script>
+  <script src="https://webmedia.ku.edu/js/jqueryplugins/jquery.fancybox.1.3.2/jquery.fancybox-1.2.1.pack.js" type="text/javascript"></script>
+  <script src="/~classroo/js/jquery_fancybox/jquery.easing.js" type="text/javascript"></script>
+  <script src="/~classroo/js/jquery_fancybox/custom.js" type="text/javascript"></script>
+  
+
+<script src="//webmedia.ku.edu/js/jqueryui/1.7.1/ui.core-1.7.1.js" type="text/javascript"></script> 
+<script src="//webmedia.ku.edu/js/jqueryui/1.7.1/ui.accordion-1.7.1.js" type="text/javascript"></script> 
+<script src="//webmedia.ku.edu/js/ku/kuaccordion_2009.js" type="text/javascript"></script>
+<script src="/~classroo/js/jquery_fancybox/custom.js" type="text/javascript"></script>
+
+<style type="text/css">
+	h3.question {font-weight:bold;}
+</style>
+
+<!--[if lt IE 9]>
+  	<style type="text/css"> 
+			 	.form_button, a .form_button { 
+					background: #A10509;
+					cursor: pointer;
+					padding: 6px 12px 4px 12px; 
+					color: #fff;
+					font-weight: bold;
+					font-size: 1.2em;
+					text-shadow: 0 1px 1px #011CA7; 
+				}
+		</style>
+<![endif]-->	  
+</head>
+<body >
+<!-- ***************************************** Begin Header ***************************************** -->		
+	
+<a name="top" id="topanchor"></a>
+<div id="skip"> 
+	<a href="#content">Skip to Main Content</a> 
+</div>
+<div id="kutemplate">
+  <div id="kubackground" class="background5">
+    <div class="container" id="header">
+      <div class="span-24 last">
+        <div id="logo" class="span-9" ><a href="http://www.ku.edu"><img id="mylogo" class="png" src="http://webmedia.ku.edu/images/logos/kulogo_w.png" alt="The University of Kansas" /></a></div>
+        <div id="buildingicon" class="span-4 prepend-1 append-2">
+        
+          <img id="mybuilding" src="http://webmedia.ku.edu/images/template2009/icons/fraser_color.png" alt="The University of Kansas" border="0" class='png' />
+        </div>
+        <div id="search" class="span-8 last">
+          <form action="http://www.ku.edu/~http/cgi-bin/search/search.php" class="ku_search" method="post">
+            <label for="searchtype" style="visibility:hidden; display:none;">Search Type</label>
+            <select id="searchtype" name="site">
+              <option value="kuweb" selected="selected">Search KU Web</option>			
+              <option value="kupeople">Search KU People</option>					
+              <option value="kuevents">Search KU Events</option>										
+              <option value="kuinfo">Search KU Info</option>										
+            </select>
+            <label for="searchtext" style="visibility:hidden; display:none;">Search Text</label>
+            <input id="searchtext"  class="ku_searchtext" name="keyword" type="text" value="keyword/name"  onclick="if(this.value == 'keyword/name') this.value='';" size="20" />
+            <input class="button" name="Search" type="image" src="http://webmedia.ku.edu/images/template2009/search.gif" alt="Search" />
+          </form>
+          <ul class="links">
+            <li><a href="https://my.ku.edu/">myKU</a></li>
+            <li><a href="https://mail.ku.edu/">Email</a></li>
+            <li><a href="https://courseware.ku.edu/">Blackboard</a></li>
+            <li><a href="https://sa.ku.edu/">Enroll &amp; Pay</a></li>
+          </ul>
+          <br />
+          <ul class="links">
+            <li><a href="http://www.ku.edu/">KU Home</a></li>
+            <li id="azpopuplink"><a href="http://www.ku.edu/kusites/a-z.shtml" onclick="return false;">A-Z<img src="http://webmedia.ku.edu/images/template2009/downcarot.gif" class="azcarot" alt="A-Z Links" /></a></li>
+          </ul>
+          <div id="azbox">
+            <ul><li><a href="http://www.ku.edu/kusites/index.shtml?A">A</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?B">B</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?C">C</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?D">D</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?E">E</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?F">F</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?G">G</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?H">H</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?I">I</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?J">J</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?K">K</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?L">L</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?M">M</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?N">N</a></li></ul><ul><li><a href="http://www.ku.edu/kusites/index.shtml?O">O</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?P">P</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?Q">Q</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?R">R</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?S">S</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?T">T</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?U">U</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?V">V</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?W">W</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?X">X</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?Y">Y</a></li><li><a href="http://www.ku.edu/kusites/index.shtml?Z">Z</a></li></ul>     
+          </div>              
+        </div>
+      </div>       
+      <div class="span-24 last" id="topnav">
+<div id="navtitle" style="margin-top: 0;"><h1 style="font-size: 1.75em;"><a href="http://classrooms.ku.edu/">Centrally Scheduled Classrooms</a></h1></div>
+      </div>
+    </div>
+    <div id="printheader"><img id="myprintlogo" class="png" src="http://webmedia.ku.edu/images/logos/kulogo.png" alt="The University of Kansas" /></div>
+    <div id="content" class="container" >
+    
+
+
+      <div id="leftnavigation" class="span-5"><ul class="links last">
+  <li class="parent">
+  	<a href="http://classrooms.ku.edu/" style="font-size: 1.2em; font-weight: bold;">Centrally Scheduled Classrooms</a>
+  	<hr />
+  </li>
+	<li><a href="/~classroo/cgi-bin/find.shtml">Find a Room</a></li>
+	<li><a href="http://classrooms.ku.edu/types.shtml">Room Types</a></li>
+	<li><a href="http://classrooms.ku.edu/faqs.shtml">FAQs</a></li>
+	<li><a href="http://classrooms.ku.edu/policy.shtml">Policy</a></li>
+</ul></div>
+      <div id="main" class="withnav span-19 last">
+<!-- ***************************************** Begin Content ***************************************** -->		
+
+
+<div class="span-20 last">
+	<img src="/images/csc_banner2.jpg" alt="Centrally Scheduled Classrooms" id="lg_banner" alt="Centrally Scheduled Classrooms" />
+	
+	<h1 style="margin-bottom: 1em;">Welcome to Centrally Scheduled Classrooms</h1>
+	
+	<p>
+		University of Kansas centrally scheduled classrooms are supported by staff from across campus who are committed to providing and maintaining high-quality learning facilities.  This group values and encourages input from students, faculty and staff regarding the spaces and the services provided.
+	</p>
+	
+	<div class="bluebutton" style="float: right; padding-bottom: 8px; margin-top: -10px; margin-bottom: 0;"> 
+		<a href="about.shtml">Read More <strong>&#187;</strong></a>
+	</div>
+	
+	<ul id="home_nav_list">
+		<li> 
+			<a href="/~classroo/cgi-bin/find.shtml"><img src="/images/map_thumb.gif" alt="" />
+			<strong>Find a Room</strong></a>
+			List of all centrally scheduled classrooms that can be sorted by building, capacity, room type, and amenities.  Includes photos of each classroom.
+		</li>
+		<!--
+		<li> 
+			<a href="request.shtml"><img src="/images/room_thumb.jpg" alt="" />
+			<strong>Request a Room</strong></a>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum fermentum lacus. Aliquam id elit. Vestibulum tortor. Phasellus eu dui.  
+		</li>
+		-->
+		<li> 
+			<a href="types.shtml"><img src="/images/room_thumb.jpg" alt="" />
+			<strong>Room Types</strong></a>
+			Description of the various levels of media in all centrally scheduled classrooms.
+		</li>
+		
+		<li> 
+			<a href="faqs.shtml"><img src="/images/faq_thumb.jpg" alt="" />
+			<strong>Frequently Asked Questions</strong></a>
+			Answers to questions asked most often regarding centrally scheduled classrooms.
+		</li>
+		
+		<li> 
+			<a href="policy.shtml"><img src="/images/policy_thumb.jpg" alt="" />
+			<strong>Policy</strong></a>
+			Policy guidelines approved by the Provost that apply to all centrally scheduled classrooms as derived from the Space Policy Manual.
+		</li>
+	</ul>
+ 
+</div>
+  
+
+<!-- ***************************************** Begin Footer ***************************************** -->		
+</div></div></div> 
+  <br clear="all" />
+  <div id="footer">
+    <div id="concave"  class="container">
+      <div class="container" id="myfooter">
+        	<div id="footercontact" class="span-10">
+		<strong>Contact Us</strong><br />
+	   <address>
+	      The University of Kansas<br />
+				Lawrence, KS 66045<br />
+				(785) 864-5123<br/>
+				<a href="mailto:scheduling@ku.edu">scheduling@ku.edu</a>
+		</address>
+	</div>
+	
+	<div id="footerjayhawk" class="span-4">
+		<a href="#top"><img src="http://webmedia.ku.edu/images/template2009/uparrow.gif" border="0" alt="Go to the top of the page" /> top</a>
+	</div>
+	
+	<div id="footertagline" class="span-10 last">
+	  <h5>A Great Place to be</h5>
+	  <h4>A Champion</h4>
+	  <a href="https://dept.ku.edu/~classroo/cgi-bin/admin/" style="font-size: .8em;">Admin Login</a>
+	</div>
+	
+	<div class="span-24 last" style="text-align: center; margin-top: 15px;">
+	  <i><big>Collaboration between the Classroom Support Partners:</big><br /><a href="http://www.provost.ku.edu">Office of the Provost</a>, <a href="http://www.registrar.ku.edu">Office of the Registrar</a> and <a href="http://www.technology.ku.edu/">KU Information Technology</a></i>
+	</div>
+
+</div>	  
+      </div>
+    </div>
+    <div id="breadcrumbarea">
+      <div id="breadcrumb"  class="container"><ul>
+      
+      
+      
+      
+      
+      
+      <li style="display:none"></li></ul></div>
+    </div>
+    <div id="bottomarea">
+      <div id="bottom"  class="container">
+        <ul class="links">
+          <li><a href="http://www.ku.edu/">KU Home</a></li>
+          <li><a href="http://www.ku.edu/about/">About KU</a></li>
+          <li><a href="http://www.ku.edu/academics/">Academics</a></li>
+          <li><a href="http://www.ku.edu/admissions/">Admissions</a></li>
+          <li><a href="http://www.kualumni.org/">Alumni</a></li>
+          <li><a href="http://www.kuathletics.com/">Athletics</a></li>
+          <li><a href="http://www.ku.edu/about/campuses/">Campuses</a></li>
+          <li><a href="http://www.ku.edu/contact/">Contacts</a></li>
+          <li><a href="http://www.kuendowment.org/">Giving</a></li>
+          <li><a href="http://employment.ku.edu/">Jobs</a></li>
+          <li><a href="http://maps.ku.edu">Maps</a></li>
+         </ul>
+        <ul class="links"><li> </li></ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="disclaimer" style='background-color:#8b8f92;'>
+	<p style='width:900px; text-align: center; color:#ccc; line-height:1.1em; margin: 0 auto;font-size:.9em;'>
+        The University of Kansas <a href="https://documents.ku.edu/policies/IOA/Nondiscrimination.htm">prohibits discrimination</a> on the basis of race, color, ethnicity, religion, sex, national origin, age, ancestry, disability, status as a veteran, sexual orientation, marital status, parental status, gender identity, gender expression, and genetic information in the university’s programs and activities. Retaliation is also prohibited by university policy. The following persons have been designated to handle inquiries regarding the nondiscrimination policies and are the Title IX coordinators for their respective campuses: Executive Director of the Office of Institutional Opportunity & Access, <a href="mailto:IOA@ku.edu" style="color:#ccc">IOA@ku.edu</a>, 1246 West Campus Road, Room 153A, Lawrence, KS 66045, 785-864-6414, 711 TTY (for the Lawrence, Edwards, Parsons, Yoder, and Topeka campuses); Director, Equal Opportunity Office, Mail Stop 7004, 4330 Shawnee Mission Parkway, Fairway, KS 66205, 913-588-8011, 711 TTY (for the Wichita, Salina, and Kansas City, Kansas, medical center campuses).</p>
+		</div>
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8961561-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="keywords" content=",Danforth Chapel Reservation Calendar" />
+	<meta name="description" content=" Danforth Chapel Reservation Calendar" />	
+	<title>Danforth Chapel Reservation Calendar </title>
+	
+
+	
+	<link href="http://www.ku.edu/css/main_ku.css" rel="stylesheet" type="text/css" title="KU Style" />
+	
+
+
+	<style type="text/css">
+		@import "/~ssts_apps/css/danforth.css" ;
+	</style>	
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+    function popup(url, id, width, height)
+    {
+      newwindow = window.open(url,id,'toolbar=no,scrollbars=yes,location=no,statusbar=no,menubar=no,resizable=yes,width=' + width + ',height=' + height);
+      newwindow.focus();
+    }
+-->
+</script>
+
+</head>
+<body>
+<div id="ku_accessibilty_skip">
+	<a href="#maincontent"><img src="http://www.ku.edu/images/kutemplate/spacer.gif" alt="Skip redundant pieces" width="1" height="1" border="0"/></a>
+
+</div>
+	<a name="top"></a>
+	
+<div id="ku_container">
+<!-- ***************************************** Header ***************************************** -->
+	<div id="ku_intro">
+	<div id="ku_topmostheader">
+		<div id="ku_header_links"><a href="http://www.ku.edu/" class="ku_homelink" title="KU Home">KU Home</a>&nbsp; |&nbsp; <a href="https://my.ku.edu/" title="myKU log in">myKU</a>&nbsp; |&nbsp; <a href="https://mail.ku.edu/" title="Outlook Web Access">Email</a> &nbsp;|&nbsp; <a href="http://courseware.ku.edu/" title="Blackboard">Blackboard</a> &nbsp;|&nbsp; <a href="http://www.news.ku.edu/" title="News">News</a> &nbsp;|&nbsp; <a href="http://www.calendar.ku.edu/" title="Calendar">Calendar</a> &nbsp;|&nbsp; <a href="http://www.ku.edu/directory/" title="Directories">Directories</a> &nbsp;|&nbsp; <a href="http://www.ku.edu/visit/maps.shtml" title="Maps">Maps</a> &nbsp;|&nbsp; <a href="http://www.ku.edu/kusites/a-z.shtml" title="KU A-Z">KU A-Z</a></div>
+		<div id="ku_header_logo" align="right"><a href="http://www.ku.edu/"><img src="http://www.ku.edu/images/kutemplate/masthead_logo.gif" alt="The University of Kansas" title="The University of Kansas" hspace="0" vspace="0" width="143" height="53" align="right" border="0" /></a></div>
+	</div>
+	<div id="ku_topbar"></div>
+	<div id="ku_titlebar">
+		<div id="ku_kuaffiliation">
+
+	<a href="http://www.danforth.ku.edu/" style="color:#666666;">Danforth Chapel</a>
+
+		</div>
+		<div id="ku_searchbar">
+		
+
+			<div id="ku_searchform" align="right">
+				<form action="http://www.ku.edu/~http/cgi-bin/search/search.php" class="ku_search" method="post">
+				<label for="searchtype" style="visibility:hidden; display:none;">Search Type</label>
+				<select id="searchtype" name="site">
+		
+					<option value="danforth"  selected="selected">Search this site</option>				
+					<option value="kuweb">Search KU Web</option>
+					
+					<option value="kupeople">Search KU People</option>					
+					<option value="kuevents">Search KU Events</option>										
+					<option value="kuinfo">Search KU Info</option>										
+				</select>
+					<label for="searchtext" style="visibility:hidden; display:none;">Search Text</label>
+		   		<input id="searchtext"  class="ku_searchtext" name="keyword" type="text" value="keyword/name"  onclick="if(this.value == 'keyword/name') this.value='';" size="20" /> 
+				<input class="ku_searchbutton" name="Search" type="image" src="http://www.ku.edu/images/kutemplate/searchbutton.gif" alt="Search" />
+				</form>
+			</div>
+
+		
+		</div>
+	</div>	
+</div>
+
+<div id="ku_frame">
+
+
+
+
+<!-- ***************************************** Navigation ***************************************** -->
+	<div id="ku_contentleft">
+	[an error occurred while processing this directive]
+	</div>
+<div id="ku_container_nav">
+<!-- ***************************************** Main Content ***************************************** -->	
+	<div id="ku_contentcenter">
+		<div id="ku_maincontent">
+		<a name="maincontent"></a>
+<!-- ***************************************** Begin Editable ***************************************** -->		
+
+
+	
+<p class="right" style="text-align: center; margin-top: -.25em; width: 50%;">If you would like to make a reservation, please <a href="mailto:silcfront@ku.edu" title="email Student Involvement &amp; Leadership Center">contact SILC</a> at 785-864-4861</p>
+<form action="reservations.shtml" method="get" id="calForm">
+	<fieldset style="border: 0; padding: 0; margin-bottom: 1em;">
+		<select name="mm" onchange="document.getElementById('calForm').submit()">
+			<option value="01">January</option>
+			<option value="02">February</option>
+			<option value="03">March</option>
+			<option value="04" selected="selected">April</option>
+			<option value="05">May</option>
+			<option value="06">June</option>
+			<option value="07">July</option>
+			<option value="08">August</option>
+			<option value="09">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+		<select name="my" onchange="document.getElementById('calForm').submit()">
+			<option value="2016" selected="selected">2016</option><option value="2017">2017</option><option value="2018">2018</option>		</select>
+		<input type="submit" value="Go" />
+	</fieldset>
+</form>
+<table cellspacing="0" cellpadding="0" style="border: 1px solid #ccc; border-bottom: 0; width: 602px;">
+	<tr>
+		<th colspan="7" style="text-align: center; border-bottom: 1px solid #ccc; font-size: 30px; background-color: #ccc;"><a style="font-size: 115%; text-decoration: none;" href="?mm=03&amp;my=2016" title="Previous Month">&laquo;</a> April 2016 <a style="font-size: 115%; text-decoration: none;" href="?mm=05&amp;my=2016" title="Next Month">&raquo;</a></th>
+	</tr>
+	<tr>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">Su</td>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">M</td>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">Tu</td>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">W</td>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">Th</td>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">F</td>
+		<td style="height: 45px; font-size: 30px; text-align: center; border-bottom: 1px solid #ccc;">Sa</td>
+	</tr>
+		<tr>
+		<td style="height: 45px; background-color: #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">&nbsp;</td>
+		<td style="height: 45px; background-color: #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">&nbsp;</td>
+		<td style="height: 45px; background-color: #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">&nbsp;</td>
+		<td style="height: 45px; background-color: #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">&nbsp;</td>
+		<td style="height: 45px; background-color: #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">&nbsp;</td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=01&amp;y=2016">1</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=02&amp;y=2016">2</a></td>
+	</tr>
+	<tr>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=03&amp;y=2016">3</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=04&amp;y=2016">4</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=05&amp;y=2016">5</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=06&amp;y=2016">6</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=07&amp;y=2016">7</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=08&amp;y=2016">8</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=09&amp;y=2016">9</a></td>
+	</tr>
+	<tr>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=10&amp;y=2016">10</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=11&amp;y=2016">11</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=12&amp;y=2016">12</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=13&amp;y=2016">13</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=14&amp;y=2016">14</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=15&amp;y=2016">15</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=16&amp;y=2016">16</a></td>
+	</tr>
+	<tr>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=17&amp;y=2016">17</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=18&amp;y=2016">18</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=19&amp;y=2016">19</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=20&amp;y=2016">20</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=21&amp;y=2016">21</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=22&amp;y=2016">22</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=23&amp;y=2016">23</a></td>
+	</tr>
+	<tr>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=24&amp;y=2016">24</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=25&amp;y=2016">25</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=26&amp;y=2016">26</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=27&amp;y=2016">27</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; background-color: #ddf; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=28&amp;y=2016">28</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center; border-right: 1px solid #ccc;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=29&amp;y=2016">29</a></td>
+		<td style="height: 45px; border-bottom: 1px solid #ccc; font-size: 25px; text-align: center;"><a style="display: block; width: 100%; height: 100%; padding-top: 10px;" href="dayview.shtml?m=04&amp;d=30&amp;y=2016">30</a></td>
+	</tr>
+	<tr>
+
+</table>
+<!-- ************************************* End Editable ************************************* -->	
+	</div>
+		</div>
+	</div>
+</div>
+</div>
+<br clear="all" />
+<!-- ************************************* Footer ************************************* -->	
+<div id="ku_footercontainer">
+<div id="ku_contentbottom"></div>
+<div id="ku_footer">
+	<div id="ku_footerframe">
+
+	<img class="ku_jayhawk" src="http://www.ku.edu/images/kutemplate/footer_jayhawk.gif" border="0" align="right" hspace="0" vspace="0" alt="KU Jayhawk" />	
+	[an error occurred while processing this directive]
+	
+
+	</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
+

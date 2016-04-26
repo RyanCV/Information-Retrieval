@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  &bull; Technology Training Workshops &bull; The University of Kansas</title>
+    <link rel="stylesheet" type="text/css" href="assets/ku-template/css/second-level.css" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/ku-template/css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/infotrain.css" media="all">
+    <link rel="stylesheet" type="text/css" href="//webmedia.ku.edu/js/jqueryplugins/fancybox/2.1.5/source/jquery.fancybox.css"/>
+    <link rel="stylesheet" type="text/css" href="//webmedia.ku.edu/js/jqueryplugins/DataTables-1.9.4/media/css/demo_table_jui.css"/>
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/themes/smoothness/jquery-ui.css"/>
+    <script src="assets/ku-template/js/yepnope.min.js"></script>
+    <!-- jQuery specified in header.html -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/lms.js" type="text/javascript"></script>
+    <script src="js/timepicker.js" type="text/javascript"></script>
+    <script src="//webmedia.ku.edu/js/jqueryplugins/fancybox/2.1.5/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="//www.ku.edu/assets/ku-template/css/ie8.css" media="all">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://webmedia.ku.edu/js/ie6/fixed-warning.js"></script>
+    <script>window.onload = function () {
+        ieWarning();
+    }</script>
+    <![endif]-->
+    
+    <script type="text/javascript" language="javascript"
+            src="//webmedia.ku.edu/js/jqueryplugins/DataTables-1.9.4/media/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript">
+        var oTable;
+        jQuery(document).ready(function () {
+            oTable = jQuery('table.datatable').dataTable({
+                "bJQueryUI": true,
+                "bPaginate": false,
+                "aaSorting": [[1, "asc"], [2, "asc"]]
+
+
+            });
+        });
+        var $kuj=jQuery.noConflict();
+    </script>
+
+</head>
+<body class="second-level second-level-nav">
+<div id="skip-link">
+    <a href="#main-content">Skip to main content</a>
+</div>
+<div id="campusalertarea"></div>
+<section id="ku-eyebrow" class="navbar hidden-print" role="banner">
+    <a id="top"></a>
+
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header col-xxs-1 col-sm-3">
+                <a id="ku-eyebrow-homelink" class="pull-left" href="http://www.ku.edu/"><span class="hidden-xs">The University of Kansas</span><span
+                        class="visible-xs">KU</span></a>
+            </div>
+            <nav class="col-xxs-11 col-sm-9">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="https://portal.ku.edu/" title="Login to the myKU Portal">myKU</a></li>
+                    <li><a href="https://mail.ku.edu/" title="Check your email online">Email</a></li>
+                    <li><a href="https://courseware.ku.edu/" title="Login to Blackboard"><span class="hidden-xxs">Blackboard</span><span
+                                class="visible-xxs">BB</span></a></li>
+                    <li><a href="https://sa.ku.edu/" title="Login to Enroll and Pay"><span class="hidden-xxs">Enroll &amp; Pay</span><span
+                                class="visible-xxs">E&amp;P</span></a></li>
+                    <li id="ku-directory-button"><a href="/directory/" title="Open the KU Directory">KU Directory</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<section id="page-header" class="container">
+    <section id="ku-branding" class="row">
+        <header class="col-xxs-12">
+            <a href="http://www.ku.edu/" title="KU Homepage"><img src="//www.ku.edu/assets/ku-template/images/logo.png"
+                                                                  alt="KU branding logo" id="logo"></a>
+
+            <h1><a href="/~infotrain/" title="Home">Technology Training Workshops</a></h1>
+
+            <form action="http://www.ku.edu/search/" method="get" class="ku-searchbox pull-right hidden-print">
+                <fieldset>
+                    <div class="input-group">
+                        <input class="form-control" title="Enter the terms you wish to search for." type="text"
+                               id="branding-search-for" name="q" value="" size="15" maxlength="128">
+                    <span class="input-group-btn">
+                        <button type="submit" value="" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                    </div>
+                </fieldset>
+            </form>
+        </header>
+    </section>
+    <div class="row">
+        <nav id="main-menu" class="navbar navbar-default col-xxs-12 hidden-print" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle btn btn-sm" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse"><span class="sr-only">Toggle main navigation</span><span
+                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a class="" href="/~infotrain/">Home </a></li>
+
+                    <li class="">
+                        <a class="" href="calendar.php"><span class="glyphicon glyphicon-calendar"></span> Workshops Calendar</a></li>
+                    <li class="active">
+                        <a href="workshops.php"><span class="glyphicon glyphicon-list-alt"></span> Workshop Listing</a></li>
+                    <li class="">
+                        <a href="labs.php"><span class="glyphicon glyphicon-road"></span> Labs</a></li>
+                                            <li><a href="myaccount.php"><span class="glyphicon glyphicon-lock"></span> Login</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+
+<section id="page-content" class="container">
+    <div class="row">
+        <section id="main-content" class="col-xxs-12 col-md-12">
+<div class="workshoplist span-24 last">
+    <h1>Workshops</h1>
+
+    <div class="col-md-6 col-xxs-12">
+        <p>Below is a list of the free computing and information literacy workshops
+            offered by <a href="http://www.technology.ku.edu/training/">KU Information Technology</a> and
+            <a href="http://www.lib.ku.edu/instruction/">KU Libraries</a>.
+
+            For more information about a particular workshop, click the workshop title.
+            For general information, including registration details, see
+            <a href="http://technology.ku.edu/training/">KU IT Training</a>.</p>
+
+        <p>Most workshops require you to possess
+            <a href="http://technology.ku.edu/training/basicskills.shtml" target="_blank">basic computing skills</a> as
+            a prerequisite to attendance. Some also require other prerequisites,
+            specified in the workshop descriptions.
+
+            <strong>To register for a workshop, click the desired time in the rightmost
+                column, then click the registration button on the subsequent page.</strong>
+    </div>
+    <div class="col-md-6 col-xxs-12">
+        <form action="workshops.php" method="post">
+            <input type="hidden" name="option" value="list">
+
+                <h4>Filter</h4>
+
+                <div class="content">
+                    <p>
+                        Keyword(s): <input type="text" name="keyword" value="" size="40"/><br/>
+                        Category:&nbsp;&nbsp;&nbsp; <select name="category_id">
+                            <option value='' selected>- All Categories - </option>
+<option value='13'>Ask the experts</option>
+<option value='14'>Blackboard</option>
+<option value='12'>Computing Basics</option>
+<option value='11'>Data Analysis and Statistics</option>
+<option value='21'>Educational Technology</option>
+<option value='7'>Graphics</option>
+<option value='10'>Handheld computing</option>
+<option value='16'>Instructional Development</option>
+<option value='1'>Internet and Email</option>
+<option value='19'>IT Technical</option>
+<option value='8'>Multimedia</option>
+<option value='9'>Office Productivity</option>
+<option value='20'>Professional Development</option>
+<option value='15'>Research and Libraries</option>
+<option value='17'>Security</option>
+<option value='18'>Thesis and Dissertation</option>
+<option value='6'>Web Authoring</option>
+                        </select><br/>
+                        Trainer: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="trainer_id">
+                            <option value='' selected>- All Trainers -</option>
+<option value='1534'>Tami A Albin</option>
+<option value='22906'>Jose Ascensio</option>
+<option value='12580'>Jeanette Atkinson</option>
+<option value='21419'>Patricia Bartell</option>
+<option value='5538'>Jill Becker</option>
+<option value='1268'>Bridget A Bradley</option>
+<option value='22255'>Jamene Brooks-Kieffer</option>
+<option value='20849'>Randall Brumfield</option>
+<option value='9801'>Chihsun Chiu</option>
+<option value='9915'>Jennifer Church-Duran</option>
+<option value='5495'>Abby Coffin</option>
+<option value='5426'>Daniel Lee Coonfield</option>
+<option value='21947'>Corey Cortez</option>
+<option value='1238'>Sarah Couch</option>
+<option value='12'>Lea Currie</option>
+<option value='20703'>David N Day</option>
+<option value='417'>Frances Devlin</option>
+<option value='7053'>Rob Dewhirst</option>
+<option value='6444'>Erika Dickey</option>
+<option value='2443'>Laura L Diede</option>
+<option value='1482'>Vickie Fu Doll</option>
+<option value='21562'>Kristine Druen</option>
+<option value='10077'>Kathy DuBois Reed</option>
+<option value='5955'>Erin L Ellis</option>
+<option value='2336'>Judith Emde</option>
+<option value='22401'>Ada Emmett</option>
+<option value='21225'>Chris Escalante</option>
+<option value='22272'>Tennille Fincham</option>
+<option value='22278'>Tennille Fincham</option>
+<option value='22988'>Steve Foster</option>
+<option value='20602'>Zachary Twain Fridell</option>
+<option value='4933'>Matt Garrett</option>
+<option value='5956'>Jon Giullian</option>
+<option value='8748'>Kim Angelina Glover</option>
+<option value='21979'>Jonathan  Hagel</option>
+<option value='8480'>Scott Hanrath</option>
+<option value='20504'>Cheryl Harber</option>
+<option value='272'>Bayliss Harsh</option>
+<option value='21676'>Eric Havens</option>
+<option value='21730'>Renee Hewitt</option>
+<option value='10292'>John Hindes</option>
+<option value='21213'>Carsten Holm</option>
+<option value='8449'>Jeromy W Horkman</option>
+<option value='2223'>Rhonda Houser</option>
+<option value='1566'>Larry Hoyle</option>
+<option value='6956'>Amy Louise Hume</option>
+<option value='9991'>Suzie Johannes</option>
+<option value='20095'>Anne Madden Johnson</option>
+<option value='290'>William F Kummerow</option>
+<option value='1431'>Lars Leon</option>
+<option value='21499'>Ann Lindbloom</option>
+<option value='60'>Julie M Loats</option>
+<option value='20972'>Deborah Ludwig</option>
+<option value='20533'>Linda Mannering</option>
+<option value='20601'>Linda Mannering</option>
+<option value='4649'>Sabrina S Marino</option>
+<option value='21384'>Benjamin Mattson</option>
+<option value='20499'>Christine McCloud</option>
+<option value='4764'>Scott R McEathron</option>
+<option value='22303'>Lisa McLendon</option>
+<option value='23502'>Robin Merritt</option>
+<option value='5680'>Jenine Meston</option>
+<option value='12587'>Maggie Janelle Miller</option>
+<option value='9043'>Amalia Louise Monroe</option>
+<option value='10909'>Brian D Moss</option>
+<option value='22975'>Cara Nossaman</option>
+<option value='23604'>Kelsie Nunnally</option>
+<option value='4158'>Carmen Orth-Alfie</option>
+<option value='21620'>Marie Ortiz</option>
+<option value='23485'>Suzi Ortiz</option>
+<option value='21177'>Susan Patton</option>
+<option value='544'>Craig Paul</option>
+<option value='9032'>Julie Anne Petr</option>
+<option value='21171'>Mason Powell</option>
+<option value='12594'>Bradley S Rankin</option>
+<option value='11094'>Mary Ellen Raple</option>
+<option value='21500'>Neil Rasmussen</option>
+<option value='10928'>Alicia M Reed</option>
+<option value='1004'>Marianne Reed</option>
+<option value='21494'>Betsaida Reyes</option>
+<option value='3270'>Beth Ridenour</option>
+<option value='2553'>Richard Ring</option>
+<option value='1066'>John M Rinnert</option>
+<option value='20596'>Pamela Rooks</option>
+<option value='6060'>Brian Rosenblum</option>
+<option value='7353'>David A Schneider</option>
+<option value='6613'>Stephanie Ann Scurto</option>
+<option value='21930'>Dawn Shew</option>
+<option value='23057'>Dawn Shew</option>
+<option value='21994'>Sean Steinle</option>
+<option value='2337'>John Stratton</option>
+<option value='23503'>Marilee Teasley</option>
+<option value='5354'>Kristi Thompson</option>
+<option value='20707'>Vendor Trainer</option>
+<option value='21948'>Katie Treadwell</option>
+<option value='142'>Toshiyuki Urata</option>
+<option value='20603'>Lola M Vassar</option>
+<option value='22046'>Jack Warren Walter</option>
+<option value='1428'>Julie Waters</option>
+<option value='1442'>Xan  Wedel</option>
+<option value='21015'>Stephen Werninger</option>
+<option value='6195'>John R White</option>
+<option value='2906'>Sheryl Williams</option>
+<option value='1432'>Interlibrary Loan staff </option>
+<option value='1'>NONE </option>
+                        </select>
+
+                    <div style="margin:10px 80px;">
+                        <input type="submit" name="submit" value="Search"/>
+                    </div>
+                </div>
+        </form>
+
+    </div>
+    <script src="https://webmedia.ku.edu/js/jqueryplugins/jquery.tablesorter.2.0.min.js"
+            type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery("#workshoplist").tablesorter({widgets: ['zebra'], sortList: [[0, 0]], headers: {2: {sorter: false}}});
+
+        });
+    </script>
+    <div class="col-md-12 col-xxs-12">
+        
+        <hr/>
+        <table class="listing table datatable" id="workshoplist">
+            <thead>
+            <tr>
+                <th>Workshop Title</th>
+                <th>Category(s)</th>
+                <th>Upcoming Times</th>
+            </tr>
+            </thead>
+            <tbody>
+            
+                                    <tr>
+                    <td><a href="?option=details&id=100077">Academic Catalog Training Session</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100101">Adobe Acrobat Pro - Essentials</a></td>
+                    <td>                            Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504904&type=workshop">
+                                    <strong>May. 17, 2016 at 01:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100118">Adobe Illustrator - Essentials</a></td>
+                    <td>                            Graphics<br />Multimedia                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100120">Adobe InDesign - Basics</a></td>
+                    <td>                            Graphics<br />Multimedia                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505038&type=workshop">
+                                    <strong>May. 10, 2016 at 02:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505037&type=workshop">
+                                    <strong>Apr. 22, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100119">Adobe Photoshop - Basics for Web</a></td>
+                    <td>                            Graphics<br />Multimedia<br />Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100113">Advanced Graduate Research Skills in the Social Sciences Workshop</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100111">Blackboard Grade Center for UNIV 101</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100069">Blackboard: Assignments</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505062&type=workshop">
+                                    <strong>Jun. 08, 2016 at 08:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100109">Blackboard: Collaborate</a></td>
+                    <td>                            Blackboard<br />Multimedia                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505066&type=workshop">
+                                    <strong>Jun. 09, 2016 at 02:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100106">Blackboard: Content Collection</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100072">Blackboard: Discussions</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100067">Blackboard: Getting Started</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505059&type=workshop">
+                                    <strong>Jun. 06, 2016 at 02:30 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505067&type=workshop">
+                                    <strong>Jun. 10, 2016 at 08:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505060&type=workshop">
+                                    <strong>Jun. 07, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100013">Blackboard: Grade Center</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505068&type=workshop">
+                                    <strong>Jun. 10, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505061&type=workshop">
+                                    <strong>Jun. 07, 2016 at 12:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100071">Blackboard: Groups</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100107">Blackboard: Portfolios</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100070">Blackboard: Tests</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100117">Blackboard: Using Blackboard for Assessment</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100099">Blackboard: Wikis, Blogs and Journals</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505063&type=workshop">
+                                    <strong>Jun. 08, 2016 at 12:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100084">BudCast - Advanced Operating Plan</a></td>
+                    <td>                            Professional Development                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505080&type=workshop">
+                                    <strong>May. 11, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505083&type=workshop">
+                                    <strong>Jun. 28, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100082">BudCast - Basic Operating Plan</a></td>
+                    <td>                            Professional Development                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505079&type=workshop">
+                                    <strong>Apr. 27, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505082&type=workshop">
+                                    <strong>Jun. 14, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100079">BudCast - Grants Administration</a></td>
+                    <td>                            Professional Development                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505081&type=workshop">
+                                    <strong>May. 25, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100083">BudCast - Open Work Time</a></td>
+                    <td>                            Ask the experts<br />Professional Development                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100065">Building Research Skills and American Academic Libraries - International Graduate Students </a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100034">Camtasia for Mac: Screen Recording</a></td>
+                    <td>                            Educational Technology<br />Multimedia                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100029">CMS Basics for Editors, Contributors & Site Admins  </a></td>
+                    <td>                            Web Authoring                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505105&type=workshop">
+                                    <strong>May. 12, 2016 at 01:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=504894&type=workshop">
+                                    <strong>May. 05, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100044">CMS Deep Dive - Blocks</a></td>
+                    <td>                            Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100046">CMS Deep Dive - Rules</a></td>
+                    <td>                            Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100045">CMS Deep Dive - Views</a></td>
+                    <td>                            Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100030">CMS Open Work Time</a></td>
+                    <td>                            Internet and Email<br />Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100010">CMS Site Setup & Configuration: for Site Admins</a></td>
+                    <td>                            Web Authoring                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505101&type=workshop">
+                                    <strong>Jul. 19, 2016 at 01:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=504929&type=workshop">
+                                    <strong>May. 16, 2016 at 01:30 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505100&type=workshop">
+                                    <strong>Jun. 16, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505102&type=workshop">
+                                    <strong>Aug. 18, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=9877">Community of Science</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=8672">Copyright and  Educational Fair Use: Overview</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100096">CourseLeaf Curriculum Management Training</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100108">Custom Demo</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100100">Data Management Basics</a></td>
+                    <td>                            Ask the experts<br />Computing Basics<br />Professional Development<br />Research and Libraries<br />Thesis and Dissertation                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=11021">Depositing Your Scholarly Work in KU's open archive, KU ScholarWorks</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100041">Deskside Coaching Request</a></td>
+                    <td>                            Blackboard<br />Computing Basics<br />Handheld computing<br />Instructional Development<br />Internet and Email<br />IT Technical<br />Multimedia<br />Office Productivity                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100115">EAB/SSC - Campaign Workshops for Advisors</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100116">EAB/SSC - Getting Started for Advisors and Faculty</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504848&type=workshop">
+                                    <strong>May. 18, 2016 at 02:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=504847&type=workshop">
+                                    <strong>Apr. 29, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100060">Electronic Thesis and Dissertation Format & Submit Open Lab</a></td>
+                    <td>                            Thesis and Dissertation                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=5362">Electronic Thesis/Dissertation (ETD) Submission Workshop</a></td>
+                    <td>                            Ask the experts<br />Research and Libraries<br />Thesis and Dissertation                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100086">EndNote Basics</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100087">EndNote for Collaborative Projects</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=11863">ETD Word: Thesis and Dissertation Formatting and Copyright</a></td>
+                    <td>                            Thesis and Dissertation                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504912&type=workshop">
+                                    <strong>Apr. 25, 2016 at 10:30 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505099&type=workshop">
+                                    <strong>Apr. 26, 2016 at 10:30 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100125">Excel 2013 - Advanced Formulas and Functions</a></td>
+                    <td>                            Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505076&type=workshop">
+                                    <strong>Jul. 14, 2016 at 03:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505077&type=workshop">
+                                    <strong>Jul. 15, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100124">Excel 2013 - Pivot Tables</a></td>
+                    <td>                            Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505074&type=workshop">
+                                    <strong>Jun. 23, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505075&type=workshop">
+                                    <strong>Jun. 24, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100080">Excel 2013 Essentials</a></td>
+                    <td>                            Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505088&type=workshop">
+                                    <strong>May. 13, 2016 at 01:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505072&type=workshop">
+                                    <strong>Jun. 14, 2016 at 02:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505073&type=workshop">
+                                    <strong>Jun. 17, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=504903&type=workshop">
+                                    <strong>May. 10, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100090">Faculty Pro and online websites through the CMS</a></td>
+                    <td>                            Professional Development<br />Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100022">Final Cut Pro X: The Fundamentals</a></td>
+                    <td>                            Multimedia                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100009">Firewall Tool Training</a></td>
+                    <td>                            IT Technical<br />Security                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100105">GIS 101</a></td>
+                    <td>                            Data Analysis and Statistics<br />Graphics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=15">GIS I: ArcMap Introduction</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=597">GIS II: ArcMap Intermediate</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100008">GIS II: Running ArcMap with Keyboard Shortcuts</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100055">GIS II: The Blue Death and the Original GIS</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100048">GIS Lab Open (Office) Hours</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100054">Graduate Research Skills</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100020">iClicker Classroom Response System</a></td>
+                    <td>                            Blackboard<br />Educational Technology<br />Instructional Development                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100074">Improving Research Impact for Scholars</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100110">Introduction to Data Visualization: Distilling and Communicating Data</a></td>
+                    <td>                            Ask the experts<br />Data Analysis and Statistics<br />Professional Development<br />Research and Libraries<br />Thesis and Dissertation                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100052">IT/CODL: Blended/Flipped Classroom</a></td>
+                    <td>                            Instructional Development                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100051">IT/CODL: Creating Media for Your Course</a></td>
+                    <td>                            Instructional Development                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100050">IT/CODL: Improving Student Engagement</a></td>
+                    <td>                            Instructional Development                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100053">IT/CODL: Tracking Student Performance</a></td>
+                    <td>                            Instructional Development                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100057">KU Academic Catalog Training</a></td>
+                    <td>                            IT Technical                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100042">Lecture Capture</a></td>
+                    <td>                            Multimedia                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100122">Lync for Mac - Phone Service Basics</a></td>
+                    <td>                            Computing Basics<br />Internet and Email<br />Office Productivity                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100102">myCommunity - Getting Started</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504895&type=workshop">
+                                    <strong>May. 05, 2016 at 01:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100091">myCommunity - Getting Started - IT/TL Training</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100103">myCommunity - Intermediate</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504896&type=workshop">
+                                    <strong>May. 17, 2016 at 08:30 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100092">myCommunity - Intermediate - IT/TL Training</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100104">myCommunity - Site Owner</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504887&type=workshop">
+                                    <strong>Apr. 26, 2016 at 08:30 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=504897&type=workshop">
+                                    <strong>May. 20, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100093">myCommunity - Site Owner- IT/TL Training</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100126">Office 365 & OneDrive for Business</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505089&type=workshop">
+                                    <strong>Apr. 26, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100123">OneNote 2013 - Essentials</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505087&type=workshop">
+                                    <strong>Apr. 26, 2016 at 01:30 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505050&type=workshop">
+                                    <strong>May. 12, 2016 at 02:00 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505051&type=workshop">
+                                    <strong>Jun. 08, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505052&type=workshop">
+                                    <strong>Jun. 29, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505049&type=workshop">
+                                    <strong>Apr. 27, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100043">Online Phone Bill Training</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100076">Outlook 2013: Getting Organized</a></td>
+                    <td>                            Internet and Email<br />Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504900&type=workshop">
+                                    <strong>May. 19, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100066">Outlook 2013: Getting Started</a></td>
+                    <td>                            Internet and Email<br />Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504901&type=workshop">
+                                    <strong>May. 05, 2016 at 03:00 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100081">Pivot Profiles and Funding Searches</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100058">Policy Library Contributor Training</a></td>
+                    <td>                            IT Technical<br />Web Authoring                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100019">Professional Record Online (PRO)</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100003">Proteus Training</a></td>
+                    <td>                            IT Technical                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100098">Quick Learn Series</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505028&type=workshop">
+                                    <strong>May. 04, 2016 at 11:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100063">Research for Comprehensive Exams, Theses & Dissertations</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100015">Respondus 4.0</a></td>
+                    <td>                            Blackboard<br />Educational Technology                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100129">School of Ed Training - Excel 2011 for Mac - Essentials</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505104&type=workshop">
+                                    <strong>Apr. 28, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100121">Skype for Business - Phone Service Basics (PC)</a></td>
+                    <td>                            Computing Basics<br />Internet and Email<br />Office Productivity                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505024&type=workshop">
+                                    <strong>Apr. 22, 2016 at 01:30 PM</strong></a>
+                                                                <br/>
+                                                            <a href="schedule.php?option=view&id=505103&type=workshop">
+                                    <strong>Apr. 26, 2016 at 01:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100062">Skype for Business 2015 - Basic Training (PC)</a></td>
+                    <td>                    </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504898&type=workshop">
+                                    <strong>May. 03, 2016 at 09:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100075">Skype for Business 2015 - Mastering Skype Meetings</a></td>
+                    <td>                            Internet and Email<br />Office Productivity<br />Professional Development                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=504899&type=workshop">
+                                    <strong>May. 20, 2016 at 10:30 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=1737">SoftChalk Create</a></td>
+                    <td>                            Blackboard<br />Educational Technology<br />Instructional Development                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505065&type=workshop">
+                                    <strong>Jun. 09, 2016 at 12:30 PM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=11025">SPSS Clinic</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=61">SPSS I: Getting Started</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=62">SPSS II: Building SPSS Skills</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=27">SPSS III: Publishing Results</a></td>
+                    <td>                            Data Analysis and Statistics                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100094">SSC - SPC and myCommunity Training - Data Entry</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100095">SSC - SPC and myCommunity Training - Data Reviewer</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100112">SSC NIBS Working Budget Transfer Training</a></td>
+                    <td>                            Office Productivity                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100061">Thesis and Dissertation Format & Submit Open Lab</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100064">Tips and Tools in support of Theses & Dissertations</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100078">Using Blackboard Collaborate</a></td>
+                    <td>                            Blackboard<br />Instructional Development<br />Multimedia                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100037">VoiceThread</a></td>
+                    <td>                            Blackboard<br />Educational Technology<br />Instructional Development<br />Multimedia                                            </td>
+                    <td>
+                                                                                    <a href="schedule.php?option=view&id=505064&type=workshop">
+                                    <strong>Jun. 09, 2016 at 10:00 AM</strong></a>
+                                                                <br/>
+                                                                        </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100127">WebSpace Inventory Training (Mandatory)</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=100128">WebSpace Survey Training (Mandatory)</a></td>
+                    <td>                    </td>
+                    <td>
+                                            </td>
+                </tr>
+                                                <tr>
+                    <td><a href="?option=details&id=9863">Zotero: Citing your Sources</a></td>
+                    <td>                            Research and Libraries                                            </td>
+                    <td>
+                                            </td>
+                </tr>
+                                </tbody>
+        </table>
+    </div>
+
+</div>
+        </section> <!-- End Main Content -->
+    </div> <!-- End Row -->
+</section> <!-- End Page Content -->
+<section id="page-footer">
+    <section id="unit-footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-xxs-6">
+                    <div class="title">
+                        <a href="//www.ku.edu/about/contact/">
+                            Contact The University of Kansas                        </a>
+                    </div>
+                    <div class="contactdetails">
+                        <address>
+                            1450 Jayhawk Blvd.<br>
+                            Lawrence, KS 66045<br>
+                            <span class="ku-phone"><a href="tel:+17858642700">785-864-2700</a></span>
+                        </address>
+                    </div>
+                </section>
+                <section class="col-xxs-6 text-right hidden-print">
+                    <a class="ku-icon ku-icon-twitter" href="http://twitter.com/KUNews" title="Twitter">Twitter Icon</a>
+                    <a class="ku-icon ku-icon-googleplus" href="https://plus.google.com/+universityofkansas" title="Google Plus">Google Plus Icon</a>
+                    <a class="ku-icon ku-icon-facebook" href="http://www.facebook.com/KU" title="Facebook">Facebook Icon</a>
+                    <a class="ku-icon ku-icon-linkedin" href="http://www.linkedin.com/edu/the-university-of-kansas-18385" title="Linked in">Linked in Icon</a>
+                    <a class="ku-icon ku-icon-instagram" href="http://instagram.com/universityofkansas" title="Instagram">Instagram Icon</a>
+                    <a class="ku-icon ku-icon-youtube" href="http://www.youtube.com/KU" title="YouTube">YouTube Icon</a>
+                    <a href="http://connect.ku.edu">All social media at KU &raquo;</a>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id="ku-footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-xxs-6 col-md-4 hidden-print">
+                    <a href="http://www.ku.edu/"><img src="//www.ku.edu/assets/ku-template/images/ku_sig_logo.png" width="167" height="40" alt="KU signature" title="The University of Kansas"></a>
+                </section>
+                <section class="col-xxs-6 col-md-4 text-center">
+                    <p><img id="ku_footer_jayhawk" src="//www.ku.edu/assets/ku-template/images/ku_jayhawk.png" width="56" height="50" alt="Jayhawk icon"></p>
+                </section>
+                <section class="col-xxs-12 col-md-4 hidden-print">
+                    <ul>
+                        <li><a href="http://ku.edu/academics/" title="KU Academics">Academics</a></li>
+                        <li><a href="http://ku.edu/admissions/" title="KU Admissions">Admissions</a></li>
+                        <li><a href="http://www.kualumni.org/" title="Alumni information">Alumni</a></li>
+                        <li><a href="http://www.kuathletics.com/" title="KU Athletics">Athletics</a></li>
+                        <li><a href="http://www.ku.edu/about/campuses/" title="Campus information for KU">Campuses</a></li>
+                        <li><a href="http://www.ku.edu/contact/" title="Contact KU">Contacts</a></li>
+                        <li><a href="http://www.kuendowment.org/" title="Give back through KU Endowment">Giving</a></li>
+                        <li><a href="http://employment.ku.edu" title="Find employment at KU">Jobs</a></li>
+                        <li><a href="http://maps.ku.edu" title="KU Maps">Maps</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row">
+                <footer class="col-xxs-12 col-md-10 col-md-offset-1 text-center" id="ioa-statement">
+                    <p>
+                        The University of Kansas <a href='https://documents.ku.edu/policies/IOA/Nondiscrimination.htm'>prohibits discrimination</a> on the basis of race, color, ethnicity, religion, sex, national origin, age, ancestry, disability, status as a veteran, sexual orientation, marital status, parental status, retaliation, gender identity, gender expression and genetic information in the University&#8217;s programs and activities. The following person has been designated to handle inquiries regarding the non-discrimination policies and is the University&#8217;s Title IX Coordinator: the Executive Director of the Office of Institutional Opportunity and Access, <a href="mailto:ioa@ku.edu" style='color:#ccc'>IOA@ku.edu</a>, 1246 W. Campus Road, Room 153A, Lawrence, KS, 66045, (785)864-6414, 711 TTY.
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </section>
+</section>
+
+</body>
+</html>

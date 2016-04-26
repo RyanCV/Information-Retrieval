@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+            <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+            <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+            <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+            <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+            <head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="origin" name="referrer">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="/themes/Mirage2/images/favicon.ico">
+<link rel="apple-touch-icon" href="/themes/Mirage2/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 5.4">
+<link href="/themes/Mirage2/styles/main.css" rel="stylesheet">
+<link type="application/rss+xml" rel="alternate" href="/feed/rss_1.0/site">
+<link type="application/rss+xml" rel="alternate" href="/feed/rss_2.0/site">
+<link type="application/atom+xml" rel="alternate" href="/feed/atom_1.0/site">
+<link type="application/opensearchdescription+xml" rel="search" href="https://kuscholarworks.ku.edu:443/open-search/description.xml" title="DSpace">
+<script>
+                //Clear default text of emty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of emty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+            </script><!--[if lt IE 9]>
+                <script src="/themes/Mirage2/vendor/html5shiv/dist/html5shiv.js"> </script>
+                <script src="/themes/Mirage2/vendor/respond/dest/respond.min.js"> </script>
+                <![endif]--><script src="/themes/Mirage2/vendor/modernizr/modernizr.js"> </script>
+<title>KU ScholarWorks</title>
+<script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({
+                      tex2jax: {
+                        inlineMath: [['$','$'], ['\\(','\\)']],
+                        ignoreClass: "detail-field-data|detailtable|exception"
+                      },
+                      TeX: {
+                        Macros: {
+                          AA: '{\\mathring A}'
+                        }
+                      }
+                    });
+                </script><script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"> </script>
+</head><body>
+<header>
+<div class="container_KU_top">
+<div class="top-link"></div>
+</div>
+<div role="navigation" class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="hero-unit">
+<div class="header-logo"></div>
+</div>
+<div class="header-link">
+<a href="https://kuscholarworks.ku.edu">
+<p>KU ScholarWorks</p>
+</a>
+</div>
+<div class="navbar-header">
+<div class="container_KU">
+<div class="top-link">
+<ul>
+<li>
+<a href="https://portal.ku.edu/"><span class="banner">myKU</span></a>
+</li>
+<li>
+<a href="https://mail.ku.edu/"><span class="banner">Email</span></a>
+</li>
+<li>
+<a href="https://sa.ku.edu/"><span class="banner">Enroll &amp; Pay</span></a>
+</li>
+<li id="ku-directory-button">
+<a href="http://www.ku.edu/directory"><span class="banner">KU Directory</span></a>
+</li>
+</ul>
+</div>
+</div>
+<button data-toggle="offcanvas" class="navbar-toggle" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+<div class="navbar-header pull-right visible-xs hidden-sm hidden-md hidden-lg">
+<ul class="nav nav-pills pull-left ">
+<li>
+<form method="get" action="/login" style="display: inline">
+<button class="navbar-toggle navbar-link"><b aria-hidden="true" class="visible-xs glyphicon glyphicon-user"></b></button>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<div class="navbar-header pull-right hidden-xs">
+<ul class="nav navbar-nav pull-left"></ul>
+<ul class="nav navbar-nav pull-left">
+<li>
+<a href="/login"><span class="hidden-xs">Login</span></a>
+</li>
+</ul>
+<button type="button" class="navbar-toggle visible-sm" data-toggle="offcanvas"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+</div>
+</div>
+</header>
+<div class="trail-wrapper hidden-print">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<ul class="breadcrumb">
+<li>
+<i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+            KU ScholarWorks</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div class="container" id="main-container">
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="horizontal-slider clearfix">
+<div class="col-xs-12 col-sm-12 col-md-9 main-content">
+<div>
+<div id="file_news_div_news" class="ds-static-div primary">
+<img src="//lib.ku.edu/sites/lib.ku.edu/files/images/general/branding/KU.ScholarWorks3-850.jpg" alt=""><p class="ds-paragraph">
+                    &nbsp;
+                </p>
+<p class="ds-paragraph">KU ScholarWorks is the digital repository of the University of Kansas.   It contains scholarly work created by KU faculty, staff and students, as well as material from the University Archives. KU ScholarWorks makes important research and historical items available to a wider audience and helps assure their long-term preservation.</p>
+<p class="ds-paragraph">On February 11, 2010 the KU Faculty Senate passed a revised Open Access policy granting the University permission to deposit a copy of their scholarly work in an open access repository-- KU ScholarWorks. For more about the  policy, "how to" documents, Q&amp;A, addenda and more, please visit <a href="http://openaccess.ku.edu">Open Access @ KU.</a>
+</p>
+<p class="ds-paragraph">For information about submitting to KU ScholarWorks please contact Marianne Reed, <a href="mailto:mreed@ku.edu">mreed@ku.edu.</a> For information about KU ScholarWorks in general, please email <a href="mailto:kuscholarworks@ku.edu">kuscholarworks@ku.edu.</a>
+</p>
+<p class="ds-paragraph">
+<a href="page/about">About this Repository</a>
+</p>
+</div>
+
+<h2 class="ds-div-head page-header first-page-header">Communities in KU ScholarWorks</h2>
+<div id="aspect_artifactbrowser_CommunityBrowser_div_comunity-browser" class="ds-static-div primary">
+<p class="ds-paragraph">Select a community to browse its collections.</p>
+<div id="aspect_artifactbrowser_CommunityBrowser_referenceSet_community-browser" class="ds-static-div community-browser-wrapper">
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/978" name="community-browser-link">African and African-American Studies</a> [12]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/9929" name="community-browser-link">American Studies</a> [166]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/118" name="community-browser-link">Anthropology</a> [258]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/84" name="community-browser-link">Applied Behavioral Science</a> [159]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1666" name="community-browser-link">Architecture, Design and Planning</a> [92]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/8675" name="community-browser-link">Archives Online</a> [714]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1029" name="community-browser-link">Art History</a> [49]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/7799" name="community-browser-link">Arts, School of the</a> [157]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/7165" name="community-browser-link">Books @ KU</a> [323]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1069" name="community-browser-link">Center for East Asian Studies</a> [725]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/907" name="community-browser-link">Center for Environmentally Beneficial Catalysis </a> [3]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/7105" name="community-browser-link">Center for Latin American &amp; Caribbean Studies</a> [690]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/13529" name="community-browser-link">Center for Public Partnerships and Research</a> [16]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/3892" name="community-browser-link">Center for Research on Learning</a> [256]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/5894" name="community-browser-link">Center for Russian, East European and Eurasian Studies</a> [584]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/224" name="community-browser-link">Center for Teaching Excellence</a> [91]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/97" name="community-browser-link">Chemistry</a> [429]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1776" name="community-browser-link">Classics</a> [192]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/5634" name="community-browser-link">Communication Studies</a> [213]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1260" name="community-browser-link">Dissertations and Theses</a> [4625]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/8219" name="community-browser-link">Distinguished Professors at the University of Kansas</a> [919]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/9295" name="community-browser-link">East Asian Languages &amp; Cultures</a> [46]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/4471" name="community-browser-link">Ecology and Evolutionary Biology</a> [1140]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/291" name="community-browser-link">Economics</a> [203]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/267" name="community-browser-link">Education</a> [709]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/231" name="community-browser-link">Engineering</a> [1205]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/592" name="community-browser-link">Engineering Management</a> [226]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/979" name="community-browser-link">English</a> [477]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/8717" name="community-browser-link">Environmental Studies Program</a> [37]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/11153" name="community-browser-link">European Studies Program</a> [87]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/12365" name="community-browser-link">French and Italian Languages and Literatures</a> [32]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1483" name="community-browser-link">Geographic Information Systems</a> [169]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1815" name="community-browser-link">Geography &amp; Atmospheric Science</a> [233]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/87" name="community-browser-link">Geology</a> [277]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/408" name="community-browser-link">Germanic Languages and Literatures</a> [87]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1049" name="community-browser-link">GPEN 2006 Conference</a> [64]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/9932" name="community-browser-link">Hall Center for the Humanities</a> [1]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/776" name="community-browser-link">History</a> [169]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/17274" name="community-browser-link">Humanities and Western Civilization</a> [5]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/5724" name="community-browser-link">Indigenous Studies</a> [125]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/6210" name="community-browser-link">Information Technology</a> [3]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/284" name="community-browser-link">Information &amp; Telecommunication Technology Center</a> [3]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/54" name="community-browser-link">Institute for Policy &amp; Social Research</a> [60]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/10884" name="community-browser-link">Institute of Haitian Studies</a> [67]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/363" name="community-browser-link">Jewish Studies</a> [3]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/913" name="community-browser-link">Journalism and Mass Communications</a> [54]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/7115" name="community-browser-link">Kansas African Studies Center</a> [269]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/11097" name="community-browser-link">Kansas Anti-Slavery and Human Trafficking Initiative (KASHTI)</a> [1]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/19777" name="community-browser-link">Kansas Collection Online</a> [0]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/9053" name="community-browser-link">KU &amp; the Community: Partners in Scholarship</a> [15]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/16449" name="community-browser-link">Languages, Literatures &amp; Cultures, School of</a> [135]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/748" name="community-browser-link">Law</a> [923]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/21" name="community-browser-link">Libraries</a> [416]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/238" name="community-browser-link">Life Span Institute</a> [135]<p class="ds-paragraph hidden-xs">The Schiefelbusch Institute for Life Span Studies at the University of Kansas</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/275" name="community-browser-link">Linguistics</a> [500]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/263" name="community-browser-link">Mathematics</a> [284]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/100" name="community-browser-link">Medicinal Chemistry</a> [95]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/9961" name="community-browser-link">Middle East Studies</a> [42]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/5423" name="community-browser-link">Molecular Biosciences</a> [452]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/8837" name="community-browser-link">Music, School of</a> [132]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/984" name="community-browser-link">Natural History Museum and Biodiversity Institute</a> [224]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/56" name="community-browser-link">Office of the Provost</a> [95]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/11673" name="community-browser-link">Open Access Fund at The University of Kansas</a> [54]<p class="ds-paragraph hidden-xs">This community holds works funded by the KU One-University Open Access Fund</p>
+</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/5329" name="community-browser-link">Oral Histories and Interviews</a> [106]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/2088" name="community-browser-link">Paleontological Institute</a> [238]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/80" name="community-browser-link">Pharmaceutical Chemistry</a> [145]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/981" name="community-browser-link">Pharmacy</a> [196]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/96" name="community-browser-link">Philosophy</a> [636]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/109" name="community-browser-link">Physics and Astronomy</a> [859]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/234" name="community-browser-link">Political Science</a> [113]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/89" name="community-browser-link">Psychology</a> [358]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/594" name="community-browser-link">Public Affairs and Administration</a> [71]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/466" name="community-browser-link">Religious Studies</a> [139]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/18977" name="community-browser-link">Research Centers</a> [51]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/6080" name="community-browser-link">Research, Office of</a> [4]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/60" name="community-browser-link">School of Business</a> [202]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/735" name="community-browser-link">Slavic Languages and Literatures</a> [452]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/287" name="community-browser-link">Social Welfare</a> [91]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/82" name="community-browser-link">Sociology</a> [741]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/2076" name="community-browser-link">Spanish and Portuguese</a> [81]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/774" name="community-browser-link">Speech-Language-Hearing</a> [111]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/6803" name="community-browser-link">Spencer Museum of Art</a> [4]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/5284" name="community-browser-link">Temporary</a> [0]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/12535" name="community-browser-link">Undergraduate Research at KU</a> [125]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/197" name="community-browser-link">University of Kansas Medical Center</a> [139]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1336" name="community-browser-link">University of Kansas Sigma Xi Chapter</a> [1]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/1811" name="community-browser-link">University Press of Kansas</a> [16]</div>
+</div>
+<div class="ds-static-div row community-browser-row odd-community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/8721" name="community-browser-link">Women, Gender and Sexuality Studies</a> [4]</div>
+</div>
+<div class="ds-static-div row community-browser-row">
+<div class="ds-static-div col-xs-10 col-sm-12 col-sm-offset-0 list-mode">
+<a href="/handle/1808/6204" name="community-browser-link">Writing Center</a> [6]</div>
+</div>
+</div>
+</div>
+<div id="aspect_discovery_SiteRecentSubmissions_div_site-home" class="ds-static-div primary repository">
+<h2 class="ds-div-head page-header">Recently Added</h2>
+<div id="aspect_discovery_SiteRecentSubmissions_div_site-recent-submission" class="ds-static-div secondary recent-submission">
+<ul class="ds-artifact-list list-unstyled">
+<!-- External Metadata URL: cocoon://metadata/handle/1808/20578/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item odd">
+<div class="item-wrapper row">
+<div class="col-sm-3 hidden-xs">
+<div class="thumbnail artifact-preview">
+<a href="/handle/1808/20578" class="image-link"><img alt="Thumbnail" class="img-responsive" src="/bitstream/handle/1808/20578/engel_review.pdf.jpg?sequence=3&isAllowed=y"></a>
+</div>
+</div>
+<div class="col-sm-9">
+<div class="artifact-description">
+<h4 class="artifact-title">
+<a href="/handle/1808/20578">A review of the genera and subgenera of Oxaeinae (Hymenoptera: Andrenidae)</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Engel%2C+Michael+S.+%22A+Review+of+the+Genera+and+Subgenera+of+Oxaeinae+%28Hymenoptera%3A+Andrenidae%29.%22+Journal+of+Melittology+J.+Melittol.+52+%282015%29%3A+1.+http%3A%2F%2Fdx.doi.org%2F10.17161%2Fjom.v0i52.4902&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F1808%2F20578&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</h4>
+<div class="artifact-info">
+<span class="author h4"><small><span>Engel, Michael S.</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">University of Kansas</span>, <span class="date">2015</span>)</small></span>
+</div>
+<div class="artifact-abstract">The supraspecific groups of the bee subfamily Oxaeinae are briefly reviewed and a revised classification proposed.  The following new groups are established: Mesoxaea (Heteroxaea) Engel, new subgenus; Oxaea (Rhodoxaea) ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/1808/20577/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item even">
+<div class="item-wrapper row">
+<div class="col-sm-3 hidden-xs">
+<div class="thumbnail artifact-preview">
+<a href="/handle/1808/20577" class="image-link"><img alt="Thumbnail" class="img-responsive" src="/bitstream/handle/1808/20577/engel_giant.pdf.jpg?sequence=3&isAllowed=y"></a>
+</div>
+</div>
+<div class="col-sm-9">
+<div class="artifact-description">
+<h4 class="artifact-title">
+<a href="/handle/1808/20577">A giant termite of the genus Gyatermes from the late Miocene of Nagano Prefecture, Japan (Isoptera)</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Engel%2C+Michael+S.%2C+and+Toshiaki+Tanaka.+%22A+Giant+Termite+of+the+Genus+Gyatermes+from+the+Late+Miocene+of+Nagano+Prefecture%2C+Japan+%28Isoptera%29.%22+Novit.+Paleoentomol.+Novitates+Paleoentomologicae+10+%282015%29%3A+1.+http%3A%2F%2Fdx.doi.org%2F10.17161%2Fnp.v0i10.4900&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F1808%2F20577&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</h4>
+<div class="artifact-info">
+<span class="author h4"><small><span>Engel, Michael S.</span>; <span>Tanaka, Toshiaki</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">University of Kansas</span>, <span class="date">2015</span>)</small></span>
+</div>
+<div class="artifact-abstract">A new species of the termite genus Gyatermes Engel &amp; Gross (Archotermopsidae) is described and figured from a beautifully preserved forewing in late Neogene sediments of Nagano Prefecture, central Japan.  The approximately ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/1808/20576/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item odd">
+<div class="item-wrapper row">
+<div class="col-sm-3 hidden-xs">
+<div class="thumbnail artifact-preview">
+<a href="/handle/1808/20576" class="image-link"><img alt="Thumbnail" class="img-responsive" src="/bitstream/handle/1808/20576/engel_notes.pdf.jpg?sequence=3&isAllowed=y"></a>
+</div>
+</div>
+<div class="col-sm-9">
+<div class="artifact-description">
+<h4 class="artifact-title">
+<a href="/handle/1808/20576">Notes on family-group names for bees (Hymenoptera: Apoidea)</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Engel%2C+Michael+S.+%22Notes+on+Family-group+Names+for+Bees+%28Hymenoptera%3A+Apoidea%29.%22+Journal+of+Melittology+J.+Melittol.+46+%282015%29%3A+1+http%3A%2F%2Fdx.doi.org%2F10.17161%2Fjom.v0i46.4839&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F1808%2F20576&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</h4>
+<div class="artifact-info">
+<span class="author h4"><small><span>Engel, Michael S.</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">University of Kansas</span>, <span class="date">2015</span>)</small></span>
+</div>
+<div class="artifact-abstract">Corrected authorships and dates are provided for four family-group names for bees based on previously unrecognized earlier usages that made them nomenclatorially available.  Sagemehl is newly recognized as the author of ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/1808/20575/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item even">
+<div class="item-wrapper row">
+<div class="col-sm-3 hidden-xs">
+<div class="thumbnail artifact-preview">
+<a href="/handle/1808/20575" class="image-link"><img alt="Thumbnail" class="img-responsive" src="/bitstream/handle/1808/20575/engel_another.pdf.jpg?sequence=3&isAllowed=y"></a>
+</div>
+</div>
+<div class="col-sm-9">
+<div class="artifact-description">
+<h4 class="artifact-title">
+<a href="/handle/1808/20575">Another year of growth for the Journal of Melittology</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Engel%2C+Michael+S.%2C+Victor+H.+Gonzalez%2C+Ismael+A.+Hinojosa-D%C3%ADaz%2C+and+Charles+D.+Michener.+%22Another+Year+of+Growth+for+the+Journal+of+Melittology.%22+Journal+of+Melittology+J.+Melittol.+0.45+%282015%29%3A+n.+pag.http%3A%2F%2Fdx.doi.org%2F10.17161%2Fjom.v0i45.4838&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F1808%2F20575&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</h4>
+<div class="artifact-info">
+<span class="author h4"><small><span>Engel, Michael S.</span>; <span>Gonzalez, Victor</span>; <span>Hinojosa-Diaz, Ismael A.</span>; <span>Michener, Charles D.</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">University of Kansas</span>, <span class="date">2015</span>)</small></span>
+</div>
+<div class="artifact-abstract">A brief overview of the accomplishments of the Journal of Melittology during its second full year of activity is provided. A total of 18 articles comprising 283 pages were published, covering topics as varied as male ...</div>
+</div>
+</div>
+</div>
+</li>
+<!-- External Metadata URL: cocoon://metadata/handle/1808/20574/mets.xml?sections=dmdSec,fileSec&fileGrpTypes=THUMBNAIL-->
+<li class="ds-artifact-item odd">
+<div class="item-wrapper row">
+<div class="col-sm-3 hidden-xs">
+<div class="thumbnail artifact-preview">
+<a href="/handle/1808/20574" class="image-link"><img alt="Thumbnail" class="img-responsive" src="/bitstream/handle/1808/20574/engel_orchid.pdf.jpg?sequence=3&isAllowed=y"></a>
+</div>
+</div>
+<div class="col-sm-9">
+<div class="artifact-description">
+<h4 class="artifact-title">
+<a href="/handle/1808/20574">Revision of the orchid bee subgenus Euglossella (Hymenoptera: Apidae), part II: The viridis and mandibularis species groups</a><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=Hinojosa-D%C3%ADaz%2C+Ismael+A.%2C+and+Michael+S.+Engel.+%22Revision+of+the+Orchid+Bee+Subgenus+Euglossella+%28Hymenoptera%3A+Apidae%29%2C+Part+II%3A+The+viridis+and+mandibularis+Species+Groups.%22+Journal+of+Melittology+J.+Melittol.+0.36+%282014%29%3A+n.+pag.+http%3A%2F%2Fdx.doi.org%2F10.17161%2Fjom.v0i36.4777&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F1808%2F20574&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;">
+                    ﻿ 
+                </span>
+</h4>
+<div class="artifact-info">
+<span class="author h4"><small><span>Hinojosa-Diaz, Ismael A.</span>; <span>Engel, Michael S.</span></small></span> <span class="publisher-date h4"><small>(<span class="publisher">University of Kansas</span>, <span class="date">2014</span>)</small></span>
+</div>
+<div class="artifact-abstract">The second and final part of a revision of the subgenus Euglossella Moure in the orchid bee genus Euglossa Latreille (Apinae: Euglossini) is presented here, redefining the species groups within it to comply with current ...</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<p id="aspect_discovery_SiteRecentSubmissions_p_recent-submission-view-more" class="ds-paragraph recentSubmissionViewMore">
+<a href="/recent-submissions">View more</a>
+</p>
+</div>
+</div>
+</div>
+<div class="visible-xs visible-sm">
+<footer>
+<div class="container">
+<div class="row">
+<hr>
+<div class="col-xs-7 col-sm-8">
+<div class="contact">
+<a target="_blank" href="http://openaccess.ku.edu/contact">Contact KU ScholarWorks</a>
+</div>
+</div>
+<div class="contactdetails">
+<div class="emailphone">
+<div class="ku_email">
+<a href="mailto:"></a>
+</div>
+<div class="ku_phone">785-864-8983</div>
+</div>
+<address>KU Libraries<br>1425 Jayhawk Blvd</br>Lawrence, KS 66045</address>
+</div>
+<div class="contactdetails_small">
+<div class="emailphone">
+<div class="ku_email">
+<a href="mailto:"></a>
+</div>
+<div class="ku_phone">785-864-8983</div>
+</div>
+<address>
+<br>KU Libraries<br>1425 Jayhawk Blvd</br>Lawrence, KS 66045</address>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+<p>&nbsp;</p>
+</div>
+</footer>
+</div>
+</div>
+<div role="navigation" id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+<div class="word-break hidden-print" id="ds-options">
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" class="" id="ds-search-form" action="/discover">
+<fieldset>
+<div class="input-group">
+<input placeholder="Search" type="text" class="ds-text-field form-control" name="query"><span class="input-group-btn"><button title="Go" class="ds-button-field btn btn-primary"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></button></span>
+</div>
+</fieldset>
+</form>
+</div>
+<div id="aspect_viewArtifacts_Navigation_list_context" class="list-group"></div>
+<div id="aspect_viewArtifacts_Navigation_list_administrative" class="list-group"></div>
+<h2 class="ds-option-set-head  h6">Browse</h2>
+<div id="aspect_viewArtifacts_Navigation_list_browse" class="list-group">
+<a class="list-group-item active"><span class="h5 list-group-item-heading  h5">All of KU ScholarWorks</span></a><a href="/community-list" class="list-group-item ds-option">Communities &amp; Collections</a>
+</div>
+<h2 class="ds-option-set-head  h6">Discover</h2>
+<div id="aspect_discovery_Navigation_list_discovery" class="list-group">
+<a class="list-group-item active"><span class="h5 list-group-item-heading  h5">Author</span></a><a href="/discover?filtertype=author&filter_relational_operator=equals&filter=Baringer%2C+Philip+S." class="list-group-item ds-option">Baringer, Philip S. (530)</a><a href="/discover?filtertype=author&filter_relational_operator=equals&filter=Bean%2C+Alice" class="list-group-item ds-option">Bean, Alice (431)</a><a href="/discover?filtertype=author&filter_relational_operator=equals&filter=Hacker%2C+Randi" class="list-group-item ds-option">Hacker, Randi (311)</a><a href="/discover?filtertype=author&filter_relational_operator=equals&filter=Wilson%2C+Graham+Wallace" class="list-group-item ds-option">Wilson, Graham Wallace (268)</a><a href="/discover?filtertype=author&filter_relational_operator=equals&filter=Coppage%2C+Don" class="list-group-item ds-option">Coppage, Don (201)</a><a href="/search-filter?field=author" class="list-group-item ds-option">... View More</a><a class="list-group-item active"><span class="h5 list-group-item-heading  h5">Subject</span></a><a href="/discover?filtertype=subject&filter_relational_operator=equals&filter=Biology" class="list-group-item ds-option">Biology (157)</a><a href="/discover?filtertype=subject&filter_relational_operator=equals&filter=GIS+Day" class="list-group-item ds-option">GIS Day (146)</a><a href="/discover?filtertype=subject&filter_relational_operator=equals&filter=China" class="list-group-item ds-option">China (144)</a><a href="/discover?filtertype=subject&filter_relational_operator=equals&filter=Education" class="list-group-item ds-option">Education (143)</a><a href="/discover?filtertype=subject&filter_relational_operator=equals&filter=Music" class="list-group-item ds-option">Music (137)</a><a href="/search-filter?field=subject" class="list-group-item ds-option">... View More</a><a class="list-group-item active"><span class="h5 list-group-item-heading  h5">Title</span></a><a href="/discover?filtertype=title&filter_relational_operator=equals&filter=Mid-American+Review+of+Sociology%2C+Volume+3%2C+Number+1+%28SPRING%2C+1978%29%3A+Book+Review" class="list-group-item ds-option">Mid-American Review of Sociology, Volume 3, Number 1 (SPRING, 1978): Book Review (9)</a><a href="/discover?filtertype=title&filter_relational_operator=equals&filter=Mid-American+Review+of+Sociology%2C+Volume+7%2C+Number+1+%28SPRING%2C+1982%29%3A+Book+Review" class="list-group-item ds-option">Mid-American Review of Sociology, Volume 7, Number 1 (SPRING, 1982): Book Review (9)</a><a href="/discover?filtertype=title&filter_relational_operator=equals&filter=MPA+Final+Essay" class="list-group-item ds-option">MPA Final Essay (7)</a><a href="/discover?filtertype=title&filter_relational_operator=equals&filter=Mid-American+Review+of+Sociology%2C+Volume+3%2C+Number+2+%28WINTER%2C+1978%29%3A+Book+Review" class="list-group-item ds-option">Mid-American Review of Sociology, Volume 3, Number 2 (WINTER, 1978): Book Review (6)</a><a href="/discover?filtertype=title&filter_relational_operator=equals&filter=Mid-American+Review+of+Sociology%2C+Volume+8%2C+Number+2+%28WINTER%2C+1983%29%3A+Book+Review" class="list-group-item ds-option">Mid-American Review of Sociology, Volume 8, Number 2 (WINTER, 1983): Book Review (6)</a><a href="/search-filter?field=title" class="list-group-item ds-option">... View More</a><a class="list-group-item active"><span class="h5 list-group-item-heading  h5">Date Issued</span></a><a href="/discover?filtertype=dateIssued&filter_relational_operator=equals&filter=%5B2000+TO+2017%5D" class="list-group-item ds-option">2000 - 2017 (11831)</a><a href="/discover?filtertype=dateIssued&filter_relational_operator=equals&filter=%5B1900+TO+1999%5D" class="list-group-item ds-option">1900 - 1999 (4901)</a><a href="/discover?filtertype=dateIssued&filter_relational_operator=equals&filter=%5B1858+TO+1899%5D" class="list-group-item ds-option">1858 - 1899 (71)</a>
+</div>
+<h2 class="ds-option-set-head  h6">My Account</h2>
+<div id="aspect_viewArtifacts_Navigation_list_account" class="list-group">
+<a href="/login" class="list-group-item ds-option">Login</a><a href="/register" class="list-group-item ds-option">Register</a>
+</div>
+<h2 class="ds-option-set-head  h6">Statistics</h2>
+<div id="aspect_statistics_Navigation_list_statistics" class="list-group">
+<a href="/statistics-home" class="list-group-item ds-option">View Usage Statistics</a><a href="/search-statistics" class="list-group-item ds-option">View Search Statistics</a><a href="/workflow-statistics" class="list-group-item ds-option">View Workflow Statistics</a>
+</div>
+<div>
+<h2 class="ds-option-set-head h6">RSS Feeds</h2>
+<div class="ds-option-set list-group" id="ds-feed-option">
+<a class="list-group-item" href="/feed/rss_1.0/site"><img alt="feed" class="btn-xs" src="/static/icons/feed.png">RSS 1.0</a><a class="list-group-item" href="/feed/rss_2.0/site"><img alt="feed" class="btn-xs" src="/static/icons/feed.png">RSS 2.0</a><a class="list-group-item" href="/feed/atom_1.0/site"><img alt="feed" class="btn-xs" src="/static/icons/feed.png">Atom</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs hidden-sm">
+<footer>
+<div class="container">
+<div class="row">
+<hr>
+<div class="col-xs-7 col-sm-8">
+<div class="contact">
+<a target="_blank" href="http://openaccess.ku.edu/contact">Contact KU ScholarWorks</a>
+</div>
+</div>
+<div class="contactdetails">
+<div class="emailphone">
+<div class="ku_email">
+<a href="mailto:"></a>
+</div>
+<div class="ku_phone">785-864-8983</div>
+</div>
+<address>KU Libraries<br>1425 Jayhawk Blvd</br>Lawrence, KS 66045</address>
+</div>
+<div class="contactdetails_small">
+<div class="emailphone">
+<div class="ku_email">
+<a href="mailto:"></a>
+</div>
+<div class="ku_phone">785-864-8983</div>
+</div>
+<address>
+<br>KU Libraries<br>1425 Jayhawk Blvd</br>Lawrence, KS 66045</address>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+<p>&nbsp;</p>
+</div>
+</footer>
+</div>
+<div class="footer_KU">
+<div class="container">
+<div>
+<div class="footer_ku_logo">
+<a title="The University of Kansas" href="http://www.ku.edu/"><img src="/themes/Mirage2_precompiled/images/ku_sig_logo.png"></a>
+</div>
+</div>
+<div>
+<span class="third_block">&nbsp;
+                        <a title="Contact KU ScholarWorks" href="http://openaccess.ku.edu/contact" class="static-kufooter-contact">Contact KU ScholarWorks</a>
+<br>
+<span class="place">Lawrence, KS | </span><a title="KU Maps" href="http://admissions.ku.edu/visit/maps.shtml" class="static-kufooter-contact">Maps</a></span>
+</div>
+<div class="footer_inner_KU">
+<div>
+<span class="footer_ku_hawk_logo">&nbsp;</span>
+</div>
+<ul>
+<li>
+<a href="http://ku.edu/academics/"><span class="footer_banner">Academics</span></a>
+</li>
+<li>
+<a href="http://admissions.ku.edu/"><span class="footer_banner">Admission</span></a>
+</li>
+<li>
+<a href="http://www.kualumni.org/"><span class="footer_banner">Alumni</span></a>
+</li>
+<li>
+<a href="http://www.kuathletics.com/"><span class="footer_banner">Athletics</span></a>
+</li>
+<li>
+<a href="http://www.ku.edu/about/campuses/"><span class="footer_banner">Campuses</span></a>
+</li>
+<li>
+<a href="http://www.kuendowment.org/"><span class="footer_banner">Giving</span></a>
+</li>
+<li>
+<a href="http://employment.ku.edu/"><span class="footer_banner">Jobs</span></a>
+</li>
+</ul>
+<div class="content clearfix">
+<p>
+                            The University of Kansas <a href="https://documents.ku.edu/policies/IOA/Nondiscrimination.htm">prohibits discrimination</a> on the basis of race, color, ethnicity, religion, sex, national origin, age, ancestry, disability, status as a veteran, sexual orientation, marital status, parental status, gender identity, gender expression and genetic information in the University&rsquo;s programs and activities.  The following person has been designated to handle inquiries regarding the non-discrimination policies: Director of the Office of Institutional Opportunity and Access, <a style="color:#ccc" href="mailto:ioa@ku.edu">IOA@ku.edu</a>, 1246 W. Campus Road, Room 153A, Lawrence, KS, 66045, (785)864-6414, 711 TTY.
+                        </p>
+</div>
+</div>
+<div>
+<span class="footer_ku_logo_move_down1">&nbsp;</span><span class="footer_ku_logo_move_down2"><a title="Contact KU" href="http://www.ku.edu/contact/">Contact KU</a>
+<br>
+<span class="place">Lawrence, KS | </span><a title="KU Maps" href="http://admissions.ku.edu/visit/maps.shtml">Maps</a></span>
+</div>
+</div>
+</div>
+<script>if(!window.DSpace){window.DSpace={};}window.DSpace.context_path='';window.DSpace.theme_path='/themes/Mirage2/';</script><script src="/themes/Mirage2/scripts/theme.js"> </script><script>
+                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                  ga('create', 'UA-9718539-12', 'kuscholarworks.ku.edu');
+                  ga('send', 'pageview');
+           </script>
+</body></html>

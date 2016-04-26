@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  &bull; Technology Training Workshops &bull; The University of Kansas</title>
+    <link rel="stylesheet" type="text/css" href="assets/ku-template/css/second-level.css" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/ku-template/css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/infotrain.css" media="all">
+    <link rel="stylesheet" type="text/css" href="//webmedia.ku.edu/js/jqueryplugins/fancybox/2.1.5/source/jquery.fancybox.css"/>
+    <link rel="stylesheet" type="text/css" href="//webmedia.ku.edu/js/jqueryplugins/DataTables-1.9.4/media/css/demo_table_jui.css"/>
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/themes/smoothness/jquery-ui.css"/>
+    <script src="assets/ku-template/js/yepnope.min.js"></script>
+    <!-- jQuery specified in header.html -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/lms.js" type="text/javascript"></script>
+    <script src="js/timepicker.js" type="text/javascript"></script>
+    <script src="//webmedia.ku.edu/js/jqueryplugins/fancybox/2.1.5/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="//www.ku.edu/assets/ku-template/css/ie8.css" media="all">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://webmedia.ku.edu/js/ie6/fixed-warning.js"></script>
+    <script>window.onload = function () {
+        ieWarning();
+    }</script>
+    <![endif]-->
+    
+    <script type="text/javascript" language="javascript"
+            src="//webmedia.ku.edu/js/jqueryplugins/DataTables-1.9.4/media/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript">
+        var oTable;
+        jQuery(document).ready(function () {
+            oTable = jQuery('table.datatable').dataTable({
+                "bJQueryUI": true,
+                "bPaginate": false,
+                "aaSorting": [[1, "asc"], [2, "asc"]]
+
+
+            });
+        });
+        var $kuj=jQuery.noConflict();
+    </script>
+
+</head>
+<body class="second-level second-level-nav">
+<div id="skip-link">
+    <a href="#main-content">Skip to main content</a>
+</div>
+<div id="campusalertarea"></div>
+<section id="ku-eyebrow" class="navbar hidden-print" role="banner">
+    <a id="top"></a>
+
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header col-xxs-1 col-sm-3">
+                <a id="ku-eyebrow-homelink" class="pull-left" href="http://www.ku.edu/"><span class="hidden-xs">The University of Kansas</span><span
+                        class="visible-xs">KU</span></a>
+            </div>
+            <nav class="col-xxs-11 col-sm-9">
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="https://portal.ku.edu/" title="Login to the myKU Portal">myKU</a></li>
+                    <li><a href="https://mail.ku.edu/" title="Check your email online">Email</a></li>
+                    <li><a href="https://courseware.ku.edu/" title="Login to Blackboard"><span class="hidden-xxs">Blackboard</span><span
+                                class="visible-xxs">BB</span></a></li>
+                    <li><a href="https://sa.ku.edu/" title="Login to Enroll and Pay"><span class="hidden-xxs">Enroll &amp; Pay</span><span
+                                class="visible-xxs">E&amp;P</span></a></li>
+                    <li id="ku-directory-button"><a href="/directory/" title="Open the KU Directory">KU Directory</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<section id="page-header" class="container">
+    <section id="ku-branding" class="row">
+        <header class="col-xxs-12">
+            <a href="http://www.ku.edu/" title="KU Homepage"><img src="//www.ku.edu/assets/ku-template/images/logo.png"
+                                                                  alt="KU branding logo" id="logo"></a>
+
+            <h1><a href="/~infotrain/" title="Home">Technology Training Workshops</a></h1>
+
+            <form action="http://www.ku.edu/search/" method="get" class="ku-searchbox pull-right hidden-print">
+                <fieldset>
+                    <div class="input-group">
+                        <input class="form-control" title="Enter the terms you wish to search for." type="text"
+                               id="branding-search-for" name="q" value="" size="15" maxlength="128">
+                    <span class="input-group-btn">
+                        <button type="submit" value="" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                    </div>
+                </fieldset>
+            </form>
+        </header>
+    </section>
+    <div class="row">
+        <nav id="main-menu" class="navbar navbar-default col-xxs-12 hidden-print" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle btn btn-sm" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse"><span class="sr-only">Toggle main navigation</span><span
+                        class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a class="" href="/~infotrain/">Home </a></li>
+
+                    <li class="active">
+                        <a class="" href="calendar.php"><span class="glyphicon glyphicon-calendar"></span> Workshops Calendar</a></li>
+                    <li class="">
+                        <a href="workshops.php"><span class="glyphicon glyphicon-list-alt"></span> Workshop Listing</a></li>
+                    <li class="">
+                        <a href="labs.php"><span class="glyphicon glyphicon-road"></span> Labs</a></li>
+                                            <li><a href="myaccount.php"><span class="glyphicon glyphicon-lock"></span> Login</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+
+<section id="page-content" class="container">
+    <div class="row">
+        <section id="main-content" class="col-xxs-12 col-md-12">
+<div id="workshopdetails">
+
+
+    <div class="col-md-12">
+        <h1>ETD Word: Thesis and Dissertation Formatting and Copyright</h1>
+
+        <section class="col-md-8">
+                                    <div class="row">
+                <p class="MsoNormal" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; line-height: normal;"><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;"><span style="color: windowtext;">This workshop is for graduate students at any stage of the thesis or dissertation process. </span><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">If you're just starting out, you can build your own template for future use. If you&rsquo;re nearing the end, come join us for some quick tips that will save you some time and trouble as you move forward.</span></em></span></p>
+<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal;"><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">Specific workshop topics include: </span></em></span></p>
+<ul>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">general information about the thesis/dissertation process </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">content order </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">title and acceptance pages</span></em><em style="mso-bidi-font-style: normal;"> </em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">page numbering </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">building an automatic table of contents using heading styles </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">generating a table of contents </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">captioning figures, equations, tables and more </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">embedding fonts </span></em></span></li>
+<li><span style="font-size: small;"><em><span style="font-family: 'Calibri','sans-serif'; font-style: normal;">converting to PDF</span></em><em style="mso-bidi-font-style: normal;"></em></span></li>
+</ul>
+<p class="MsoNormal"><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;">The workshop also covers the basics of copyright for grad students as scholars and teachers, including copyright considerations for theses and dissertations, and resources in the KU Libraries that can help.</span></p>
+<ul>
+<li><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;">general information about copyrights in the U.S. </span></li>
+<li><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;">copyrights and scholarly publications, including theses and dissertations</span></li>
+<li><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;">Fair Use and scholarly work</span></li>
+<li><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;">Copyright Decision Tree &ndash; Tool developed at KU to help users decide whether they are using copyrighted materials in compliance with U.S. copyright law and/or fair use</span></li>
+<li><span style="font-family: 'Calibri','sans-serif'; font-style: normal; font-size: small;">copyright services provided by the Libraries&rsquo; Shulenburger Office of Scholarly Communication &amp; Copyright</span></li>
+</ul>            </div>
+            <div class="row">
+                <div class="col-md-2">Category(s):</div>
+                <div class="col-md-10">
+                                            Thesis and Dissertation                                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Cost:</div>
+                <div class="col-md-10">No cost</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Handout:</div>
+                <div class="col-md-10">
+                                            <a href=''><p><a title="Handout" href="http://guides.lib.ku.edu/etd">http://guides.lib.ku.edu/etd</a></p>
+<p><a href="http://www.copyright.ku.edu" target="_blank">http://www.copyright.ku.edu</a></p></a>
+                                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">How-to:</div>
+                <div class="col-md-10">
+                                            No how-to documentation is available
+                                    </div>
+            </div>
+            <div class="row">
+                            </div>
+            
+                <div class="row">
+                    <hr/>
+                    <h3>Announcements</h3>
+                    Please note that an additional session of this workshop has been added on Tuesday, April 26, 10:30 a.m. in Clark Instruction Center. To register for the Tuesday workshop instead, visit: 
+
+http://webapps.ku.edu/~infotrain/schedule.php?option=view&id=505099                 </div>
+            
+        </section>
+        <aside class="col-md-4">
+            <div class="header">Course Details</div>
+
+            <div class="greybox">
+                <div class="row when">
+                    <div class="col-md-2 rlabel">When:</div>
+                    <div class="col-md-10  last value">
+                                                    <p>Apr 25, 2016<br />10:30 am - 12:00 pm<br />Watson Training Lab (WATS 419)</p>
+                                                                    </div>
+                </div>
+                <div class="row trainer">
+                    <div class="col-md-2 rlabel">Trainer:</div>
+                    <div
+                        class="col-md-10  last value">Pamela Rooks</div>
+                </div>
+                                <div class="row status">
+                    <div class="col-md-2 rlabel">Status:</div>
+                    <div class="col-md-10 last value Full">Full</div>
+                </div>
+
+                                    <hr/>
+                    <div class="row">
+                        <div class="col-md-2 rlabel">&nbsp;</div>
+                        <div class="col-md-10">
+                            <a href="register.php?id=504912" class="btn btn-info">Add
+                                me to the waiting list </a>
+                        </div>
+                    </div>
+                            </div>
+    </div>
+    </aside>
+</div>
+</div>
+        </section> <!-- End Main Content -->
+    </div> <!-- End Row -->
+</section> <!-- End Page Content -->
+<section id="page-footer">
+    <section id="unit-footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-xxs-6">
+                    <div class="title">
+                        <a href="//www.ku.edu/about/contact/">
+                            Contact The University of Kansas                        </a>
+                    </div>
+                    <div class="contactdetails">
+                        <address>
+                            1450 Jayhawk Blvd.<br>
+                            Lawrence, KS 66045<br>
+                            <span class="ku-phone"><a href="tel:+17858642700">785-864-2700</a></span>
+                        </address>
+                    </div>
+                </section>
+                <section class="col-xxs-6 text-right hidden-print">
+                    <a class="ku-icon ku-icon-twitter" href="http://twitter.com/KUNews" title="Twitter">Twitter Icon</a>
+                    <a class="ku-icon ku-icon-googleplus" href="https://plus.google.com/+universityofkansas" title="Google Plus">Google Plus Icon</a>
+                    <a class="ku-icon ku-icon-facebook" href="http://www.facebook.com/KU" title="Facebook">Facebook Icon</a>
+                    <a class="ku-icon ku-icon-linkedin" href="http://www.linkedin.com/edu/the-university-of-kansas-18385" title="Linked in">Linked in Icon</a>
+                    <a class="ku-icon ku-icon-instagram" href="http://instagram.com/universityofkansas" title="Instagram">Instagram Icon</a>
+                    <a class="ku-icon ku-icon-youtube" href="http://www.youtube.com/KU" title="YouTube">YouTube Icon</a>
+                    <a href="http://connect.ku.edu">All social media at KU &raquo;</a>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id="ku-footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-xxs-6 col-md-4 hidden-print">
+                    <a href="http://www.ku.edu/"><img src="//www.ku.edu/assets/ku-template/images/ku_sig_logo.png" width="167" height="40" alt="KU signature" title="The University of Kansas"></a>
+                </section>
+                <section class="col-xxs-6 col-md-4 text-center">
+                    <p><img id="ku_footer_jayhawk" src="//www.ku.edu/assets/ku-template/images/ku_jayhawk.png" width="56" height="50" alt="Jayhawk icon"></p>
+                </section>
+                <section class="col-xxs-12 col-md-4 hidden-print">
+                    <ul>
+                        <li><a href="http://ku.edu/academics/" title="KU Academics">Academics</a></li>
+                        <li><a href="http://ku.edu/admissions/" title="KU Admissions">Admissions</a></li>
+                        <li><a href="http://www.kualumni.org/" title="Alumni information">Alumni</a></li>
+                        <li><a href="http://www.kuathletics.com/" title="KU Athletics">Athletics</a></li>
+                        <li><a href="http://www.ku.edu/about/campuses/" title="Campus information for KU">Campuses</a></li>
+                        <li><a href="http://www.ku.edu/contact/" title="Contact KU">Contacts</a></li>
+                        <li><a href="http://www.kuendowment.org/" title="Give back through KU Endowment">Giving</a></li>
+                        <li><a href="http://employment.ku.edu" title="Find employment at KU">Jobs</a></li>
+                        <li><a href="http://maps.ku.edu" title="KU Maps">Maps</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row">
+                <footer class="col-xxs-12 col-md-10 col-md-offset-1 text-center" id="ioa-statement">
+                    <p>
+                        The University of Kansas <a href='https://documents.ku.edu/policies/IOA/Nondiscrimination.htm'>prohibits discrimination</a> on the basis of race, color, ethnicity, religion, sex, national origin, age, ancestry, disability, status as a veteran, sexual orientation, marital status, parental status, retaliation, gender identity, gender expression and genetic information in the University&#8217;s programs and activities. The following person has been designated to handle inquiries regarding the non-discrimination policies and is the University&#8217;s Title IX Coordinator: the Executive Director of the Office of Institutional Opportunity and Access, <a href="mailto:ioa@ku.edu" style='color:#ccc'>IOA@ku.edu</a>, 1246 W. Campus Road, Room 153A, Lawrence, KS, 66045, (785)864-6414, 711 TTY.
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </section>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,1500 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <head profile="http://www.w3.org/1999/xhtml/vocab">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="referrer" content="origin" /> 
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://engr.ku.edu/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="shortlink" href="http://engr.ku.edu/node/341" />
+<link rel="canonical" href="http://engr.ku.edu/undergraduate-tutoring" />
+<meta name="description" content="Academic Resources Help Room Hosted by the School of Engineering The School of Engineering provides a free help room for core courses in Math, Chemistry, Physics, Discrete Structures, and Statics &amp; Mechanics. No appointment is necessary and all options are free unless otherwise noted." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+      <title>Undergraduate Tutoring | School of Engineering </title>
+        <link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_hny2x3DwQRvoN0L9_hF1pNXZ6R0sehPFzkD454JYslw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_xCAIZ3ZlVzAm3EWBNFXhTEl50oV02_rrFlfb3g8N5Ac.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_zuzUI4krpWpPCOXWPxGaRP2_Q8kwYMzCGsIwsiGtcqM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_RVSiCJZXgmag5-ezItK0yt-RMJI6FEBih-1fHm5_Rbc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//webmedia.ku.edu/js/jqueryplugins/fancybox/1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_q1-cG5nWJ2H6cdY5qxki_uxMYdFice2J0E07_g6DwU8.css" media="all" />
+<!--<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_zfOtCRQ8jFeDKfb0kFn-sntZxzW-lu9qh-pSa-WKuAg.css" media="all" />
+<![endif]-->
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_zeOf54dBRBUvGvXs80AgUs2bskM5zMTN-DgnX835F_I.css" media="all" />
+<![endif]-->
+
+<!--[if lt IE 8]>
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/engr.ku.edu/files/css/css_YNPdRbHkO68M6KPpZWM9ZSUgpQ4sKpUp-VrdaBc5P5w.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://engr.ku.edu/sites/all/themes/ku_template_2012_3col/css/print.css?o604pc" media="print" />
+        <link rel="stylesheet" href="//webmedia.ku.edu/templates/cms/2012/common/common.css" media="all" />
+        <link rel="stylesheet" href="//webmedia.ku.edu/templates/cms/2012/3col/cms.css" media="all" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script type="text/javascript" src="http://engr.ku.edu/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://engr.ku.edu/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://engr.ku.edu/misc/drupal.js?o604pc"></script>
+<script type="text/javascript" src="//25livepub.collegenet.com/scripts/spuds.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/templates/cms/2012/common/25live.cms.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/js/jqueryplugins/cyclefull-2.9/jquery.cycle.29994.all.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/js/matchMedia/matchMedia.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/templates/cms/2012/common/ku_common.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/templates/cms/2012/common/kujq.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/js/jqueryplugins/cookie/jquery.cookie.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/templates/cms/2012/common/widgets.js"></script>
+<script type="text/javascript" src="http://engr.ku.edu/sites/all/themes/omega/omega/js/jquery.formalize.js?o604pc"></script>
+<script type="text/javascript" src="http://engr.ku.edu/sites/all/themes/omega/omega/js/omega-mediaqueries.js?o604pc"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ku_template_2012_3col","theme_token":"SlZZW1K_ZMvJTKsKn0JuwTo-OHPJIy0BnPayLXY2S-A","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/25livepub.collegenet.com\/scripts\/spuds.js":1,"\/\/webmedia.ku.edu\/templates\/cms\/2012\/common\/25live.cms.js":1,"\/\/webmedia.ku.edu\/js\/jqueryplugins\/cyclefull-2.9\/jquery.cycle.29994.all.js":1,"\/\/webmedia.ku.edu\/js\/matchMedia\/matchMedia.js":1,"\/\/webmedia.ku.edu\/templates\/cms\/2012\/common\/ku_common.js":1,"\/\/webmedia.ku.edu\/templates\/cms\/2012\/common\/kujq.js":1,"\/\/webmedia.ku.edu\/js\/jqueryplugins\/cookie\/jquery.cookie.js":1,"\/\/webmedia.ku.edu\/templates\/cms\/2012\/common\/widgets.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/themes\/ku_template_2012_3col\/css\/base.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"profiles\/kudrupal\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/kudrupal\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/kudrupal\/modules\/contrib\/views\/css\/views.css":1,"profiles\/kudrupal\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/kudrupal\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/ku_template_2012_3col\/css\/leftnav.css":1,"profiles\/kudrupal\/modules\/ku\/ku_whyku\/theme\/ku-whyku-3col.css":1,"profiles\/kudrupal\/modules\/ku\/ku_static\/theme\/ku-static.css":1,"profiles\/kudrupal\/modules\/ku\/ku_today\/theme\/ku-today.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"\/\/webmedia.ku.edu\/js\/jqueryplugins\/fancybox\/1.3.4\/fancybox\/jquery.fancybox-1.3.4.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1,"sites\/all\/themes\/ku_template_2012_3col\/css\/ie9.css":1,"sites\/all\/themes\/ku_template_2012_3col\/css\/ie8.css":1,"sites\/all\/themes\/ku_template_2012_3col\/css\/ielt8.css":1,"sites\/all\/themes\/ku_template_2012_3col\/css\/print.css":1}},"urlIsAjaxTrusted":{"\/undergraduate-tutoring":true},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 720px) and (min-device-width: 720px), (max-device-width: 800px) and (min-width: 720px) and (orientation:landscape)","normal":"all and (min-width: 960px) and (min-device-width: 960px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1200px)"}}}});
+//--><!]]>
+</script>
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <style type="text/css">
+                        body {background: transparent url('http://engr.ku.edu/sites/engr.ku.edu/files/images/template/engr-panoramic.jpg') no-repeat center 30px;}
+                </style>
+        <![endif]-->
+        <style type="text/css">
+@media all and (min-width: 720px) {
+                body {background: transparent url('http://engr.ku.edu/sites/engr.ku.edu/files/images/template/engr-panoramic.jpg') no-repeat center 30px;}
+}
+                .site-name, .site-name a {color: #0062A0;}
+                .site-slogan, .site-slogan a {color: #0062A0;}
+    a.block_button {
+    color: white;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #0062a0;
+    background: -moz-linear-gradient(top, #0062a0 0%, #064178 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0062a0), color-stop(100%,#064178));
+    background: -webkit-linear-gradient(top, #0062a0 0%,#064178 100%);
+    background: -o-linear-gradient(top, #0062a0 0%,#064178 100%);
+    background: -ms-linear-gradient(top, #0062a0 0%,#064178 100%);
+    background: linear-gradient(to bottom, #0062a0 0%,#064178 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062a0', endColorstr='#064178',GradientType=0 );
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+}
+
+#ku_building_map{height:400px;margin-bottom:20px; width:800px;}
+#region-content #ku_custom_button {
+    -moz-border-radius: .25em;
+    border-radius: .25em;
+}
+
+#region-content #ku_custom_button .ku_button_content {
+    color: #FFC82D;
+    padding: 0.2em 0.5em;
+    font-weight: normal;
+}
+
+article#node-ecc-internship-sharing-740 {
+    padding:10;
+    border: 10px solid #f9f9f9;
+    background-color: #ffddcc;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1px #d7d7d7;
+}
+
+#ecc-button {
+    color: #FFffff;
+    padding: 0.2em 0.5em;
+    font-weight: normal;
+    background-color: #0022b4;
+
+}
+
+
+div.kucareerconnections {
+     color: #004065;
+    padding-left:5px;
+   border-style: solid;
+     border-color: #e8000d;
+     background-color: #cfd8dc;
+
+}
+
+div.kucareerconnections#header {
+
+     color: #fff;
+     padding: 5px;
+     text-align: center;
+  
+}
+
+.image-holder { background-color: #efefef; text-align: center; padding: 30px; }
+.image-holder img+img { margin-top: 30px; }
+.image-holder img { box-shadow: 0 0 7px #777; }       
+        </style>     
+                    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//dept.ku.edu/~engrweb/engr/custom.css">
+<link rel="stylesheet" type="text/css" href="//dept.ku.edu/~engrweb/engr/room-reservation.css">
+
+<script src="//dept.ku.edu/~engrweb/engr/custom.js" type="text/javascript"></script>
+<script src="//dept.ku.edu/~engrweb/engr/career-fair-payment.js" type="text/javascript"></script>
+<script type="//ajax.googleapis.com/ajax/libs/webfont/1.0.28/webfont.js"></script>         
+                    <script type="text/javascript">
+                    $kuj(document).ready(function() {
+            var id='';
+
+            $kuj('.hideme').hide();
+            id = $kuj('#SelectBoxId').val().split(' ').join('_');
+            $kuj('#'+ id).show();
+    
+            $kuj('#SelectBoxId').change(function() {
+                $kuj('.hideme').hide();
+                id = $kuj(this).val().split(' ').join('_');
+                $kuj('#'+ id).show();
+            });
+         });​            </script>
+                <!--[if lte IE 7]>
+        <script src="//webmedia.ku.edu/js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script>
+        <![endif]-->
+    </head>
+    <body audience="a1" class="html not-front not-logged-in page-node page-node- page-node-341 node-type-page leftnav context-undergraduate-tutoring ku-template-2012-3col">
+        <div id="campusalertarea"></div>
+        <div id="skip-link">
+            <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        </div>
+        <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>        
+<div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-ku-eyebrow-wrapper" class="zone-wrapper zone-ku-eyebrow-wrapper clearfix">  
+  <div id="zone-ku-eyebrow" class="zone zone-ku-eyebrow clearfix container-12">
+    <div class="grid-4 region region-ku-eyebrow-first" id="region-ku-eyebrow-first">
+  <div class="region-inner region-ku-eyebrow-first-inner">
+    
+<div class="block block-ku-static block-ku-static-eyebrow-homelink block-ku-static-ku-static-eyebrow-homelink odd block-without-title" id="block-ku-static-ku-static-eyebrow-homelink">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <a href="http://www.ku.edu/">The University of Kansas</a>    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-8 region region-ku-eyebrow-second" id="region-ku-eyebrow-second">
+  <div class="region-inner region-ku-eyebrow-second-inner">
+    
+<div class="block block-ku-static block-ku-static-eyebrow-nav block-ku-static-ku-static-eyebrow-nav odd block-without-title" id="block-ku-static-ku-static-eyebrow-nav">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="inline-list" id="ku_main_nav">
+    <li id="eyebrow_portal_link"><a href="https://my.ku.edu/" title="Login to the myKU Portal">myKU</a></li>
+    <li id="eyebrow_email_link"><a href="https://mail.ku.edu/" title="Check your email online">Email</a></li>
+	<li id="eyebrow_blackboard_link"><a href="https://courseware.ku.edu/" title="Login to Blackboard">Blackboard</a></li>	
+    <li id="eyebrow_enp_link"><a href="https://sa.ku.edu/" title="Login to Enroll and Pay">Enroll &amp; Pay</a></li>
+    <li id="ku_navigator_link"><a href="/navigator" title="Open the KU Directory">KU Directory</a></li>
+</ul>    </div>
+  </div>
+</div>
+  </div>
+</div>  </div>
+</div><div id="zone-ku-navigator-wrapper" class="zone-wrapper zone-ku-navigator-wrapper clearfix">  
+  <div id="zone-ku-navigator" class="zone zone-ku-navigator clearfix container-12">
+    <div class="grid-12 region region-ku-navigator-top" id="region-ku-navigator-top">
+  <div class="region-inner region-ku-navigator-top-inner">
+    
+<div class="block block-ku-static block-ku-static-nvg-az-links block-ku-static-ku-static-nvg-az-links odd block-without-title" id="block-ku-static-ku-static-nvg-az-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ol class="inline-list az-list">
+    <li><a href="http://www.ku.edu/az/#A">A</a></li>
+    <li><a href="http://www.ku.edu/az/#B">B</a></li>
+    <li><a href="http://www.ku.edu/az/#C">C</a></li>
+    <li><a href="http://www.ku.edu/az/#D">D</a></li>
+    <li><a href="http://www.ku.edu/az/#E">E</a></li>
+    <li><a href="http://www.ku.edu/az/#F">F</a></li>
+    <li><a href="http://www.ku.edu/az/#G">G</a></li>
+    <li><a href="http://www.ku.edu/az/#H">H</a></li>
+    <li><a href="http://www.ku.edu/az/#I">I</a></li>
+    <li><a href="http://www.ku.edu/az/#J">J</a></li>
+    <li><a href="http://www.ku.edu/az/#K">K</a></li>
+    <li><a href="http://www.ku.edu/az/#L">L</a></li>
+    <li><a href="http://www.ku.edu/az/#M">M</a></li>
+    <li><a href="http://www.ku.edu/az/#N">N</a></li>
+    <li><a href="http://www.ku.edu/az/#O">O</a></li>
+    <li><a href="http://www.ku.edu/az/#P">P</a></li>
+    <li><a href="http://www.ku.edu/az/#Q">Q</a></li>
+    <li><a href="http://www.ku.edu/az/#R">R</a></li>
+    <li><a href="http://www.ku.edu/az/#S">S</a></li>
+    <li><a href="http://www.ku.edu/az/#T">T</a></li>
+    <li><a href="http://www.ku.edu/az/#U">U</a></li>
+    <li><a href="http://www.ku.edu/az/#V">V</a></li>
+    <li><a href="http://www.ku.edu/az/#W">W</a></li>
+    <li><a href="http://www.ku.edu/az/#X">X</a></li>
+    <li><a href="http://www.ku.edu/az/#Y">Y</a></li>
+    <li><a href="http://www.ku.edu/az/#Z">Z</a></li>
+</ol>    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-4 region region-ku-navigator-first" id="region-ku-navigator-first">
+  <div class="region-inner region-ku-navigator-first-inner">
+    
+<div class="block block-ku-calendar block-ku-calendar-navigator block-ku-calendar-ku-calendar-navigator odd block-without-title" id="block-ku-calendar-ku-calendar-navigator">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      
+<script type="text/javascript">
+    function allCalendar(containerId) {
+        var spudId = $Trumba.addSpud({
+            webName : "ku-calendar-calendarkuedu",
+            spudType : "upcoming",
+            url : {
+                events: 5,
+                filterview: "All"
+            },
+            teaserBase : "//calendar.ku.edu",
+            spudId: containerId
+        });
+    }
+
+    function academicsCalendar(containerId) {
+        var spudId = $Trumba.addSpud({
+            webName : "ku-calendar-calendarkuedu",
+            spudType : "upcoming",
+            url : {
+                events: 5,
+                filterview: "KU Directory - Academic and Ceremony"
+            },
+            teaserBase : "//calendar.ku.edu/type/academic_dates",
+            spudId: containerId
+        });
+    }
+
+    function athleticsCalendar(containerId) {
+        var spudId = $Trumba.addSpud({
+            webName : "ku-calendar-calendarkuedu",
+            spudType : "upcoming",
+            url : {
+                events: 5,
+                filterview: "Athletics"
+            },
+            teaserBase : "//calendar.ku.edu/type/athletics",
+            spudId: containerId
+        });
+    }
+</script>
+<div class="tabbox calendar-25live">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#calendar-25live-all">All</a></li>
+        <li><a href="#calendar-25live-academics">Academics</a></li>
+        <li><a href="#calendar-25live-athletics">Athletics</a></li>
+    </ul>
+    <div class="content">
+        <div class="tab tab-pane active" id="calendar-25live-all">
+            <noscript>
+                Your browser must support JavaScript to view this content.
+                Please enable JavaScript in your browser settings then try again.
+            </noscript>
+        </div>
+        <div class="tab tab-pane" id="calendar-25live-academics">
+            <noscript>
+                Your browser must support JavaScript to view this content.
+                Please enable JavaScript in your browser settings then try again.
+            </noscript>
+        </div>
+        <div class="tab tab-pane" id="calendar-25live-athletics">
+            <noscript>
+                Your browser must support JavaScript to view this content.
+                Please enable JavaScript in your browser settings then try again.
+            </noscript>
+        </div>
+    </div>
+</div>    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-4 region region-ku-navigator-second" id="region-ku-navigator-second">
+  <div class="region-inner region-ku-navigator-second-inner">
+    
+<div class="block block-ku-static block-ku-static-nvg-building-search block-ku-static-ku-static-nvg-building-search odd block-without-title" id="block-ku-static-ku-static-nvg-building-search">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!--
+<form class="search_box" action="http://www2.ku.edu/~build/cgi-bin/results" method="get">
+    <fieldset>
+        <legend id="building_search_label"><label for="building_search">Search Buildings</label></legend>
+        <input type="text" name="query" id="building_search" placeholder="Buildings" class="search_field"><input class="icon" type="submit" value="">
+    </fieldset>
+</form>
+-->
+<p>
+    <a href="http://maps.ku.edu/" title="Campus Map">Campus Map</a> | <a href="http://admissions.ku.edu/visit/maps.shtml" title="Directions">Directions</a> | 
+    <a href="http://www.ku.edu/about/campuses/" title="KU Campuses">Campuses</a> | <a href="http://www.kuonwheels.ku.edu/" title="KU On Wheels">Buses</a> | <a href="http://www.parking.ku.edu/" title="KU Parking">Parking</a>
+</p>    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-nvg-resources-links block-ku-static-ku-static-nvg-resources-links even block-without-title" id="block-ku-static-ku-static-nvg-resources-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><a href="http://technology.ku.edu/" title="KU Information Technology">Information Technology</a> | <a href="http://hawkdrive.ku.edu" title="KU online document management system Hawk Drive">Hawk Drive</a> | <a href="http://employment.ku.edu/" title="Find employment at KU">Jobs at KU</a></p>    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-nvg-finances block-ku-static-ku-static-nvg-finances odd block-without-title" id="block-ku-static-ku-static-nvg-finances">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="sectiontitle">Finances</div>
+<p>
+    <a href="http://tuition.ku.edu/" title="Tuition">Tuition</a> | <a href="http://affordability.ku.edu/billing/" title="Bill Payments">Bill Payments</a> | <a href="http://affordability.ku.edu/cs/search.shtml" title="Scholarship Search">Scholarship Search</a><br>
+    <a href="http://affordability.ku.edu/financialaid/" title="Financial Aid">Financial Aid</a> | <a href="http://affordability.ku.edu/financialaid/loans/" title="Loans">Loans</a> | <a href="http://kucard.ku.edu/beak-em-bucks-overview" title="Beak 'em Bucks">Beak 'em Bucks</a>
+</p>    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-nvg-weather-module block-ku-static-ku-static-nvg-weather-module even block-without-title" id="block-ku-static-ku-static-nvg-weather-module">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="weatherholder"></div>
+<script type="text/javascript">
+    //Use javascript to avoid weather caching
+    $kuj(document).ready(function() {
+        if(!$kuj.cookie('myweather')){
+            var url = '//webmedia.ku.edu/~http/ssi/2012/widgets/cmslawrenceweather.php';
+            var weatherval = '<div class="sectiontitle">Current Weather</div>';
+            var date = new Date();
+            var minutes = 30;
+            date.setTime(date.getTime() + (minutes * 60 * 1000));
+            try {
+            //cross script issue with IE8 workaround
+            if (navigator.appVersion.match(/MSIE/) && window.XDomainRequest) {
+                // Use Microsoft XDR
+                var xdr = new XDomainRequest();
+                xdr.open("get", url);
+                xdr.onload = function () {
+                    var result = weatherval+xdr.responseText;
+                    $kuj.cookie('myweather', result, { expires: date });
+                    $kuj('#weatherholder').html(result);
+                };
+                xdr.send();
+            } else if (!navigator.appVersion.match(/MSIE/)) {
+                $kuj.ajax({
+                    type: 'GET',
+                    url: url,
+                    success: function (data) {
+                        date.setTime(date.getTime() + (minutes * 60 * 1000));
+                        $kuj.cookie('myweather', weatherval+data, { expires: date });
+                        $kuj('#weatherholder').html($kuj.cookie('myweather'));
+                    }
+                });
+            }
+        } catch (e) {}
+        }else{
+            $kuj('#weatherholder').html($kuj.cookie('myweather'));
+        }
+
+    });
+</script>
+    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-4 region region-ku-navigator-third" id="region-ku-navigator-third">
+  <div class="region-inner region-ku-navigator-third-inner">
+    
+<div class="block block-ku-static block-ku-static-nvg-degree-search block-ku-static-ku-static-nvg-degree-search odd block-without-title" id="block-ku-static-ku-static-nvg-degree-search">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+          <form class="search_box" action="//www.ku.edu/search/" method="get" style='margin-bottom:25px;'>
+        <fieldset>
+            <legend id="navigator_ku-search-label" style="display: none;"><label for="navigator_ku-search">Search all KU</label></legend>
+            <input title="Enter the terms you wish to search for." type="text" id="navigator_ku-search" name="q" value="" size="15" placeholder="Search all KU" maxlength="128" /><input type="submit" value="" class="icon" />
+        </fieldset>
+    </form>
+
+    <form class="search_box"  action="https://myidentity.ku.edu/directory/search" method="get" style='margin-bottom:25px;'>
+        <fieldset>
+            <legend id="people_search_label"><label for="people_search">People Search</label></legend>
+            <input type="text" name="searchfor_name" id="people_search" placeholder="People Search" class="search_field"><input class="icon" type="submit" value="">
+        </fieldset>
+    </form>
+
+
+<form class="search_box" action="//admissions.ku.edu/academics/majors/" method="get">
+    <input type="hidden" name="go" value="1" />
+    <input type="hidden" name="school" value="all" />
+    <fieldset>
+        <legend id="degree_search_label"><label for="degree_search">Degree Search</label></legend>
+        <input type="text" name="keywords" id="degree_search" placeholder="Degree Search" class="search_field"><input class="icon" type="submit" value="">
+    </fieldset>
+</form>
+<p><a href="//admissions.ku.edu/academics/majors/" title="Browse degrees by school">Browse by school</a></p>    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-nvg-course-search block-ku-static-ku-static-nvg-course-search even block-without-title" id="block-ku-static-ku-static-nvg-course-search">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form class="search_box" action="https://classes.ku.edu/Classes/CourseSearchAPI.action" method="post">
+    <fieldset>
+        <legend id="courses_search_label"><label for="courses_search">Course Search</label></legend><input type="hidden" name="searchTerm" value="4132" />
+        <input type="text" name="classesSearchText" id="courses_search" placeholder="Course Search" class="search_field"><input class="icon" type="submit" value="">
+    </fieldset>
+</form>
+<p><a href="https://classes.ku.edu/Classes/ExternalDisplay.action" title="Schedule of Classes">Search class sections</a> | <a href="http://online.ku.edu/" title="Online Courses">Online courses</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-nvg-library-search block-ku-static-ku-static-nvg-library-search odd block-without-title" id="block-ku-static-ku-static-nvg-library-search">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form class="search_box" method="get" action="//dept.ku.edu/~appslibk/primo/dlSearch.php">
+    <fieldset>
+        <legend id="libraries_search_label"><label for="libraries_search" id="libraries_search_label">Library Search</label></legend>
+        <input type="text" name="q" id="libraries_search" placeholder="Library Search" class="search_field"><input class="icon" type="submit" value="">
+    </fieldset>
+</form>
+<p><a href="//www.lib.ku.edu/" title="KU Libraries Homepage">Libraries</a> | <a href="//www.lib.ku.edu/hours/"  title="Hours and Locations of the Libraries">Hours &amp; locations</a> | <a href="//www.lib.ku.edu/askalibrarian/" title="Ask a Librarian a Question">Ask</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-nvg-acad-links block-ku-static-ku-static-nvg-acad-links even block-without-title" id="block-ku-static-ku-static-nvg-acad-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p>
+    <a href="http://advising.ku.edu/" title="University Advising Center">Advising</a> | <a href="http://catalog.ku.edu/" title="KU Course Catalog">Catalog</a> | <a href="http://www.tutoring.ku.edu/" title="Tutoring Services">Tutors</a><br>
+    <a href="http://www.writing.ku.edu/" title="KU Writing Center">Writing Center</a> | <a href="http://www.math.ku.edu/academics/kap/contact/help-room.html" title="Math help room">Math help room</a><br>
+    <a href="http://www.registrar.ku.edu/exams/" title="Exams at the University of Kansas">Finals Schedule</a> | <a href="http://clas.ku.edu/undergrad/tools/gpa" title="GPA Calculator">GPA Calculator</a>
+</p>    </div>
+  </div>
+</div>
+
+<div class="block block-ku-static block-ku-static-login-link block-ku-static-ku-static-login-link odd block-without-title" id="block-ku-static-ku-static-login-link">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+          <a href="/login?destination=undergraduate-tutoring">CMS Login</a>: <a href="https://engr.ku.edu/cas?destination=undergraduate-tutoring">KU Users</a> | <a href="/user?destination=undergraduate-tutoring">Non-KU Users</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-12 region region-ku-navigator-bottom" id="region-ku-navigator-bottom">
+  <div class="region-inner region-ku-navigator-bottom-inner">
+    
+<div class="block block-ku-static block-ku-static-nvg-bottom-links block-ku-static-ku-static-nvg-bottom-links odd block-without-title" id="block-ku-static-ku-static-nvg-bottom-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="inline-list">
+    <li><a href="http://www.ku.edu/" title="KU homepage">KU Home</a></li>
+    <li><a href="http://www.ku.edu/about/" title="Find out more about the University of Kansas">About KU</a></li>
+    <li><a href="http://www.ku.edu/admissions/" title="Admission information for prosepective students">Admissions</a></li>
+    <li><a href="http://www.kuathletics.com/" title="KU Athletics">Athletics</a></li>
+    <li><a href="http://www.kualumni.org/" title="Alumni information">Alumni</a></li>
+    <li><a href="http://www.ku.edu/about/campuses/" title="Campus information for KU">Campuses</a></li>
+    <li><a href="http://connect.ku.edu/" title="Connect to KU through social media">Social Media</a></li>
+    <li><a href="http://www.kuendowment.org/" title="Give back through KU Endowment">Endowment</a></li>
+    <li><a href="http://today.ku.edu" title="KU Today">KU Today</a></li>
+</ul>    </div>
+  </div>
+</div>
+  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="http://www.ku.edu/" title="KU Homepage" ><img src="http://engr.ku.edu/sites/all/themes/ku_template_2012_3col/logo.png" alt="School of Engineering " id="logo" /></a>
+      </div>
+                        <hgroup class="site-name-slogan">        
+                                <div class="site-name"><a href="/" title="Home">School of Engineering </a></div>
+                              </hgroup>
+          </div>
+        
+<div class="block block-search block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/undergraduate-tutoring" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-PSz6gOb630PpW4oabs7s_hWuAlh5xX2D1CfpcZc1d5k" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>
+  </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <nav class="navigation">
+      <ul class="ku_nav" id="main-menu"><li class="menu-366 "><a href="/" title="">Home</a></li>
+<li class="menu-778 "><a href="/about" title="Overview of the KU School of Engineering">About</a><ul><li class="menu-2256 "><a href="/about">Overview</a><ul><li class="menu-2299 "><a href="/about">Overview</a></li>
+<li class="menu-886 "><a href="/our-mission" title="The mission and strategic plan of the KU School of Engineering">Mission & Strategic Plan</a></li>
+<li class="menu-885 "><a href="/history" title="History and traditions of the KU School of Engineering">History</a></li>
+</ul></li>
+<li class="menu-773 "><a href="/meet-the-dean" title="Learn about the dean of the KU School of Engineering">Meet the Dean</a></li>
+<li class="menu-814 "><a href="/facilities-maps" title="Buildings, laboratories and spaces in the KU School of Engineering">Facilities & Maps</a><ul><li class="menu-2309 "><a href="/facilities-maps">Overview</a></li>
+<li class="menu-815 "><a href="/buildings">Buildings</a></li>
+<li class="menu-1015 "><a href="/ku-engineering-expansion-project" title="An overview of growth and invitation to contribute">KU Engineering Expansion Project</a></li>
+<li class="menu-817 "><a href="/reservable-spaces" title="Spaces in Eaton and Learned Hall that can be reserved when not already in use for official university activities.">Reservable Spaces</a></li>
+<li class="menu-919 "><a href="/safety" title="Emergency evacuation plans for Learned and Eaton Halls.">Safety</a></li>
+</ul></li>
+<li class="menu-2260 "><a href="/facts-figures" title="">Facts & Awards</a><ul><li class="menu-2263 "><a href="/facts-figures">Facts & Figures</a></li>
+<li class="menu-2264 "><a href="/awards-honors">Awards & Honors</a></li>
+</ul></li>
+<li class="menu-882 "><a href="/news" title="News from and about the KU School of Engineering">News</a></li>
+<li class="menu-2270 "><a href="/events-camps">Events</a></li>
+<li class="menu-813 "><a href="/contact" title="Directions and contact information for the KU School of Engineering">Contact</a></li>
+</ul></li>
+<li class="menu-2261  active-trail"><a href="/academics" title="">Academics</a><ul><li class="menu-2320 "><a href="/academics">Overview</a></li>
+<li class="menu-2319 "><a href="/degrees">Degrees</a></li>
+<li class="menu-920  active-trail"><a href="/undergraduate-students" title="Academic information that is specfic to undergraduate students.">Undergraduate Students</a><ul><li class="menu-2272 "><a href="/undergraduate-students">Overview</a></li>
+<li class="menu-1129  active-trail"><a href="/undergraduate-tutoring" class="active">Academic Resources</a></li>
+<li class="menu-2280 "><a href="/undergraduate-advising">Advising</a></li>
+<li class="menu-1131 "><a href="/undergraduate-events">Events</a></li>
+<li class="menu-1132 "><a href="/undergraduate-honors-program">Honors Program</a></li>
+<li class="menu-1128 "><a href="/undergraduate-minor">Minor</a></li>
+<li class="menu-1133 "><a href="/self">SELF Program</a></li>
+<li class="menu-1127 "><a href="/undergraduate-scholarships">Scholarships</a></li>
+<li class="menu-2296 "><a href="/undergraduate-graduation-information">Graduation Information</a><ul><li class="menu-2297 "><a href="/undergraduate-ceremonies">Ceremonies</a></li>
+<li class="menu-2298 "><a href="/undergraduate-diplomas">Diplomas</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-922 "><a href="/graduate-students" title="academic information for graduate students">Graduate Students</a><ul><li class="menu-2273 "><a href="/graduate-students">Overview</a></li>
+<li class="menu-1024 "><a href="/plan-of-study">Plan of Study</a></li>
+<li class="menu-1030 "><a href="/graduate-enrollment-information" title="Lists all enrollment requirements and related policies and processes. Includes a list of frequently asked questions.">Enrollment Information</a></li>
+<li class="menu-1018 "><a href="/graduate-graduation-information">Graduation Information</a><ul><li class="menu-1022 "><a href="/graduate-ceremonies" title="Recognition ceremonies for School of Engineering graduate students.">Ceremonies</a></li>
+<li class="menu-1020 "><a href="/doctoral-degree-checklists">Degree Checklist-Doctoral</a></li>
+<li class="menu-1038 "><a href="/masters-degree-checklist">Degree Checklists-Masters</a></li>
+<li class="menu-1021 "><a href="/graduate-diplomas">Diplomas</a></li>
+<li class="menu-1023 "><a href="/graduate-graduation-faq">Frequently Asked Questions</a></li>
+<li class="menu-1019 "><a href="/graduate-preparing-to-graduate">Preparing to Graduate</a></li>
+</ul></li>
+<li class="menu-2255 "><a href="/graduate-progress-degree">Progress to Degree</a></li>
+<li class="menu-1031 "><a href="/graduate-student-resources">Student Resources</a><ul><li class="menu-2490 "><a href="/writing-resources-graduate-students">Writing Resources for Graduate Students</a></li>
+</ul></li>
+<li class="menu-1026 "><a href="/graduate-faq" title="Frequently asked question about graduate programs at the University of Kansas.">Frequently Asked Questions</a></li>
+<li class="menu-2295 "><a href="/research-graduate-programs" title="List of all graduate program staff in the School of Engineering.">Graduate Program Staff</a></li>
+</ul></li>
+<li class="menu-925 "><a href="/self" title="The Self Engineering Leadership Fellows Program is an undergraduate leadership enrichment program.">SELF</a><ul><li class="menu-2281 "><a href="/self" title="">About the SELF Program</a><ul><li class="menu-2447 "><a href="/self-responsibilities">Fellow Responsibilities</a></li>
+<li class="menu-2449 "><a href="/sotr">SELF on the Road</a></li>
+</ul></li>
+<li class="menu-1059 "><a href="/applying-to-self">Applying to the SELF Program</a></li>
+<li class="menu-1056 "><a href="/self-faqs">Frequently Asked Questions</a></li>
+<li class="menu-1054 "><a href="/about-selfs" title="This is basic biographical information about Al and Lila Self, benefactors and alumni.">Al & Lila Self</a></li>
+<li class="menu-2254 "><a href="/self-fellows">SELF Fellows</a></li>
+<li class="menu-1060 "><a href="/self-staff">SELF Staff</a></li>
+</ul></li>
+<li class="menu-1010 "><a href="/diversity-womens-overview" title="Information about Diversity and Women&#039;s Programs at the KU School of Engineering">Diversity & Women</a><ul><li class="menu-2287 "><a href="/diversity-womens-overview">Overview</a></li>
+<li class="menu-2292 "><a href="/diversity-womens-programs">Programs</a></li>
+<li class="menu-2290 "><a href="/diversity-womens-events">Events</a></li>
+<li class="menu-2282 "><a href="/diversity-womens-networking">Networking</a></li>
+<li class="menu-2283 "><a href="/diversity-womens-leadership-skills">Leadership Skills</a></li>
+<li class="menu-2284 "><a href="/diversity-womens-scholarships">Scholarships</a></li>
+<li class="menu-2286 "><a href="/diversity-womens-history">Our History</a></li>
+</ul></li>
+<li class="menu-921 "><a href="/student-organizations" title="Schoolwide student organizations.">Student Organizations</a><ul><li class="menu-2564 "><a href="/esc">Engineering Student Council</a><ul><li class="menu-2717 "><a href="/esc/about">About</a></li>
+<li class="menu-2718 "><a href="/esc/officers">Officers</a></li>
+<li class="menu-2719 "><a href="/esc/events">Events</a></li>
+<li class="menu-2715 "><a href="/esc/expo">Engineering Expo</a></li>
+</ul></li>
+<li class="menu-2563 "><a href="/esc/funding">Student Organization Funding</a></li>
+<li class="menu-2565 "><a href="/student-organization/resources">Student Organization Resources</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-884 "><a href="/admission" title="Information about applying to and admission into a School of Engineering degree program">Admission</a><ul><li class="menu-2274 "><a href="/admission">Overview</a></li>
+<li class="menu-887 "><a href="/undergraduate-programs" title="An overview of KU School of Engineering undergraduate program attributes.">Undergraduate Programs</a><ul><li class="menu-2275 "><a href="/undergraduate-programs">Overview</a></li>
+<li class="menu-1006 "><a href="/undergraduate-admission" title="Information on how and when to apply for entry into a School of Engineering program.">Getting In</a></li>
+<li class="menu-1052 "><a href="/undergraduate-admission-scholarships" title="An overview of the scholarship opportunities available to prospective undergraduate students who want to study engineering or computing at KU.">Scholarships</a></li>
+<li class="menu-1555 "><a href="/undergraduate-after-admission">After Admission</a></li>
+<li class="menu-1556 "><a href="/engineering-learning-community">Engineering Learning Community</a></li>
+<li class="menu-1557 "><a href="/undergraduate-orientation">Orientation</a></li>
+<li class="menu-888 "><a href="/undergraduate-ambassador-program" title="Engineering ambassadors aggregator">Undergraduate Ambassador Program</a></li>
+</ul></li>
+<li class="menu-926 "><a href="/why-choose-ku" title="Admission information for Graduate Programs">Graduate Programs</a><ul><li class="menu-1041 "><a href="/why-choose-ku">Why Choose KU?</a></li>
+<li class="menu-1135 "><a href="/graduate-apply">Apply</a></li>
+<li class="menu-2308 "><a href="/current-undergraduates">Current Undergraduates</a><ul><li class="menu-2451 "><a href="/undergraduate-research">Undergraduate Research</a></li>
+</ul></li>
+<li class="menu-1045 "><a href="/graduate-funding">Funding</a></li>
+<li class="menu-2446 "><a href="/graduate-engineering-minority-consortium">Graduate Engineering Minority Consortium</a></li>
+<li class="menu-1136 "><a href="/graduate-research-opportunities">Research Opportunities</a></li>
+<li class="menu-1016 "><a href="/graduate-visit-us">Visit Us</a></li>
+<li class="menu-1044 "><a href="/graduate-orientation">Once You Are Admitted</a><ul><li class="menu-1028 "><a href="/new-graduate-student-orientation">New Graduate Student Orientation</a></li>
+<li class="menu-1137 "><a href="/graduate-orientation-rsvp">Graduate Orientation RSVP</a></li>
+<li class="menu-2489 "><a href="http://graduate.ku.edu/coming-ku" title="">Before Coming to KU</a></li>
+<li class="menu-2445 "><a href="/international-student-ice-cream-social-0" title="">International Student Ice Cream Social</a></li>
+</ul></li>
+<li class="menu-1139 "><a href="/engineering-graduate-ambassadors">Engineering Graduate Ambassadors</a></li>
+<li class="menu-2321 "><a href="/prospective-student-faqs">FAQs</a></li>
+</ul></li>
+<li class="menu-1558 "><a href="/diversity-womens-overview">Diversity & Women</a></li>
+<li class="menu-1554 "><a href="/visit-us">Visit Us</a></li>
+</ul></li>
+<li class="menu-816 "><a href="/research" title="Research centers and laboratories affiliated with the KU School of Engineering">Research</a></li>
+<li class="menu-912 "><a href="/people" title="People who work as part of the Engineering Administration team.">People</a><ul><li class="menu-2279 "><a href="/people">Staff</a><ul><li class="menu-2294 "><a href="/people">Alphabetically</a></li>
+<li class="menu-2289 "><a href="/staff-by-department">By Department</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-889 "><a href="/alumni-friends" title="Information for alumni and friends of the KU School of Engineering">Alumni & Friends</a><ul><li class="menu-2271 "><a href="/alumni-friends">Overview</a></li>
+<li class="menu-904 "><a href="/giving" title="Support the KU School of Engineering">Give</a></li>
+<li class="menu-905 "><a href="/industry-partners-program" title="Information on how business and industry can help further the goals of the KU School of Engineering">Industry Partners Program</a></li>
+<li class="menu-891 "><a href="/desa">DESA Winners</a><ul><li class="menu-903 "><a href="/honorees-name" title="A list of the recipients of the KU School of Engineering Distinguished Engineering Service Award">Honorees by Name</a></li>
+<li class="menu-902 "><a href="/desa-honorees" title="Men and women who have received the KU School of Engineering Distinguished Engineering Service Award">Honorees by Year</a></li>
+<li class="menu-2562 "><a href="/desa-nominate">Nominate</a></li>
+</ul></li>
+<li class="menu-890 "><a href="/keep-touch" title="A form for alumni to update contact information and submit news about activities and achievements.">Keep in Touch</a></li>
+</ul></li>
+<li class="menu-821 "><a href="/faculty-staff" title="Resources for faculty, staff, students and guests.">Resources</a><ul><li class="menu-917 "><a href="/faculty-staff" title="Resources for School of Engineering faculty and staff">Faculty & Staff</a></li>
+<li class="menu-911 "><a href="/jobs" title="Faculty position searches under way during the 2013-2014 academic year.">Jobs</a></li>
+<li class="menu-924 "><a href="/forms" title="These are forms to help students, faculty and staff complete transactions within the school or university, as well as apply for opportunities.">Forms</a></li>
+<li class="menu-2257 "><a href="/policies" title="">Policies</a><ul><li class="menu-812 "><a href="/policies" title="Two documents that guide the students, faculty and staff of the KU School of Engineering">Policies</a></li>
+<li class="menu-2259 "><a href="/nondiscrimination-statement">Nondiscrimination Statement</a></li>
+<li class="menu-2277 "><a href="http://www.policy.ku.edu/" title="">University Policy »</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-701 "><a href="/career-center" title="">Career Center</a><ul><li class="menu-2438 "><a href="/career-center">Overview</a></li>
+<li class="menu-707 "><a href="/students" title="">For Students</a><ul><li class="menu-1005 "><a href="/students">Overview</a></li>
+<li class="menu-1057 "><a href="/how-to-guides">How-To Guides</a><ul><li class="menu-894 "><a href="/resumes">Create Resumes/CVs</a></li>
+<li class="menu-895 "><a href="/cover-letters">Write Cover Letters</a></li>
+<li class="menu-896 "><a href="/interviews">Prepare for Interviews</a></li>
+<li class="menu-1058 "><a href="/online-tools">Use Online Tools</a></li>
+<li class="menu-995 "><a href="/references">Include References</a></li>
+<li class="menu-714 "><a href="/evaluate-job-offers">Evaluate Offers</a></li>
+</ul></li>
+<li class="menu-2482 "><a href="/career-events">Career Events</a><ul><li class="menu-2488 "><a href="/career-fairs-and-related-events">Career Fairs & Related Events</a></li>
+<li class="menu-2486 "><a href="/jayhawks-job">Jayhawks on the Job</a></li>
+<li class="menu-2485 "><a href="/leadership-challenge">Leadership Challenge</a></li>
+<li class="menu-2487 "><a href="/campus-interviews">On-Campus Interviews & Information Sessions</a></li>
+</ul></li>
+<li class="menu-710 "><a href="/new-postings">Job Postings</a><ul><li class="menu-2204 "><a href="/fulltime-postings">Full-time</a></li>
+<li class="menu-2203 "><a href="/internship-postings">Internship</a></li>
+</ul></li>
+<li class="menu-712 "><a href="/explore-careers">Career Exploration</a><ul><li class="menu-715 "><a href="/options-major">Options by Major</a></li>
+<li class="menu-718 "><a href="/networking">Networking</a></li>
+</ul></li>
+<li class="menu-713 "><a href="/advanced-education">Advanced Education</a></li>
+</ul></li>
+<li class="menu-708 "><a href="/employers" title="">For Employers</a><ul><li class="menu-2250 "><a href="/employers">Overview</a></li>
+<li class="menu-744 "><a href="/recruit-ku">Recruiting at KU</a></li>
+<li class="menu-906 "><a href="/building-presence">Building a Presence</a><ul><li class="menu-2481 "><a href="/joj" title="Job Shadow">Jayhawks on the Job</a></li>
+<li class="menu-913 "><a href="/ku-career-connections">KU Career Connections</a></li>
+</ul></li>
+<li class="menu-745 "><a href="/attend-career-fair">Attend a Career Fair</a><ul><li class="menu-749 "><a href="/fees">Registration & Fees</a></li>
+<li class="menu-750 "><a href="/shipping-information">Shipping Information</a></li>
+</ul></li>
+<li class="menu-748 "><a href="/directions-lodging">Directions & Lodging</a></li>
+</ul></li>
+<li class="menu-1001 "><a href="/contact-info" title="">Career Center Staff</a><ul><li class="menu-1120 "><a href="/contact-info">Overview</a></li>
+<li class="menu-743 "><a href="/make-appointment">Make an appointment</a></li>
+<li class="menu-741 "><a href="/career-center-staff">View All ECC Staff</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-2468  separator"><hr><ul><li class="menu-2469  separator"><hr><ul><li class="menu-2470 "><a href="/hsd">Home</a></li>
+<li class="menu-2473 "><a href="/registration">Registration</a></li>
+<li class="menu-2471 "><a href="/high-school-design-rules">Rules</a><ul><li class="menu-2480 "><a href="/progamming-tutorials">Progamming Tutorials</a></li>
+</ul></li>
+<li class="menu-2475 "><a href="/hsdschedule">Schedule</a></li>
+<li class="menu-2476 "><a href="/hsdfaqs">FAQs</a></li>
+<li class="menu-2478 "><a href="/contact-1">Contact</a></li>
+<li class="menu-2474 "><a href="/past-competitions">Past competitions</a></li>
+</ul></li>
+</ul></li>
+</ul>
+      <ul class="ku_nav mobile"><li id="mobile_menu_toplink"><a href="#">Menu</a><ul id="mobile-menu"><li class="menu-366 "><a href="/" title="">Home</a></li>
+<li id="submenu-778" class="menu-778   parent-link"><a href="#submenu-778" title="Overview of the KU School of Engineering">About</a><ul><li class="menu-2256 "><a href="/about">Overview</a><ul><li class="menu-2299 "><a href="/about">Overview</a></li>
+<li class="menu-886 "><a href="/our-mission" title="The mission and strategic plan of the KU School of Engineering">Mission & Strategic Plan</a></li>
+<li class="menu-885 "><a href="/history" title="History and traditions of the KU School of Engineering">History</a></li>
+</ul></li>
+<li class="menu-773 "><a href="/meet-the-dean" title="Learn about the dean of the KU School of Engineering">Meet the Dean</a></li>
+<li class="menu-814 "><a href="/facilities-maps" title="Buildings, laboratories and spaces in the KU School of Engineering">Facilities & Maps</a><ul><li class="menu-2309 "><a href="/facilities-maps">Overview</a></li>
+<li class="menu-815 "><a href="/buildings">Buildings</a></li>
+<li class="menu-1015 "><a href="/ku-engineering-expansion-project" title="An overview of growth and invitation to contribute">KU Engineering Expansion Project</a></li>
+<li class="menu-817 "><a href="/reservable-spaces" title="Spaces in Eaton and Learned Hall that can be reserved when not already in use for official university activities.">Reservable Spaces</a></li>
+<li class="menu-919 "><a href="/safety" title="Emergency evacuation plans for Learned and Eaton Halls.">Safety</a></li>
+</ul></li>
+<li class="menu-2260 "><a href="/facts-figures" title="">Facts & Awards</a><ul><li class="menu-2263 "><a href="/facts-figures">Facts & Figures</a></li>
+<li class="menu-2264 "><a href="/awards-honors">Awards & Honors</a></li>
+</ul></li>
+<li class="menu-882 "><a href="/news" title="News from and about the KU School of Engineering">News</a></li>
+<li class="menu-2270 "><a href="/events-camps">Events</a></li>
+<li class="menu-813 "><a href="/contact" title="Directions and contact information for the KU School of Engineering">Contact</a></li>
+</ul></li>
+<li id="submenu-2261" class="menu-2261  active-trail  parent-link"><a href="#submenu-2261" title="">Academics</a><ul><li class="menu-2320 "><a href="/academics">Overview</a></li>
+<li class="menu-2319 "><a href="/degrees">Degrees</a></li>
+<li class="menu-920  active-trail"><a href="/undergraduate-students" title="Academic information that is specfic to undergraduate students.">Undergraduate Students</a><ul><li class="menu-2272 "><a href="/undergraduate-students">Overview</a></li>
+<li class="menu-1129  active-trail"><a href="/undergraduate-tutoring" class="active">Academic Resources</a></li>
+<li class="menu-2280 "><a href="/undergraduate-advising">Advising</a></li>
+<li class="menu-1131 "><a href="/undergraduate-events">Events</a></li>
+<li class="menu-1132 "><a href="/undergraduate-honors-program">Honors Program</a></li>
+<li class="menu-1128 "><a href="/undergraduate-minor">Minor</a></li>
+<li class="menu-1133 "><a href="/self">SELF Program</a></li>
+<li class="menu-1127 "><a href="/undergraduate-scholarships">Scholarships</a></li>
+<li class="menu-2296 "><a href="/undergraduate-graduation-information">Graduation Information</a><ul><li class="menu-2297 "><a href="/undergraduate-ceremonies">Ceremonies</a></li>
+<li class="menu-2298 "><a href="/undergraduate-diplomas">Diplomas</a></li>
+</ul></li>
+</ul></li>
+<li class="menu-922 "><a href="/graduate-students" title="academic information for graduate students">Graduate Students</a><ul><li class="menu-2273 "><a href="/graduate-students">Overview</a></li>
+<li class="menu-1024 "><a href="/plan-of-study">Plan of Study</a></li>
+<li class="menu-1030 "><a href="/graduate-enrollment-information" title="Lists all enrollment requirements and related policies and processes. Includes a list of frequently asked questions.">Enrollment Information</a></li>
+<li class="menu-1018 "><a href="/graduate-graduation-information">Graduation Information</a><ul><li class="menu-1022 "><a href="/graduate-ceremonies" title="Recognition ceremonies for School of Engineering graduate students.">Ceremonies</a></li>
+<li class="menu-1020 "><a href="/doctoral-degree-checklists">Degree Checklist-Doctoral</a></li>
+<li class="menu-1038 "><a href="/masters-degree-checklist">Degree Checklists-Masters</a></li>
+<li class="menu-1021 "><a href="/graduate-diplomas">Diplomas</a></li>
+<li class="menu-1023 "><a href="/graduate-graduation-faq">Frequently Asked Questions</a></li>
+<li class="menu-1019 "><a href="/graduate-preparing-to-graduate">Preparing to Graduate</a></li>
+</ul></li>
+<li class="menu-2255 "><a href="/graduate-progress-degree">Progress to Degree</a></li>
+<li class="menu-1031 "><a href="/graduate-student-resources">Student Resources</a><ul><li class="menu-2490 "><a href="/writing-resources-graduate-students">Writing Resources for Graduate Students</a></li>
+</ul></li>
+<li class="menu-1026 "><a href="/graduate-faq" title="Frequently asked question about graduate programs at the University of Kansas.">Frequently Asked Questions</a></li>
+<li class="menu-2295 "><a href="/research-graduate-programs" title="List of all graduate program staff in the School of Engineering.">Graduate Program Staff</a></li>
+</ul></li>
+<li class="menu-925 "><a href="/self" title="The Self Engineering Leadership Fellows Program is an undergraduate leadership enrichment program.">SELF</a><ul><li class="menu-2281 "><a href="/self" title="">About the SELF Program</a><ul><li class="menu-2447 "><a href="/self-responsibilities">Fellow Responsibilities</a></li>
+<li class="menu-2449 "><a href="/sotr">SELF on the Road</a></li>
+</ul></li>
+<li class="menu-1059 "><a href="/applying-to-self">Applying to the SELF Program</a></li>
+<li class="menu-1056 "><a href="/self-faqs">Frequently Asked Questions</a></li>
+<li class="menu-1054 "><a href="/about-selfs" title="This is basic biographical information about Al and Lila Self, benefactors and alumni.">Al & Lila Self</a></li>
+<li class="menu-2254 "><a href="/self-fellows">SELF Fellows</a></li>
+<li class="menu-1060 "><a href="/self-staff">SELF Staff</a></li>
+</ul></li>
+<li class="menu-1010 "><a href="/diversity-womens-overview" title="Information about Diversity and Women&#039;s Programs at the KU School of Engineering">Diversity & Women</a><ul><li class="menu-2287 "><a href="/diversity-womens-overview">Overview</a></li>
+<li class="menu-2292 "><a href="/diversity-womens-programs">Programs</a></li>
+<li class="menu-2290 "><a href="/diversity-womens-events">Events</a></li>
+<li class="menu-2282 "><a href="/diversity-womens-networking">Networking</a></li>
+<li class="menu-2283 "><a href="/diversity-womens-leadership-skills">Leadership Skills</a></li>
+<li class="menu-2284 "><a href="/diversity-womens-scholarships">Scholarships</a></li>
+<li class="menu-2286 "><a href="/diversity-womens-history">Our History</a></li>
+</ul></li>
+<li class="menu-921 "><a href="/student-organizations" title="Schoolwide student organizations.">Student Organizations</a><ul><li class="menu-2564 "><a href="/esc">Engineering Student Council</a><ul><li class="menu-2717 "><a href="/esc/about">About</a></li>
+<li class="menu-2718 "><a href="/esc/officers">Officers</a></li>
+<li class="menu-2719 "><a href="/esc/events">Events</a></li>
+<li class="menu-2715 "><a href="/esc/expo">Engineering Expo</a></li>
+</ul></li>
+<li class="menu-2563 "><a href="/esc/funding">Student Organization Funding</a></li>
+<li class="menu-2565 "><a href="/student-organization/resources">Student Organization Resources</a></li>
+</ul></li>
+</ul></li>
+<li id="submenu-884" class="menu-884   parent-link"><a href="#submenu-884" title="Information about applying to and admission into a School of Engineering degree program">Admission</a><ul><li class="menu-2274 "><a href="/admission">Overview</a></li>
+<li class="menu-887 "><a href="/undergraduate-programs" title="An overview of KU School of Engineering undergraduate program attributes.">Undergraduate Programs</a><ul><li class="menu-2275 "><a href="/undergraduate-programs">Overview</a></li>
+<li class="menu-1006 "><a href="/undergraduate-admission" title="Information on how and when to apply for entry into a School of Engineering program.">Getting In</a></li>
+<li class="menu-1052 "><a href="/undergraduate-admission-scholarships" title="An overview of the scholarship opportunities available to prospective undergraduate students who want to study engineering or computing at KU.">Scholarships</a></li>
+<li class="menu-1555 "><a href="/undergraduate-after-admission">After Admission</a></li>
+<li class="menu-1556 "><a href="/engineering-learning-community">Engineering Learning Community</a></li>
+<li class="menu-1557 "><a href="/undergraduate-orientation">Orientation</a></li>
+<li class="menu-888 "><a href="/undergraduate-ambassador-program" title="Engineering ambassadors aggregator">Undergraduate Ambassador Program</a></li>
+</ul></li>
+<li class="menu-926 "><a href="/why-choose-ku" title="Admission information for Graduate Programs">Graduate Programs</a><ul><li class="menu-1041 "><a href="/why-choose-ku">Why Choose KU?</a></li>
+<li class="menu-1135 "><a href="/graduate-apply">Apply</a></li>
+<li class="menu-2308 "><a href="/current-undergraduates">Current Undergraduates</a><ul><li class="menu-2451 "><a href="/undergraduate-research">Undergraduate Research</a></li>
+</ul></li>
+<li class="menu-1045 "><a href="/graduate-funding">Funding</a></li>
+<li class="menu-2446 "><a href="/graduate-engineering-minority-consortium">Graduate Engineering Minority Consortium</a></li>
+<li class="menu-1136 "><a href="/graduate-research-opportunities">Research Opportunities</a></li>
+<li class="menu-1016 "><a href="/graduate-visit-us">Visit Us</a></li>
+<li class="menu-1044 "><a href="/graduate-orientation">Once You Are Admitted</a><ul><li class="menu-1028 "><a href="/new-graduate-student-orientation">New Graduate Student Orientation</a></li>
+<li class="menu-1137 "><a href="/graduate-orientation-rsvp">Graduate Orientation RSVP</a></li>
+<li class="menu-2489 "><a href="http://graduate.ku.edu/coming-ku" title="">Before Coming to KU</a></li>
+<li class="menu-2445 "><a href="/international-student-ice-cream-social-0" title="">International Student Ice Cream Social</a></li>
+</ul></li>
+<li class="menu-1139 "><a href="/engineering-graduate-ambassadors">Engineering Graduate Ambassadors</a></li>
+<li class="menu-2321 "><a href="/prospective-student-faqs">FAQs</a></li>
+</ul></li>
+<li class="menu-1558 "><a href="/diversity-womens-overview">Diversity & Women</a></li>
+<li class="menu-1554 "><a href="/visit-us">Visit Us</a></li>
+</ul></li>
+<li class="menu-816 "><a href="/research" title="Research centers and laboratories affiliated with the KU School of Engineering">Research</a></li>
+<li id="submenu-912" class="menu-912   parent-link"><a href="#submenu-912" title="People who work as part of the Engineering Administration team.">People</a><ul><li class="menu-2279 "><a href="/people">Staff</a><ul><li class="menu-2294 "><a href="/people">Alphabetically</a></li>
+<li class="menu-2289 "><a href="/staff-by-department">By Department</a></li>
+</ul></li>
+</ul></li>
+<li id="submenu-889" class="menu-889   parent-link"><a href="#submenu-889" title="Information for alumni and friends of the KU School of Engineering">Alumni & Friends</a><ul><li class="menu-2271 "><a href="/alumni-friends">Overview</a></li>
+<li class="menu-904 "><a href="/giving" title="Support the KU School of Engineering">Give</a></li>
+<li class="menu-905 "><a href="/industry-partners-program" title="Information on how business and industry can help further the goals of the KU School of Engineering">Industry Partners Program</a></li>
+<li class="menu-891 "><a href="/desa">DESA Winners</a><ul><li class="menu-903 "><a href="/honorees-name" title="A list of the recipients of the KU School of Engineering Distinguished Engineering Service Award">Honorees by Name</a></li>
+<li class="menu-902 "><a href="/desa-honorees" title="Men and women who have received the KU School of Engineering Distinguished Engineering Service Award">Honorees by Year</a></li>
+<li class="menu-2562 "><a href="/desa-nominate">Nominate</a></li>
+</ul></li>
+<li class="menu-890 "><a href="/keep-touch" title="A form for alumni to update contact information and submit news about activities and achievements.">Keep in Touch</a></li>
+</ul></li>
+<li id="submenu-821" class="menu-821   parent-link"><a href="#submenu-821" title="Resources for faculty, staff, students and guests.">Resources</a><ul><li class="menu-917 "><a href="/faculty-staff" title="Resources for School of Engineering faculty and staff">Faculty & Staff</a></li>
+<li class="menu-911 "><a href="/jobs" title="Faculty position searches under way during the 2013-2014 academic year.">Jobs</a></li>
+<li class="menu-924 "><a href="/forms" title="These are forms to help students, faculty and staff complete transactions within the school or university, as well as apply for opportunities.">Forms</a></li>
+<li class="menu-2257 "><a href="/policies" title="">Policies</a><ul><li class="menu-812 "><a href="/policies" title="Two documents that guide the students, faculty and staff of the KU School of Engineering">Policies</a></li>
+<li class="menu-2259 "><a href="/nondiscrimination-statement">Nondiscrimination Statement</a></li>
+<li class="menu-2277 "><a href="http://www.policy.ku.edu/" title="">University Policy »</a></li>
+</ul></li>
+</ul></li>
+<li id="submenu-701" class="menu-701   parent-link"><a href="#submenu-701" title="">Career Center</a><ul><li class="menu-2438 "><a href="/career-center">Overview</a></li>
+<li class="menu-707 "><a href="/students" title="">For Students</a><ul><li class="menu-1005 "><a href="/students">Overview</a></li>
+<li class="menu-1057 "><a href="/how-to-guides">How-To Guides</a><ul><li class="menu-894 "><a href="/resumes">Create Resumes/CVs</a></li>
+<li class="menu-895 "><a href="/cover-letters">Write Cover Letters</a></li>
+<li class="menu-896 "><a href="/interviews">Prepare for Interviews</a></li>
+<li class="menu-1058 "><a href="/online-tools">Use Online Tools</a></li>
+<li class="menu-995 "><a href="/references">Include References</a></li>
+<li class="menu-714 "><a href="/evaluate-job-offers">Evaluate Offers</a></li>
+</ul></li>
+<li class="menu-2482 "><a href="/career-events">Career Events</a><ul><li class="menu-2488 "><a href="/career-fairs-and-related-events">Career Fairs & Related Events</a></li>
+<li class="menu-2486 "><a href="/jayhawks-job">Jayhawks on the Job</a></li>
+<li class="menu-2485 "><a href="/leadership-challenge">Leadership Challenge</a></li>
+<li class="menu-2487 "><a href="/campus-interviews">On-Campus Interviews & Information Sessions</a></li>
+</ul></li>
+<li class="menu-710 "><a href="/new-postings">Job Postings</a><ul><li class="menu-2204 "><a href="/fulltime-postings">Full-time</a></li>
+<li class="menu-2203 "><a href="/internship-postings">Internship</a></li>
+</ul></li>
+<li class="menu-712 "><a href="/explore-careers">Career Exploration</a><ul><li class="menu-715 "><a href="/options-major">Options by Major</a></li>
+<li class="menu-718 "><a href="/networking">Networking</a></li>
+</ul></li>
+<li class="menu-713 "><a href="/advanced-education">Advanced Education</a></li>
+</ul></li>
+<li class="menu-708 "><a href="/employers" title="">For Employers</a><ul><li class="menu-2250 "><a href="/employers">Overview</a></li>
+<li class="menu-744 "><a href="/recruit-ku">Recruiting at KU</a></li>
+<li class="menu-906 "><a href="/building-presence">Building a Presence</a><ul><li class="menu-2481 "><a href="/joj" title="Job Shadow">Jayhawks on the Job</a></li>
+<li class="menu-913 "><a href="/ku-career-connections">KU Career Connections</a></li>
+</ul></li>
+<li class="menu-745 "><a href="/attend-career-fair">Attend a Career Fair</a><ul><li class="menu-749 "><a href="/fees">Registration & Fees</a></li>
+<li class="menu-750 "><a href="/shipping-information">Shipping Information</a></li>
+</ul></li>
+<li class="menu-748 "><a href="/directions-lodging">Directions & Lodging</a></li>
+</ul></li>
+<li class="menu-1001 "><a href="/contact-info" title="">Career Center Staff</a><ul><li class="menu-1120 "><a href="/contact-info">Overview</a></li>
+<li class="menu-743 "><a href="/make-appointment">Make an appointment</a></li>
+<li class="menu-741 "><a href="/career-center-staff">View All ECC Staff</a></li>
+</ul></li>
+</ul></li>
+<li id="submenu-2468" class="menu-2468   parent-link"><a href="#submenu-2468" title="">HSD</a><ul><li class="menu-2469  separator"><hr><ul><li class="menu-2470 "><a href="/hsd">Home</a></li>
+<li class="menu-2473 "><a href="/registration">Registration</a></li>
+<li class="menu-2471 "><a href="/high-school-design-rules">Rules</a><ul><li class="menu-2480 "><a href="/progamming-tutorials">Progamming Tutorials</a></li>
+</ul></li>
+<li class="menu-2475 "><a href="/hsdschedule">Schedule</a></li>
+<li class="menu-2476 "><a href="/hsdfaqs">FAQs</a></li>
+<li class="menu-2478 "><a href="/contact-1">Contact</a></li>
+<li class="menu-2474 "><a href="/past-competitions">Past competitions</a></li>
+</ul></li>
+</ul></li>
+</ul></li><li id="mobile_search_toplink"><a href="/search">Search</a><ul id="mobile-search"><li><form action="/undergraduate-tutoring" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-V8DBXNR4MkCSBT5Yp1-w5BFYmGqcieSysc92m-PMvFI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></li></ul></li></ul>
+    </nav>
+            <ul id="ku_breadcrumbs"><li><a href="/">Home</a></li><li><span title="">Academics</span></li><li><span title="Academic information that is specfic to undergraduate students.">Undergraduate Students</span></li><li>Academic Resources</li></ul>  </div>
+</div>  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-unit-abovecontent-wrapper" class="zone-wrapper zone-unit-abovecontent-wrapper clearfix">  
+  <div id="zone-unit-abovecontent" class="zone zone-unit-abovecontent clearfix container-12">
+      </div>
+</div><div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-10" id="admintabarea">
+    <div class="tabs clearfix"></div>    </div>
+<div class="grid-8 region region-content" id="region-content">
+    <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+
+
+
+<div class="block block-ku-content-types block-ku-degreemenu-block block-ku-content-types-ku-degreemenu-block odd block-without-title" id="block-ku-content-types-ku-degreemenu-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+          </div>
+  </div>
+</div>
+
+<div class="block block-ku-leftnav block-ku-leftnav-block block-ku-leftnav-ku-leftnav-block even block-without-title" id="block-ku-leftnav-ku-leftnav-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+              <div id="leftnav">
+        <ul>
+<li><div style='padding-left:10px'><a href="/undergraduate-students">Overview</a></div></li>
+<li class="active-trail"><div class="active" style='padding-left:10px'><a href="/undergraduate-tutoring" class="active">Academic Resources</a></div></li>
+<li><div style='padding-left:10px'><a href="/undergraduate-advising">Advising</a></div></li>
+<li><div style='padding-left:10px'><a href="/undergraduate-events">Events</a></div></li>
+<li><div style='padding-left:10px'><a href="/undergraduate-honors-program">Honors Program</a></div></li>
+<li><div style='padding-left:10px'><a href="/undergraduate-minor">Minor</a></div></li>
+<li><div style='padding-left:10px'><a href="/self">SELF Program</a></div></li>
+<li><div style='padding-left:10px'><a href="/undergraduate-scholarships">Scholarships</a></div></li>
+<li><div style='padding-left:10px'><a href="/undergraduate-graduation-information">Graduation Information</a></div><li>&nbsp;</li></ul>    </div>
+        </div>
+  </div>
+</div>
+
+<div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      
+<article about="/undergraduate-tutoring" typeof="sioc:Item foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky self-posted author- odd clearfix" id="node-page-341">
+                <span property="dc:title" content="" class="rdf-meta element-hidden"></span>    
+    <div class="content clearfix">
+        <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h1>Academic Resources</h1>
+
+<h3>Help Room Hosted by the School of Engineering</h3>
+
+<p>The School of Engineering provides&nbsp;<strong>a free help room</strong>&nbsp;for core courses in Math, Chemistry, Physics, Discrete Structures, and&nbsp;Statics&nbsp;&amp; Mechanics.<br />
+No appointment is necessary and all options are free unless otherwise noted.</p>
+
+<table border="1" cellpadding="1" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<th scope="col">Spring 2016</th>
+			<th scope="col" style="width:20%">
+			<div><strong>2133 Learned</strong></div>
+			</th>
+			<th scope="col" style="width:20%">
+			<div><strong>LEEP 2, room 2420</strong></div>
+			</th>
+			<th scope="col" style="width:20%">
+			<div><strong>LEEP 2, room G415</strong></div>
+			</th>
+		</tr>
+		<tr>
+			<td>
+			<div><strong>MATH</strong> (pre-calculus, calculus I, calculus II)</div>
+			</td>
+			<td>
+			<div>Mon 5-8pm</div>
+			</td>
+			<td>
+			<div>Tues 5:30-8pm</div>
+			</td>
+			<td>
+			<div>Wed 5-8pm</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<div><strong>CHEMISTRY</strong> (chemistry for engineers, chemistry I)</div>
+			</td>
+			<td>
+			<div>Mon 5-8pm</div>
+			</td>
+			<td>
+			<div>Tues 5:30-8pm</div>
+			</td>
+			<td>
+			<div>Wed 5-8pm</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<div><strong>PHYSICS</strong> (physics for engineers, physics I, physics II)</div>
+			</td>
+			<td>
+			<div>&nbsp;Mon 5-8pm</div>
+			</td>
+			<td>
+			<div>Tues 6-8pm</div>
+			</td>
+			<td>
+			<div>&nbsp;Wed 5-8pm</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<div><strong>EECS 210</strong> (discrete structures)</div>
+			</td>
+			<td>
+			<div>&nbsp;Mon 5-8pm</div>
+			</td>
+			<td>
+			<div>&nbsp;</div>
+			</td>
+			<td>
+			<div>&nbsp;Wed 5-8pm</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<div><strong>ME 211</strong> (statics &amp; intro mechanics)</div>
+			</td>
+			<td>
+			<div>&nbsp;Mon 5-8pm</div>
+			</td>
+			<td>
+			<div>Tues 5:30-8pm</div>
+			</td>
+			<td>Wed 5-8pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Additional Resources</h2>
+
+<h3>Academic Departments</h3>
+
+<table border="0" cellpadding="1" cellspacing="1">
+	<thead>
+		<tr>
+			<th scope="col" style="width: 33%">Physics and Astronomy</th>
+			<th scope="col" style="width: 33%">Chemistry</th>
+			<th scope="col" style="width: 33%">Math</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="vertical-align: top">
+			<p>1082 Malott Hall<br />
+			785-864-4626</p>
+
+			<p><a href="https://physics.ku.edu/sites/physics.ku.edu/files/docs/PHSXHelpRoom_Sp16.pdf">Physics Help Room Schedule</a></p>
+			</td>
+			<td style="vertical-align: top">
+			<p>2010 Malott Hall<br />
+			785-864-4670</p>
+
+			<p><a href="https://chem.ku.edu/resources/students">Academic Resources</a></p>
+			</td>
+			<td style="vertical-align: top">
+			<p>405 Snow Hall<br />
+			785-864-3651</p>
+
+			<p><strong>MATH 125/126 Help Room</strong><br />
+			439 Anschutz Library</p>
+
+			<p class="rteindent1"><strong>M, W, R, F</strong> &nbsp;<br />
+			9:00am-6:00pm<br />
+			<strong>T </strong><br />
+			9:00am-5:00pm</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><strong style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: normal;">Notes</strong><span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">:</span><br />
+<span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">Fall Break, Thanksgiving Break, Spring Break and Finals Week schedules are subject to change. Departments also may have student tutors available at an hourly rate.</span></h3>
+
+<h3>GPA Calculator: <a href="http://degreeprogress.ku.edu/gpa" style="font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">http://degreeprogress.ku.edu/gpa</a></h3>
+
+<h3><a href="http://:  https://achievement.drupal.ku.edu/">Academic Achievement &amp; Access Center</a>&nbsp;-&nbsp;<span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">22 Strong Hall,&nbsp;785-864-4064</span></h3>
+
+<p>Small Group Tutoring:&nbsp;<a href="tutoring.ku.edu">http://tutoring.ku.edu&nbsp;</a><br />
+Supplemental Instruction:&nbsp;<a href="http://si.ku.edu">http://si.ku.edu</a></p>
+
+<h3><a href="http://writing.ku.edu">KU Writing Center</a>- <span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;"><a href="http://writing.ku.edu/hours-locations">Hours</a> in Anschutz Library, Watson Library, residence halls, Edwards Campus, and On-line, 785-864-2399</span></h3>
+
+<div>Writing Resource Guides:&nbsp; <a href="http://writing.ku.edu/writing-guides">http://writing.ku.edu/writing-guides</a><br />
+Writing Assignment Planner: <a href="http://writing.ku.edu/assignmentPlanner">http://writing.ku.edu/assignmentPlanner</a></div>
+
+<div>&nbsp;</div>
+
+<h3><a href="http://trio-ses.ku.edu"><strong>TRIO Supportive Educational Services</strong></a></h3>
+
+<div>SES works with first-generation, limited-income students, and students with disabilities, to help them remain&nbsp;in undergraduate programs and complete their degrees. The program has a 30-year history of success at KU, and includes professional&nbsp;mentoring, academic advising, tutoring, and cultural events. &nbsp;All SES services are free, but students must&nbsp;<a href="http://www2.ku.edu/~apex/ses/application.pdf">apply</a>&nbsp;and be accepted to the program.</div>
+
+<div class="rteindent1">&nbsp;</div>
+
+<h3><strong><a href="http://caps.ku.edu">Counseling &amp; Psychological Services</a></strong><span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></h3>
+
+<p><span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">Counseling Services: </span><a href="http://caps.ku.edu/why-caps" style="font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">http://caps.ku.edu/why-caps</a><br />
+<span style="color: rgb(51, 51, 51); font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">Self Help Library: </span><a href="http://caps.ku.edu/self-help-library" style="font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: normal;">http://caps.ku.edu/self-help-library</a></p>
+</div></div></div>    </div>
+
+    <div class="clearfix">
+                    <nav class="links node-links clearfix"></nav>
+        
+            </div>
+</article>
+    </div>
+  </div>
+</div>
+        <br clear="all" />
+  </div>
+</div>
+
+<div class="grid-4 region region-unit-sidebar" id="region-unit-sidebar">
+  <div class="region-inner region-unit-sidebar-inner">
+    
+<section class="block block-block block-69 block-block-69 odd" id="block-block-69">
+  <div class="block-inner clearfix">
+              <div class="block-title">Calendar</div>
+            
+    <div class="content clearfix">
+      <script type="text/javascript" src="//25livepub.collegenet.com/scripts/spuds.js"></script><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+$Trumba.addSpud({
+webName: "ku-central-departmental",
+spudType : "upcoming" ,
+url : { filterview : "ENGINEERING, SCHOOL OF" } ,
+teaserBase : "//engr.ku.edu/calendar" });
+
+//--><!]]>
+</script><p></p><noscript>Your browser must support JavaScript to view this content.<br />
+Please enable JavaScript in your browser settings then try again.</noscript>
+    </div>
+  </div>
+</section>
+
+<section class="block block-views block-news-articles-list-block block-views-news-articles-list-block even" id="block-views-news-articles-list-block">
+  <div class="block-inner clearfix">
+              <div class="block-title">School of Engineering News</div>
+            
+    <div class="content clearfix">
+      <div class="view view-news-articles-list view-id-news_articles_list view-display-id-block news-list-sidebar view-dom-id-ffb89f02ef9036769446e20f7a4dea50">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <div id="newsviewcontent">
+        <ul id="newsitemlist">
+                            <li class="views-row views-row-1 views-row-odd views-row-first"><div class="news-text-wrap">
+    
+        <div class="views-field-timestamp">April 22, 2016</div>
+                <a href="/steel-bridge-team-race-against-time">Steel Bridge Team to Race Against Time</a>    </div>	
+
+</li>
+                            <li class="views-row views-row-2 views-row-even"><div class="news-text-wrap">
+    
+        <div class="views-field-timestamp">April 21, 2016</div>
+                <a href="/ku-concrete-canoe-team-heads-regional-competition">KU Concrete Canoe Team Heads to Regional Competition</a>    </div>	
+
+</li>
+                            <li class="views-row views-row-3 views-row-odd views-row-last"><div class="news-text-wrap">
+    
+        <div class="views-field-timestamp">April 20, 2016</div>
+                <a href="/jayhawk-motorsports-gears-2016-races">Jayhawk Motorsports Gears Up for 2016 Races</a>    </div>	
+
+</li>
+                    </ul>
+        <div id="newspager"></div>
+    </div>
+
+</div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/news">
+    Read more  </a>
+</div>
+  
+  
+  
+</div>    </div>
+  </div>
+</section>
+
+<div class="block block-ku-whyku block-ku-whyku-block block-ku-whyku-ku-whyku-block odd block-without-title" id="block-ku-whyku-ku-whyku-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+                  <div id="why_ku">
+        <div class="navrow">
+            <div class="why_ku_title">Why KU</div>
+            <div class="apply_title">
+                                    <a href="http://ku.edu/admissions/">Apply &raquo;</a>
+                            </div>
+        </div>
+        <div class="bragpoints">
+                            <div class="whyku_random">
+                                            <div style='display: none'>One of 34 U.S. public institutions in the prestigious Association of American Universities</div>
+                                            <div style='display: none'>26 prestigious Rhodes Scholars &mdash; more than all other Kansas colleges combined</div>
+                                            <div style='display: none'>Nearly $290 million in financial aid annually</div>
+                                            <div style='display: none'>44 nationally ranked graduate programs.<br />
+&mdash;U.S. News &amp; World Report</div>
+                                            <div style='display: none'>Top 50 nationwide for size of library collection.<br />
+&mdash;ALA</div>
+                                            <div style='display: none'>23rd nationwide for service to veterans
+&mdash;"Best for Vets," Military Times</div>
+                    
+                </div>
+            
+
+        </div>
+                    <div class="applyblock" style='display:none'>
+                
+            </div>
+
+        
+    </div>
+    <script type="text/javascript">
+        $kuj(document).ready(function() {
+            $kuj('.why_ku_title').click(function() {
+                $kuj('.bragpoints').css('display', 'block');
+                $kuj('.applyblock').css('display', 'none');
+            });
+            $kuj('#applydropdown').click(function() {
+                if($kuj('.bragpoints').css('display') == 'none'){
+                $kuj('.bragpoints').css('display', 'block');
+                $kuj('.applyblock').css('display', 'none');
+                                $kuj('#applydropdown').removeClass('open');
+
+                }else{
+                                                    $kuj('#applydropdown').addClass('open');
+
+                $kuj('.bragpoints').css('display', 'none');
+                $kuj('.applyblock').css('display', 'block');
+            }
+            });
+            /* Show one item of ku today content at random */
+            childcount = $kuj('.whyku_random').children().length;
+            randomnum = Math.floor(Math.random() * childcount) + 1;
+            $kuj('div.whyku_random div:nth-child(' + randomnum + ')').css('display', 'block');
+            $kuj('div.whyku_random div').vAlign(5);
+        });
+
+    </script>
+
+    </div>
+  </div>
+</div>
+
+<section class="block block-block block-10 block-block-10 even" id="block-block-10">
+  <div class="block-inner clearfix">
+              <div class="block-title">Connect with KU Engineering</div>
+            
+    <div class="content clearfix">
+      <p><a href="https://www.facebook.com/kuengineering"><img alt="KU School of Engineering Facebook page" src="/sites/engr.drupal.ku.edu/files/images/general/icons/facebook500.png" style="width: 36px; height: 36px; margin: 5px; float: left;" /></a><a href="http://www.youtube.com/channel/UCp5ttWYV8FhS-Fp3gmS-4vQ"><img alt="KU School of Engineering YouTube Channel" src="/sites/engr.drupal.ku.edu/files/images/general/icons/youtube1.jpg" style="margin: 5px; width: 36px; height: 36px; float: left;" /></a><a href="https://twitter.com/kuengineering"><img alt="KU School of Engineering Twitter Feed" src="/sites/engr.drupal.ku.edu/files/images/general/icons/twitter-new.png" style="width: 36px; height: 36px; margin: 5px; float: left;" /></a><a href="http://www.linkedin.com/groups?home=&amp;gid=165334&amp;trk=anet_ug_hm"><img alt="" src="/sites/engr.drupal.ku.edu/files/images/general/icons/linkedin-new.png" style="width: 36px; height: 36px; margin: 5px; float: left;" /></a><a href="https://plus.google.com/u/0/b/104450498406440674664/104450498406440674664/posts"><img alt="" src="/sites/engr.drupal.ku.edu/files/images/general/icons/google_plus1.jpg" style="width: 36px; height: 36px; margin: 5px; float: left;" /></a><a href="http://instagram.com/kuengineering"><img alt="instagram icon" src="/sites/engr.drupal.ku.edu/files/images/general/icons/insta.png" style="width: 36px; height: 36px; margin: 5px; float: left;" /></a></p>
+    </div>
+  </div>
+</section>
+
+<div class="block block-ku-static block-ku-sidebar-apply block-ku-static-ku-sidebar-apply odd block-without-title" id="block-ku-static-ku-sidebar-apply">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+          <div class="sidebargive-3col">
+        <div class="farabove"><a href='http://kuendowment.org'><img src="/sites/all/themes/ku_template_2012_3col/images/far_above.png" alt="Far Above" /></a></div>
+        <div class="givetext"><p><a href="http://www.kuendowment.org//s/1312/endowment/farabove/index.aspx?sid=1312&gid=1&pgid=1516"><strong>Give</strong> <em>to KU</em> &raquo;</a></p></div>
+    </div>
+    <script type="text/javascript">
+        $kuj(document).ready(function() {
+            $kuj('div.givetext p').vAlign(0);
+        });
+
+    </script>
+    </div>
+  </div>
+</div>
+
+<div class="block block-ku-today block-ku-today-news block-ku-today-ku-today-news even block-without-title" id="block-ku-today-ku-today-news">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="kutoday">
+    <div class='block-title'>KU Today</div>
+    <div class="content clearfix">
+        <div id="ku_today-content">
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $kuj(document).ready(function() {
+        $kuj.ajax({
+            url: "//news.ku.edu/headlines.json",
+            dataType: 'jsonp',
+            cache: true,
+            jsonpCallback: 'callback',
+            success: function(data) {
+                var count = data.nodes.length;
+                var randomnum = Math.floor(Math.random() * count);
+                var node = data.nodes[randomnum].node;
+                $kuj('#ku_today-content').html('<p><a href="' + node.link + '">'+ node.title + '</a> &mdash; <a href="http://news.ku.edu"><em>All KU News &raquo;</em></a></p>');
+            }
+        });
+    });
+</script>
+    </div>
+  </div>
+</div>
+  </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-unit-footer-wrapper" class="zone-wrapper zone-unit-footer-wrapper clearfix">  
+  <div id="zone-unit-footer" class="zone zone-unit-footer clearfix container-12">
+    <div class="grid-4 region region-unit-footer-first" id="region-unit-footer-first">
+  <div class="region-inner region-unit-footer-first-inner">
+    
+<div class="block block-ku-static block-ku-static-unitfooter-contact block-ku-static-ku-static-unitfooter-contact odd block-without-title" id="block-ku-static-ku-static-unitfooter-contact">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="title"><a href="/contact-us">Contact School of Engineering </a></div>
+<div class="contactdetails">
+    <div class="emailphone"> 
+                    <div class="ku_email"><a href="mailto:kuengr@ku.edu">kuengr@ku.edu</a></div>
+                            <div class="ku_phone">785-864-3881</div>
+                            <div class="ku_busroute"><a href="http://lawrencetransit.org/">Routes 10, 29, 30, 43</a></div>
+            </div>
+    <address>
+        1520 W. 15th Street, room 1<br />Eaton Hall<br />Lawrence, KS 66045    </address>
+</div>    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-8 region region-unit-footer-second" id="region-unit-footer-second">
+  <div class="region-inner region-unit-footer-second-inner">
+    
+<div class="block block-ku-static block-ku-static-unitfooter-links block-ku-static-ku-static-unitfooter-links odd block-without-title" id="block-ku-static-ku-static-unitfooter-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <table id="footer-links">
+	<tbody>
+		<tr>
+			<td><a href="http://admissions.ku.edu/apply/usfreshmen/">Apply</a></td>
+			<td><a href="/self">SELF Program</a></td>
+		</tr>
+		<tr>
+			<td><a href="/degrees">Degrees</a></td>
+			<td><a href="/diversity-womens-overview">Diversity &amp; Women</a></td>
+		</tr>
+		<tr>
+			<td><a href="http://lib.ku.edu/locations/spahr">Spahr Engineering Library</a></td>
+			<td><a href="/tsc">Technology Service Center</a></td>
+		</tr>
+		<tr>
+			<td><a href="/career-center">Career Center</a></td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+    </div>
+  </div>
+</div>
+  </div>
+</div>  </div>
+</div><div id="zone-ku-footer-wrapper" class="zone-wrapper zone-ku-footer-wrapper clearfix">  
+  <div id="zone-ku-footer" class="zone zone-ku-footer clearfix container-12">
+    <div class="grid-3 region region-ku-footer-first" id="region-ku-footer-first">
+  <div class="region-inner region-ku-footer-first-inner">
+    
+<div class="block block-ku-static block-ku-static-kufooter-logo block-ku-static-ku-static-kufooter-logo odd block-without-title" id="block-ku-static-ku-static-kufooter-logo">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <a href="http://www.ku.edu/"><img src="//webmedia.ku.edu/templates/2012/images/ku_sig_logo.png" width="167" height="40" alt="KU signature" title="The University of Kansas"></a>    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-6 region region-ku-footer-second" id="region-ku-footer-second">
+  <div class="region-inner region-ku-footer-second-inner">
+    
+<div class="block block-ku-static block-ku-static-kufooter-links block-ku-static-ku-static-kufooter-links odd block-without-title" id="block-ku-static-ku-static-kufooter-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p><img id="ku_footer_jayhawk" src="//webmedia.ku.edu/templates/2012/images/ku_jayhawk.png" width="56" height="50" alt="Jayhawk icon"></p>
+<ul class="inline-list">
+    <li><a href="http://ku.edu/academics/" title="KU Academics">Academics</a></li>
+    <li><a href="http://admissions.ku.edu/" title="KU Admissions">Admissions</a></li>
+    <li><a href="http://www.kualumni.org/" title="Alumni information">Alumni</a></li>
+    <li><a href="http://www.kuathletics.com/" title="KU Athletics">Athletics</a></li>
+    <li><a href="http://www.ku.edu/about/campuses/" title="Campus information for KU">Campuses</a></li>
+    <li><a href="http://www.kuendowment.org/" title="Give back through KU Endowment">Giving</a></li>
+    <li><a href="http://employment.ku.edu" title="Find employment at KU">Jobs</a></li>
+</ul>
+
+    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-3 region region-ku-footer-third" id="region-ku-footer-third">
+  <div class="region-inner region-ku-footer-third-inner">
+    
+<div class="block block-ku-static block-ku-static-kufooter-contact block-ku-static-ku-static-kufooter-contact odd block-without-title" id="block-ku-static-ku-static-kufooter-contact">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <a href="http://www.ku.edu/contact/" title="Contact KU">Contact KU</a><br>
+Lawrence, KS | <a href="http://admissions.ku.edu/visit/maps.shtml" title="KU Maps">Maps</a>    </div>
+  </div>
+</div>
+  </div>
+</div><div class="grid-12 region region-ku-footer-legal" id="region-ku-footer-legal">
+  <div class="region-inner region-ku-footer-legal-inner">
+    
+<div class="block block-ku-static block-ku-static-kufooter-legal block-ku-static-ku-static-kufooter-legal odd block-without-title" id="block-ku-static-ku-static-kufooter-legal">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <p>
+    The University of Kansas <a href="https://documents.ku.edu/policies/IOA/Nondiscrimination.htm">prohibits discrimination</a> on the basis of race, color, ethnicity, religion, sex, national origin, age, ancestry, disability, status as a veteran, sexual orientation, marital status, parental status, gender identity, gender expression, and genetic information in the university’s programs and activities. Retaliation is also prohibited by university policy. The following persons have been designated to handle inquiries regarding the nondiscrimination policies and are the Title IX coordinators for their respective campuses: Executive Director of the Office of Institutional Opportunity & Access, <a href="mailto:IOA@ku.edu" style="color:#ccc">IOA@ku.edu</a>, 1246 West Campus Road, Room 153A, Lawrence, KS 66045, 785-864-6414, 711 TTY (for the Lawrence, Edwards, Parsons, Yoder, and Topeka campuses); Director, Equal Opportunity Office, Mail Stop 7004, 4330 Shawnee Mission Parkway, Fairway, KS 66205, 913-588-8011, 711 TTY (for the Wichita, Salina, and Kansas City, Kansas, medical center campuses).
+</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>  </div>
+</div></footer>  </div>
+        <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><!-- Analytics Code -->
+<script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-56250057-1', 'auto', { 'name':'allaccountrollup', 'cookieDomain': 'none'});
+        ga('allaccountrollup.send', 'pageview');
+        
+                    ga('create', 'UA-59549800-1', 'auto', { 'name':'organization', 'cookieDomain': 'none'});
+            ga('organization.send', 'pageview');
+        
+                            
+        
+            
+        
+         
+</script>
+<!-- End Analytics Code -->
+    </body>
+</html>

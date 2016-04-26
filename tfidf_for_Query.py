@@ -1,5 +1,5 @@
 # Author: Yuanwei Wu & Yang Tian
-# Date: 4/3/2016 4/22/ 2016
+# Date: 4/3/2016 4/22/2016
 # Description: input: query, df and tf in list (use tf to find the number of documents), 
 # output: query vector, it will be used to calculate the similarity of (Q,D)
 

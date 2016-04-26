@@ -1,0 +1,374 @@
+
+<HTML>
+<HEAD> 
+<TITLE>THE KANSAS HISTORY GATEWAY | Established 1993 | First history on the Web WWW | Kansas History Heritage</TITLE> 
+<META NAME="DC.type" CONTENT="text-html-public">
+<META NAME="DC.generator" CONTENT="manual">
+<META NAME="DC.creator" CONTENT="Dr. Lynn H. Nelson, George Laughead">
+<META NAME="DC.title" CONTENT="Index to History resources developed by
+the Kansas Heritage Group; Kansas Genealogy and Family and Local History 
+Center; Kansas Collection; Carrie: A Full-Text Electronic Library;
+Kansas History and Life; the Kansas Community Network; Kansas
+Pioneer Trails; The One-Room School House Project; Interactive
+Generalogy; The WWW-VL History Network Central Catalog; etc.">
+<META NAME="DC.description" CONTENT="The Kansas Heritage Group is an
+unfunded group of volunteers dedicated to providing quality materials
+for free public access, and was founded in 1992.">
+<META NAME="DC.publisher"
+CONTENT="Lynn H. Nelson, George Laughead">
+<META NAME="DC.date" CONTENT="1993">
+<META NAME="DC.subject" CONTENT="WWW VL - Virtual Library - History Index - ">
+<META NAME="DC.identifier"
+CONTENT="http://www.vlib.us/history/index.html">
+<META NAME="DC.coverage" CONTENT="Contents a list of Virtual Resources
+maintained by the Kansas Heritage Group, including WWW-VL History sites.">
+<META NAME="DC.keywords"
+CONTENT="kansas,ks,history,historia,histoire,storia,geschichte,bibliography,
+biography,geography,map,language,museum,wwwvl,www-vl,world,wide,web,virtual,
+archive,document,materials,timeline,chronological,library,bibliothek,
+bibliotheque,biblioteca,virtuelle,on-line,online,free,public,access,books,
+articles,materials,on-line,full-text,genealogy,pioneer,settler,interactive,
+historic,trails,west,old,alte,weste,veille,oueste,viejo,,plains,prairie,
+buffalo,indians,kanza,kickapoo,wyandot,language,community,resources,kansas
+county,towns,discussion,list,academic,military,dodge,city,ford,county">
+
+<script language="JavaScript">
+<!-- // I don't want to be framed
+   if (top != self)
+     top.location = self.location
+//-->
+</script>
+</HEAD>
+
+
+
+<BODY bgcolor="#FBF6E1" text="#000000" link="#0000DD" alink="#FBF6E1" 
+vlink="#DD0000">
+
+
+
+ <IMG SRC="../heritage.gif" WIDTH="70" HSPACE="20"
+ALIGN="middle" 
+alt="HERITAGE GROUP LOGO">
+<FONT SIZE="+3">THE HISTORY GATEWAY AT KANSAS</FONT>
+<HR>
+
+<FONT SIZE=-1>
+<CENTER><H3>QUICK REFERENCES</H3></CENTER>
+<FONT SIZE=-1>
+
+<FONT COLOR="green"><B>CURRENT DATA</B></FONT>:  
+<A HREF="http://www.time.gov/" rel="nofollow">
+Official Time, US</A> -
+<A HREF="http://news.google.com/" rel="nofollow">
+World News</A> -
+<A HREF="http://www.census.gov/main/www/popclock.html" rel="nofollow">
+U.S. and World Population</A> -
+<A HREF="http://www.brillig.com/debt_clock/" rel="nofollow">
+National Debt<A> -
+ <A HREF="http://moneycentral.msn.com/detail/stock_
+quote?Symbol=INDU&pkw=the_dow&refcd=YH205174e_the_dow" rel="nofollow">
+U.S. Stock Market: Current Averages</A>
+<BR>
+
+<FONT COLOR="green"><B>REFERENCE</B></FONT>:
+<A HREF="http://en.wikipedia.org/wiki/Main_Page" rel="nofollow">
+Wikipedia</A> - 
+<A HREF="http://www.encyclopedia.com/" rel="nofollow">
+Columbia Encyclopedia. Sixth Edition</A> -
+<A HREF="http://www.bartleby.com/61/" rel="nofollow">
+American Heritage  Dictionary</A> - <A HREF="http://www.bartleby.com/62/" rel="nofollow">
+Roget’ New Thesauru</a> - 
+<A HREF="http://www.bartleby.com/100/" rel="nofollow">
+Bartlett's Quotations</A> -  
+<A HREF="http://www.yourdictionary.com/languages.html" rel="nofollow">
+Foreign Language Dictionary</A><BR>
+
+<FONT COLOR="green"><B>CONVERSION TOOLS</B></FONT>: &#160; &#160; 
+
+<A HREF="http://www.xe.com/ucc/full.shtml" rel="nofollow">
+Currency Converter</A> - 
+<A HREF="http://www.onlineconversion.com/weight_common.htm" rel="nofollow">
+Weights and Measures Converter</A> -
+<a href="http://www.mortgagecalculator.org/">Mortgage Calculator</a> <BR>
+
+<FONT COLOR="green"><B>GEOGRAPHY</B></FONT>: <A HREF="http://www.lib.utexas.edu/maps/" rel="nofollow">
+World Atlas</A> - <A HREF="http://www.multimap.com/map/home.cgi?db=AU&client=public
+&advanced=" rel="nofollow">Zoomable Maps</A> - 
+<A HREF="https://www.cia.gov/library/publications/the-world-factbook/" rel="nofollow">
+World Fact Book</A><BR>
+<FONT COLOR="green"><B>INSTITUTIONS</B></FONT>: 
+  <A HREF="http://vlib.iue.it/history/USA/libraries.html">Libraries</A> - 
+<A HREF="http://www.lib.uwaterloo.ca/society/history_soc.html" rel="nofollow">
+History Societies</A> - 
+<A HREF="http://chnm.gmu.edu/assets/historydepts/departments.php" rel="nofollow">History Departments</A>
+<BR>
+
+<FONT COLOR="green"><B>SEARCH ENGINES</B></FONT>:
+<a href="http://bing.com" rel="nofollow">Bing</a> - 
+<A HREF="http://www.google.com/advanced_search?hl=en" rel="nofollow">
+Google Advanced Search</A> -
+<A HREF="http://www.yahoo.com/" rel="nofollow">
+Yahoo!</A>	 -
+<A HREF="http://vlib.iue.it/history/search/">W3 Search Engines</A> </LI>
+
+
+
+<HR>
+
+
+
+<P><CENTER><FONT SIZE=+2>KANSAS HERITAGE SITES</CENTER></FONT></P>
+
+<UL>
+<UL>
+<LI><B><A HREF="http://vlib.iue.it/">
+WWW-VL: History </A></B>,
+Original author, Dr. Lynn Nelson; Serge Noiret, Inaki L&oacute;pez Mart&iacute;n, George Laughead, maintainers</LI>
+
+<LI><B><A HREF="http://www.kshs.org/research/" rel="nofollow">
+Kansas State Historical Society</b></LI>
+<LI><B><A HREF="http://vlib.iue.it/carrie/"> 
+Carrie: A Full Text Electronic Online Library</A></B>
+Author, Lynn Nelson; manager, Serge Noiret </LI>
+<LI><b><A HREF="http://www.kansashumanities.org/" rel="nofollow">
+Kansas Humanities Council</A></b></LI>
+<LI><b><A HREF="http://www.vlib.us/amdocs/"> Documents
+for the Study of American History</A></b>, Lynn Nelson, George Laughead</LI>
+
+<LI><B><A HREF="http://www.kancoll.org/"> The Electronic Kansas
+Collection</A> Online</B> Managers, Susan Stafford, Dick Taylor</LI>
+ <ul> 
+<li> <I><A HREF="http://www.kancoll.org/khq/">Kansas
+Historical Quarterly</A></I></li>
+ <LI><I><A
+HREF="http://www.kancoll.org/books/cutler/">Cutler's
+History of the State of Kansas</a></I> (1883)</LI></ul>
+ <li><b><a href="http://www.straatvaart.com/collection/">
+L&oacute;pez Mart&iacute;n Collection</a></b> Maps, shipping history</li> 
+ <li><b><a href="http://www.vlib.us/medical/">The Medical Front WWI</a></b>	Dr. Geoffrey Miller </li>
+<li><b><a href="http://www.vlib.us/wwi/resources/">WWI Resource Centre</a></b> Dr. M. Geoffrey Miller, Alan Albright, Pete Matcham
+<li><b>WWW-VL: <A HREF="http://www.vlib.us/web/stacks.html"> 
+ Web Stacks: Electronic Research Library</A></b></li>
+</UL>
+<ul>  <br>
+<LI><B><A HREF="http://www.kansasheritage.org/">THE KANSAS HERITAGE GROUP</B></A>, Manager, George Laughead</LI>
+<li><A href="http://www.kansasheritage.org/heritagelist.html">
+<B>The Kansas Heritage Group Complete Index</B></A></LI>
+<LI><A HREF="http://www.kansashistory.us/ksstateorg.html">Kansas
+History Resources</A> Museums, Genealogy, Libraries, Societies</LI>
+<LI><A HREF="http://www.kansastowns.us/kanmap.html">
+Interactive Map of Kansas</A></LI>
+<LI><A HREF="http://www.kansastowns.us/">
+Kansas Community Networks</A> Kansas Cities, Kansas Towns and Kansas
+Counties</LI>
+<LI><A HREF="http://www.kansastowns.us/hdkt/">
+Historical Directory of Kansas Towns</A> (HDKT)</LI>
+<li><A HREF="http://www.kansasheritage.org/heraward.html">Kansas Heritage Group Awards</A></LI>
+
+<BR>
+
+<LI><B>Kansas History</B>
+<UL>
+<LI><A HREF="http://www.kansashistory.us/">
+Kansas History</A> Web Sites</LI>
+<li><A HREF="http://www.vlib.us/old_west/">
+Old West Kansas</A></LI>
+<LI><A HREF="http://www.kansashistory.us/dustbowl.html">
+Dust Bowl History</A> </LI>
+<li><A HREF="http://www.vlib.us/old_west/lineoftime.html">
+Kansas Timeline</A></LI>
+<li><A HREF="http://www.kansasheritage.org/research/dbd.html">
+Research Sources</A></LI>
+</UL>
+
+<LI><B>Projects</B>
+<UL>
+<li><A HREF="http://www.kansasheritage.org/orsh/">
+One Room School House Project</A></LI>
+<li><A HREF="http://www.vlib.us/old_west/cowboy.html">Old West
+Kansas Cowtowns</A>	</li>
+<li><A HREF="http://www.kansasheritage.org/research/kansfact/">
+Kansas Facts and Symbols</A></LI>
+<li><A HREF="http://www.vlib.us/old_west/forts.html">
+Kansas Forts</A></LI>
+<li><A HREF="http://www.vlib.us/old_west/guns.html">
+Kansas Gunfighters</A></LI>
+<LI><A HREF="http://www.vlib.us/old_west/indian.html">
+Kansas Plains and Emigrant Tribes</A> Native Americans (Indians)</LI>
+ 
+  <LI><A HREF="http://www.vlib.us/old_west/kspeoples.html">Kansas Peoples</A> Immigration to KS</LI>
+
+  <li><A HREF="http://www.kansasheritage.org/PBP/homepage.html">
+Prairie Band Potawatomi Language Project</A>, Susan Campbell</LI>
+</UL>
+
+<LI><B>Places in Kansas</B>
+<UL>
+<li><A HREF="http://www.kansasheritage.org/kssights/">Kansas Sights</A>,
+Nancy Sween</LI>
+
+<li><A HREF="http://www.kansasheritage.org/prairie/boyd.html">Ivan Boyd Prairie Preserve</A> Lynn Nelson</LI>
+<li><A HREF="http://www.kansastowns.us/independence.html">Little House on the Prairie</A> (Laura Ingalls Wilder)</LI>
+<li><A HREF="http://www.kansasheritage.org/prairie/">Native Kansas Prairie</A></LI>
+<li><A HREF="http://www.kansasheritage.org/families/ppfhist.html">Prospect Park Farm</A>--Dickinson County</LI>
+</UL>
+
+<LI><B>Kansas Trails</B>
+<UL>
+<li><A HREF="http://www.kansasheritage.org/werner/">
+Pioneer Trails From U. S. Land Surveys</a> by Morris Werner</LI>
+<li><A HREF="http://www.vlib.us/old_west/trails.html">
+Kansas Historic Trails</A></LI>
+<li><a href="http://www.vlib.us/old_west/cowboy.html">
+Home on the Range/Cowboy Heritage</A> Cattle Trails </LI>
+<li><A HREF="http://www.kansasheritage.org/research/sft/">
+Interactive Santa Fe Trail</A> Nancy Sween</LI>
+<li><a href="http://www.vlib.us/old_west/trails/sfthist.html">Santa Fe Trail History</a></li>
+  <li><a href="http://www.vlib.us/old_west/trails/jonesplummer.html">The Jones and Plummer Trail</a></li>
+<li><A HREF="http://www.vlib.us/old_west/trails/othist.html">
+Oregon Trail History</A></LI>
+<LI><A HREF="http://www.kansashistory.us/westerntrail.html">Great Western Trail</A></LI>
+<li><A HREF="http://www.kansasheritage.org/research/rr/">
+Kansas Railroads</A></LI>
+</UL>
+
+<LI><B>Miscellaneous</B> 
+<UL> 
+<LI><A
+HREF="http://www.kansashistory.us/artists/"> Artists in Kansas</A> Art Centers, Galleries, Art Museums</LI>
+<LI><A HREF="http://www.vlib.us/beats/"> Beats In
+Kansas: The Beat Generation</A> in the Heartland </LI>
+<LI><A HREF="http://www.kansasheritage.org/cooking/">Cooking In Kansas</A> Cookbooks, recipes</LI>
+
+<LI><A HREF="http://www.kansasheritage.org/abilene/ikedday.html">D-Day</A>, 6
+June 1944 Normandy, France; Dwight D. Eisenhower Library [<I>Operation
+Overlord</I>]</LI>
+ <LI><A href="http://www.kansashistory.us/kansasevolution.html">Evolution In Kansas</a></li>
+<li><a href="http://www.kansasheritage.org/um/">Kansas Methodism</A></LI>
+
+<LI><A HREF="http://www.kansashistory.us/racing/">Racing In Kansas </A></LI>
+
+<LI><A HREF="http://www.kansashistory.us/fordco/wildflowers/">Southwest (SW) Kansas
+Wildflowers</A> (&quot;Fred's Flower Finder&quot;)</LI>
+
+  <li><a href="http://www.vlib.us/websitetools.html">Web Site Tools</a> for non-profits George Laughead</li>
+ <li><a href="http://www.vlib.us/windpower.html">Wind Power In Kansas</a> WWW-VL: USA History</li>
+</UL>
+
+
+
+<LI><B>County Historical and Genealogical Societies</B>
+<UL>
+<li><A HREF="http://www.franklincountykansas.net/">
+Franklin County Kansas</A> Louis Reed</LI>
+
+</UL>   
+<BR>
+
+<LI><B>HISTORY</B> Founder, Dr. Lynn H. Nelson
+<UL>
+<LI>WWW-VL: History: <A HREF="http://vlib.iue.it/history/USA/">United
+States History</A> Manager, George Laughead</LI>
+   <li> WWW-VL: History:  <A HREF="http://www.vlib.us/eras/war.htm" TITLE="usa history coming of the civil war">The Coming of the Civil War, 1850-1860</A>	</li>
+<li>WWW-VL: History: <a href="http://www.vlib.us/eras/civil_war.html">United States: Civil War History</a> 1861-1865	</li>
+<li>WWW-VL: History: <a href="http://www.vlib.us/americanwest/">The American West</a>, Nancy Sween</li>
+<li>WWW-VL: History: <a href="http://www.vlib.us/history/agricultural.html">US Agricultural History</a></li>
+<LI>WWW-VL: <A HREF="http://www.vlib.us/history/e-texts.html">US History Electronic Texts</A>
+<li>WWW-VL: <A HREF="http://www.vlib.us/history/maps.html">USA History Maps</A></li>
+
+<li>WWW-VL: <a href="http://www.vlib.us/history/museums.html">US History Museums</a></li>
+ <li>WWW-VL: <a href="http://www.vlib.us/history/sites.html">USA Historic Sites</a></li>
+ <li>WWW-VL: <a href="http://www.vlib.us/history/reference.html">US History Reference</a></li>
+ <li>WWW-VL: History: <a href="http://www.vlib.us/americanindian.html">Native American Bibliography</a>  </li>
+
+ <li>WWW-VL: <a href="http://vlib.iue.it/history/topical/science.html">History of Science &amp; Technology </a></li> 
+<LI>WWW-VL: History: <A HREF="http://vlib.iue.it/history/internet/">Internet &amp; W3 History</A> </LI>
+<li>WWW-VL: History: <A HREF="http://vlib.iue.it/history/mil/">
+Military History</A> </LI>
+  <li>WWW-VL: History: <a href="http://vlib.iue.it/history/mil/ww1.html">World War I History</a></li>
+ <li>WWW-VL: History: <a href="http://vlib.iue.it/history/mil/ww2.html">World War II History </a></li>
+<LI>WWW-VL: History: <A HREF="http://vlib.iue.it/history/search/">W3 Search Engines</A> </LI>
+   
+   <li>WWW-VL: <a href="http://www.vlib.us/history/docs_con.html">World Constitutions</a></li>
+</FONT>
+</ul>
+<BR>
+
+<FONT SIZE="-1">
+<LI><B>IBERIA</B>
+<UL>
+<LI><A HREF="http://www.ssphs.org/">
+Society for Spanish and Portuguese Historical Studies</A></LI>
+   <li>WWW-VL: History: <A HREF="http://vlib.iue.it/hist-spain/Index.html">Spanish
+History</A>
+</FONT>
+</ul>
+<BR>
+
+<FONT SIZE="-1"
+<LI><B>KANSAS</B>
+<ul>
+<li><i>New</i> <a href="http://www.amazon.com/Dodge-Images-America-George-Laughead/dp/0738552259">Dodge City -- Images of America</a>, photographs from the Ford County Historical Society, Dodge City, KS; available September 2012, Arcadia Publishing</li>
+ <li><i><a href="http://www.kansashistory.us/fordco/wright/">Dodge City, Cowboy Capital
+</a></i>, by Robert M. Wright, 1913, KS BlueSkyways	</li>
+<LI><A HREF="http://www.kansashistory.us/fordco/">
+The Ford County Historical Society, Dodge City</A></LI>
+   <ul> <LI><A HREF="http://www.kansashistory.us/fordco/dodgecity.html"> Dodge City
+History</A> George Laughead</LI> 
+  <LI><A HREF="http://www.kansashistory.us/fordco/preview/preview.html"> Mueller-Schmidt
+House (1881) Museum</A>, Dodge City, QT Virtual Panorama Tour</LI></ul>
+<li><a HREF="http://vlib.iue.it/carrie/texts/herman/">
+Medieval Tournai: A Resource Center</A> Lynn H. Nelson </li>
+<li><a href="http://www.vlib.us/medieval/lectures/">Medieval History Lectures</a>, Dr. Lynn H. Nelson</li>
+<li><a HREF="http://vlib.iue.it/carrie/reference/worldhistory/">
+World History Lectures</A>, Dr. Lynn H. Nelson</LI>
+
+<li><A HREF="http://www.kansasheritage.org/seneca/">
+Seneca Community Network</A></LI>
+<li><I><A HREF="http://www.kansashistory.us/fordco/malin/">
+Winter Wheat in the Golden Belt of Kansas</A></I> James C. Malin </li>
+</FONT>
+</ul>
+<BR>
+
+
+
+</UL></UL>
+
+
+
+<HR>
+
+ <font face="Times New Roman, Times, serif">
+<B>WWW-VL History</B> was established as <B><a href="http://www.vlib.us/hnsourcehistory.html">HNSource</a></B> on 6 March
+1993.<hR>
+Please direct comments and suggestions to <A
+HREF="http://www.vlib.us/glaughead.html">George Laughead</A>, maintainer.<BR>
+ <hr>
+Thanks to the late Dr. Lynn H. Nelson, original author of the WWW-VL: History Index, the first index of content on the WWW-Virtual Library, created in 1991 by Tim Berners-Lee, WorldWideWeb inventor. <H4>&quot;I would like to thank, on behalf of all the people who have benefited 
+from it, Lynn Nelson for his great effort to build and maintain the 
+WWW Virtual Library for History.&quot; Tim Berners-Lee, WWW Inventor, www.w3.org, November 2004.</H4><p>Lynn explains "Prima
+del Web: gli sviluppi della storia online" <A
+HREF="http://chnm.gmu.edu/digitalhistory/links/pdf/chapter1/1.2b.pdf" rel="nofollow">("Before the Web: the early
+development of History on-line")</A>.	Hosted at: <a href="http://www.vlib.us/">WWW Virtual Library</a> @ www.vlib.us<br><br>
+Updated: 14 July 2014.
+<p><font face="Times New Roman, Times, serif">
+History Gateway at Kansas<br>
+URL: http://www.vlib.us/history/
+</font>
+
+<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 START -->
+<script type='text/javascript' src='https://count.carrierzone.com/app/count_server/count.js'></script>
+<script type='text/javascript'><!--
+wm_custnum='a059557473c1d610';
+wm_page_name='index.html';
+wm_group_name='/services/webpages/v/l/vlib.us/public/history';
+wm_campaign_key='campaign_id';
+wm_track_alt='';
+wiredminds.count();
+// -->
+</script>
+<!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 END -->
+</BODY>
+<HTML>

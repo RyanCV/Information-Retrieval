@@ -1,0 +1,467 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" Content="text/html;charset=UTF-8">
+<TITLE>KU Libraries Catalog</TITLE>
+<style type="text/css" media="screen">
+@import "/css/webvoyageStyles.css";
+</style>
+</HEAD>
+<BODY onLoad="document.querybox.Search_Arg.focus()"  bgcolor="#ffffff" text="#000000" link="#1507CB">
+
+<link href="/css/main_ku.css" rel="stylesheet" type="text/css" title="KU Style" />
+<!--//<script src="http://webmedia.ku.edu/js/jquery/jquery-1.3.2/jquery-1.3.2.min.js"  type="text/javascript"></script>//-->
+<script type="text/javascript" src="http://webmedia.ku.edu/js/jquery/jquery-1.4.4/jquery-1.4.4.min.js"></script>
+<script src="http://webmedia.ku.edu/js/ku/kutemplate_2009.js"  type="text/javascript"></script>
+
+<script type="text/javascript" src="/scripts/ku/augmentLocation.js?20140726"></script>
+<script type="text/javascript" src="/scripts/ku/aeonRequest.js?20140730"></script>
+<script type="text/javascript">
+
+$kuj(document).ready(function(){
+
+
+$kuj("ul.extservices").each(function(i){
+var id = $kuj(this).attr("id");
+
+$kuj.ajax({
+url:"http://www2.ku.edu/~libextservice/cgi-bin/index.php",
+data: {controller:"locator", action:"list", record_id:id, record_type:"B", format:"json"},
+dataType: "jsonp",
+success: function(data, textStatus){
+for (var i = 0; i< data[id].length; i++){
+if (data[id][i].icon_url){
+$kuj("#" + id).append("<li><a class=\"pod\" href=\"" + data[id][i].url + "/" + id + "/" + encodeURIComponent(location.search.substring(1)) + "\">" +
+"<img src=\"" + data[id][i].icon_url + "\" alt=\"" +
+data[id][i].label + "\" /></a></li>");
+}else{
+$kuj("#" + id).append("<li class=\"bluebutton\"><a href=\"" + data[id][i].url + "/" + id + "/" + encodeURIComponent(location.search.substring(1)) + "\">" + data[id][i].label + "</a></li>");
+$kuj('ul.extservices li').mouseover(function(){$kuj(this).addClass('bluebuttonon');});
+$kuj('ul.extservices li').mouseout(function(){$kuj(this).removeClass('bluebuttonon');});
+}
+if(data[id][i].url == "http://www2.ku.edu/~libpod/pod/new"){
+var loc = $kuj('td:contains("Ask KU Libraries to buy this book")');
+loc.html("<a class=\"pod\" href=\"" + data[id][i].url + "/" + id + "/" + encodeURIComponent(location.search.substring(1)) + "\">" + loc.text() + "</a>");
+}
+}
+$kuj("a.pod").click(function(){
+ga('send', 'event', 'Purchase on Demand', "click", $kuj(this).attr('href'));
+});
+},
+error: function (XMLHttpRequest, textStatus, errorThrown) {
+$kuj("#" + id).append("<li>Error retrieving external services (" + XMLHttpRequest.status + ")</li>");
+}
+});
+});
+});
+
+</script>
+
+
+<style type="text/css">
+<!--
+.style1 {color: #e31736}
+#ku_header_logo {width: 200px;}
+#ku_header_links {width: 500px;}
+.extservices {
+list-style: none;
+margin: 0;
+padding: 0;}
+
+.bluebutton, .bluebuttonon {
+color:#FFFFFF !important;
+font-size:1.1em;
+font-weight:bold;
+height:39px;
+padding-left:2px;
+padding-top:8px;
+text-align:center;
+width:166px;}
+
+
+.bluebutton, .bluebuttonon {
+background:transparent url(http://webmedia.ku.edu/images/template2009/widgets/button.png) no-repeat scroll 0 0;}
+
+
+.bluebuttonon{background:url('http://webmedia.ku.edu/images/template2009/widgets/button-on.png') no-repeat !important;}
+
+
+.bluebutton a {
+display:block;}
+
+
+.bluebutton a, .bluebuttonon a {
+color:#FFFFFF !important;}
+
+.bluebutton a:hover, .bluebuttonon a:hover {
+text-decoration: none !important;}
+
+-->
+.extservices li a img{
+border: none;}
+
+a.stacksmap {
+font-size: 0.9em;
+padding: 0.2em;
+background-color: #eee;
+color: #444;
+text-decoration: none;
+-moz-border-radius: 3px;
+border: 1px #999 solid;}
+
+</style>
+<div id="ku_accessibilty_skip">
+<a href="#maincontent"><img src="/images/spacer.gif" alt="Skip redundant pieces" width="1" height="1" border="0"/></a>
+</div>
+
+<a name="top"></a>
+
+
+<div id="ku_container">
+<!-- ------------------------------------ Header ------------------------------------ -->
+<div id="ku_intro">
+<div id="ku_topmostheader">
+<div id="ku_header_links"><a href="http://www.ku.edu/" class="ku_homelink" title="KU Home">KU Home</a>&nbsp; |&nbsp; <a href="https://portal.ku.edu/" title="myKU log in">myKU</a>&nbsp; |&nbsp; <a href="https://mail.ku.edu/" title="Outlook Web Access">Email</a> &nbsp;|&nbsp; <a href="http://courseware.ku.edu/" title="Blackboard">Blackboard</a> &nbsp;|&nbsp; <a href="http://www.news.ku.edu/" title="News">News</a> &nbsp;|&nbsp; <a href="http://www.calendar.ku.edu/" title="Calendar">Calendar</a> &nbsp;|&nbsp; <a href="http://www.ku.edu/directory/" title="Directories">Directories</a> &nbsp;|&nbsp; <a href="http://www.ku.edu/visit/maps.shtml" title="Maps">Maps</a> &nbsp;|&nbsp; <a href="http://www.ku.edu/kusites/a-z.shtml" title="KU A-Z">KU A-Z</a></div>
+
+<div id="ku_header_logo" align="right"><a href="http://www.ku.edu/"><img src="/images/masthead_logo.gif" alt="The University of Kansas" title="The University of Kansas" hspace="0" vspace="0" width="143" height="53" align="right" border="0" /></a></div>
+
+</div>
+<div id="ku_topbar"></div>
+<div id="ku_titlebar">
+<div id="ku_kuaffiliation">
+<a href="http://catalog.lib.ku.edu/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First" style="color:#444444;">KU Library Catalog</a>
+</div>
+<div id="ku_searchbar">
+
+
+<div id="ku_searchform" align="right">
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+<div id="ku_frame">
+
+<div id="ku_container_nonav">
+<!-- ***************************************** Main Content ***************************************** -->
+<div id="ku_contentcenter_nonav">
+<div id="ku_maincontent">
+
+<a name="maincontent"></a>
+
+<!-- ***************************************** Begin Editable ***************************************** -->
+<!-- service alert -->
+<!--<font color=red>Catalog will be in search-only mode after 3PM today, Friday, March 29. Holds, recalls, requests, retrieve-from-shelf and TripSaver will not be available.  Service will be restored by Saturday, March 30.</font> -->
+<!--div class="style1">
+<div class="ku_hr"></div>
+</div-->
+<!-- end service alert -->
+<CENTER>
+<FONT face=Arial size=1><A HREF="http://www.lib.ku.edu/"><IMG ALIGN="MIDDLE" BORDER=0 ALT="Libraries&nbsp;Home &nbsp;|" SRC="/images/kuUpLibrariesHome.gif"></A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"><A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"></A><A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"></A><A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=pbLogon&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq&SEQ=20160422205631"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;My&nbsp;Account &nbsp;|" SRC="/images/kuUpPatron.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?cart=true&PAGE=LOGON&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;View&nbsp;Bookbag &nbsp;|" SRC="/images/kuUpBookBag.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=REQNOBIB&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Recalls&nbsp;&amp;&nbsp;Requests &nbsp;|" SRC="/images/kuUpRequest.gif"></A><A HREF="http://lib.ku.edu/articles-and-databases"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Databases &nbsp;|" SRC="/images/kuUpDatabases.gif"></A><A HREF="http://www.lib.ku.edu/e-journals"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;E-journals &nbsp;|" SRC="/images/kuUpEjcat.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=dbPage&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Other&nbsp;Catalogs &nbsp;|" SRC="/images/kuUpOtherCats.gif"></A><A HREF="/help/combinedsearch.htm"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Help &nbsp;|" SRC="/images/kuUpHelp.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=Exit&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Logout" SRC="/images/kuUpLogOut.gif"></A></FONT></CENTER><HR>
+<TD><STRONG>Database Name:  </STRONG>University of Kansas Libraries</TD>
+<BR>
+<FORM NAME="querybox" ACTION="/cgi-bin/Pwebrecon.cgi" METHOD="GET" AUTOCOMPLETE="OFF">
+  <table width="95%" border="0" align="center">
+    <tr>
+      <td>
+       
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+          <tr valign=bottom>
+            <td>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr bgcolor="#F0F0F0" valign="center" align="center">
+                  <td nowrap width="1%">
+                  	<b>
+                  		<font color="#444444">&nbsp;&nbsp;Simple Search</font>
+                  	</b>&nbsp;&nbsp;
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td>&nbsp;&nbsp;</td>
+            <td>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th nowrap bgcolor="#cccccc">&nbsp;<font color="#0049AE">
+                    &nbsp;<A STYLE="color:#0049AE" HREF="/cgi-bin/Pwebrecon.cgi?PAGE=bbSearch&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq">Advanced Search</a> &nbsp; </font>&nbsp;</th>
+                </tr>
+              </table>
+            </td>
+            <td>&nbsp;&nbsp;</td>
+            <td>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th nowrap bgcolor="#cccccc">&nbsp;<font color="#0049AE">
+                    &nbsp;<A STYLE="color:#0049AE" HREF="/cgi-bin/Pwebrecon.cgi?PAGE=rbSearch&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq">Course Reserve</a> &nbsp; </font>&nbsp;</th></tr></table></td><td>&nbsp;&nbsp;</td><td><table border="0" cellspacing="0" cellpadding="0"><tr><th nowrap bgcolor="cccccc">&nbsp;<font color="DCDCDC">&nbsp;<a style="color:#0049AE" href="newbooks.cgi">New Items</a></a> &nbsp; </font>&nbsp;</th>
+                </tr>
+              </table>
+            </td>
+            <td>&nbsp;&nbsp;</td>
+            <td width = 96%>&nbsp; </td>
+          </tr>
+        </table>
+      <TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <tr bgcolor=#F0F0F0 valign=bottom> 
+           <td colspan="3" nowrap valign="center">&nbsp;
+        </tr>
+			<tr bgcolor=#F0F0F0 valign=bottom> 
+				<TD colSpan=3 vAlign="center"> 
+					<table width="100%" border="0">
+						<tr bgcolor=#F0F0F0 valign=bottom> 
+							<td valign="top" align="left" nowrap>
+								<font color="#444444">
+									<b>&nbsp;Search For:</b> 
+                          <input size=40 maxlength=100 name=Search_Arg>
+								</font>
+							</td>
+							<td valign="top" align="left" nowrap>
+								<font color="#444444">
+									<b>Limit To:</b>
+								</font> 
+                    <select name="SL" size="1">
+                      <option value="None">None</option>
+
+<!-- LANG -->
+
+                  <OPTION VALUE="Submit&LANG=ENG|0">English</OPTION>
+
+<!-- DATE -->
+
+                  <OPTION VALUE="Submit&DATE=2005-|1">Last 5 Years</OPTION>
+
+<!-- LOCA -->
+
+                  <OPTION VALUE="Submit&LOCA=Law Library|2">Law Library</OPTION>
+                    </select>
+							</td>
+						</tr>
+						<tr> 
+							<td colspan="2"> 
+								<table width="100%" border="0">
+									<tr valign="top" align="left"> 
+										<td rowspan="2" width="1%" nowrap>
+											<font color="#444444">
+												<b>&nbsp;Search By:</b>
+											</font>
+										</td>
+										<td nowrap rowspan="2" width="99%">
+											<font color="#444444">&nbsp;
+                      &nbsp;&nbsp;<select name="Search_Code" size="9">
+                  <OPTION SELECTED VALUE="FT*">Keyword</OPTION>
+                  <OPTION VALUE="CMD">AND, OR, NOT (Keyword Boolean)</OPTION>
+                  <OPTION VALUE="NAME_">Author</OPTION>
+                  <OPTION VALUE="TALL">Title</OPTION>
+                  <OPTION VALUE="JALL">Journal Title</OPTION>
+                  <OPTION VALUE="SUBJ_">Subject Headings</OPTION>
+                  <OPTION VALUE="CALL_">Call Number</OPTION>
+                  <OPTION VALUE="TITL_">Series Titles</OPTION>
+                  <OPTION VALUE="CALL">Left-anchored call number (not LC)</OPTION>
+                      </select>
+											</font>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</TR>
+			</TABLE>
+		</TD>
+    <INPUT TYPE=HIDDEN NAME=PID VALUE="I5tGTJl54jbskMZ6I9yxi5Q_Wtjq">
+    <INPUT TYPE=HIDDEN NAME=SEQ VALUE="20160422205631">
+    <tr bgcolor=#cccccc valign=center> 
+      <td> 
+        <div align="center"> 
+          <div align="center"> 
+            <table align=center border="0" cellspacing="0" cellpadding="0" width="100%">
+              <tr> 
+                <td width="10%" align="center" valign="center" nowrap>&nbsp;
+<SELECT NAME="CNT">
+<OPTION VALUE="10">10 records per page</OPTION>
+<OPTION VALUE="20">20 records per page</OPTION>
+<OPTION SELECTED VALUE="25">25 records per page</OPTION>
+<OPTION VALUE="50">50 records per page</OPTION>
+</SELECT>
+                  </td>
+                <td noWrap width="80%"> 
+                  <div align="center">
+                     <INPUT TYPE=HIDDEN NAME=HIST VALUE="1">
+                     <INPUT TYPE="SUBMIT" VALUE="Search">
+              <INPUT TYPE="RESET" VALUE="Reset">
+               </div>
+ </TD>
+                <td width="10%" align="center" valign="center" nowrap>
+                <div align="right"><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=lbSearch&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq&LRP=sbSearch"><IMG SRC="/images//limit.gif" ALIGN="center" BORDER=0 ALT="Set Search Limits"></A>&nbsp;            	</td>
+          	  </tr>
+        	</table>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+					<BR>
+
+<STRONG>For detailed searching help, click on the HELP button at the top of this
+screen</STRONG>
+<p> <STRONG>Keyword </STRONG> </p>
+<UL>
+<LI>enter words and/or phrases in any order
+<LI>use quotes to search phrases: "united states"
+<LI>use ? to truncate: browser?; ?natal; wom?n
+<LI>use + to mark essential terms: +explorer
+<LI>use * to mark important terms: *internet
+<LI>use ! to exclude terms: !microsoft
+</UL>
+<p><STRONG>AND, OR, NOT (Boolean)</STRONG></p>
+<UL>
+<LI>use <B><I>and, or, not</I></B> to combine search terms
+<LI>use quotation marks to indicate phrases: "united states"
+<LI>use opening and closing parentheses to group search terms (kansas or missouri) AND wildflower
+<LI>use ? to truncate: browser?; ?natal; wom?n
+</UL>
+<STRONG>Author</STRONG>
+<UL>
+<LI>if searching for a person, enter the last name first (Example: smith, john)
+<LI>If using a person's initials, replace them with spaces (Example: eliot, t s)
+<LI>if searching for an initialism with periods, include them (Example: A.B.A.)
+<LI>Search Limits do NOT apply to Author searches
+</UL>
+<STRONG>Title, Journal Title</STRONG>
+<UL>
+<LI>omit initial articles (<I>a, an, the, la, el</I>, etc.)
+<LI>truncation on the right is implied (you do not need to use a ?)
+</UL>
+<STRONG>Subject Headings</STRONG>
+<UL>
+<LI>omit all punctuation (Example: kansas history civil war)
+<LI>truncation on the right is implied (you do not need to use a ?)
+<LI>Search Limits do NOT apply to Subject Heading searches
+</UL>
+<STRONG>Call Number</STRONG>
+<UL>
+<LI>truncation on the right is implied (you do not need to use a ?)
+<LI>Search Limits do NOT apply to Call Number searches
+</UL>
+<STRONG>Series Titles</STRONG>
+<UL>
+<LI>includes "see" and "see also" references
+<LI>search as you would a normal title
+</UL>
+<HR>
+<CENTER>
+<FONT face=Arial size=1><A HREF="http://www.lib.ku.edu/"><IMG ALIGN="MIDDLE" BORDER=0 ALT="Libraries&nbsp;Home &nbsp;|" SRC="/images/kuUpLibrariesHome.gif"></A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"><A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"></A><A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"></A><A><IMG ALIGN="MIDDLE" BORDER=0 SRC="/images/blank.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=pbLogon&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq&SEQ=20160422205631"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;My&nbsp;Account &nbsp;|" SRC="/images/kuUpPatron.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?cart=true&PAGE=LOGON&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;View&nbsp;Bookbag &nbsp;|" SRC="/images/kuUpBookBag.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=REQNOBIB&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Recalls&nbsp;&amp;&nbsp;Requests &nbsp;|" SRC="/images/kuUpRequest.gif"></A><A HREF="http://lib.ku.edu/articles-and-databases"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Databases &nbsp;|" SRC="/images/kuUpDatabases.gif"></A><A HREF="http://www.lib.ku.edu/e-journals"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;E-journals &nbsp;|" SRC="/images/kuUpEjcat.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=dbPage&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Other&nbsp;Catalogs &nbsp;|" SRC="/images/kuUpOtherCats.gif"></A><A HREF="/help/combinedsearch.htm"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Help &nbsp;|" SRC="/images/kuUpHelp.gif"></A><A HREF="/cgi-bin/Pwebrecon.cgi?PAGE=Exit&SEQ=20160422205631&PID=I5tGTJl54jbskMZ6I9yxi5Q_Wtjq"><IMG ALIGN="MIDDLE" BORDER=0 ALT="&nbsp;Logout" SRC="/images/kuUpLogOut.gif"></A></FONT></CENTER></P>
+</FORM>
+</BODY>
+
+
+<!-- bottom navigation -->
+<p align="center">
+<font size="1">
+<a href="http://lib.ku.edu/purchaserequest">suggest a purchase</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://lib.ku.edu/ask-librarian#byemail">comments</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://illiad.lib.ku.edu/KKU/">request articles, books, ...</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://lib.ku.edu/locations-hours">hours</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://lib.ku.edu/ask-librarian">research assistance</a>
+</font>
+</p>
+<!-- end bottom navigation -->
+
+<!-- ******************************************  End Editable  ************************************************* -->
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<br clear="all" />
+<!-- --------------------- Footer --------------------- -->
+<div id="ku_footercontainer">
+<div id="ku_contentbottom"></div>
+<div id="ku_footer">
+<div id="ku_footerframe">
+<div id="ku_contactinfo">
+<div style="padding-bottom:3px;">
+<a href="http://lib.ku.edu/ask-librarian/" class="ku_grey_u_link">Contact Us</a><br />
+</div>
+<address>
+The University of Kansas Libraries<br />
+Lawrence, KS 66045<br />
+(785) 864-8983<br />
+</address>
+</div>
+<div id="ku_copyright">
+<img class="ku_jayhawk" src="/images/footer_jayhawk.gif" border="0" align="right" hspace="0" vspace="0" alt="KU Jayhawk" />
+Copyright &copy; 2006 by the University of Kansas
+</div>
+</div>
+</div>
+</div>
+<style type="text/css">
+.btn {
+margin-top: 20px;
+padding: 1em;
+font-size: 1em;
+background-color: #00619E;
+color: #fff;
+border-radius: 0.5em;
+}
+</style>
+<script type="text/javascript" src="http://webmedia.ku.edu/js/jquery/jquery-1.4.4/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="//webmedia.ku.edu/js/jqueryplugins/cookie/jquery.cookie.js"></script>
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-9718539-7', 'auto');
+
+var role = $.cookie('affiliation');
+if (role !== undefined){
+ga('set', 'dimension1', role);
+}
+
+ga('send', 'pageview');
+
+$kuj(document).ready(function(){
+var bibid;
+$kuj("ul.extservices").each(function(i){
+bibid = $kuj(this).attr("id");
+});
+
+$kuj('th').each(function(){
+var th = $kuj(this);
+if (th.text() == 'VIEW ONLINE - CLICK ON LINK:'){
+th.find('a').each(function(){
+var link = $kuj(this);
+link.click(function(){
+ga('send', 'event', 'Linked Resource', bibid, link.attr('href'));
+});
+});
+th.next().find('a').each(function(){
+var link = $kuj(this);
+link.click(function(){
+ga('send', 'event', 'Linked Resource', bibid, link.attr('href'));
+});
+});
+}
+});
+
+
+
+$kuj('h1:contains("Fines and Fees")').after('<p>KU Students, Faculty, Staff, and Affiliates may <a href="http://lib.ku.edu/policies/pay-library-charges-online">pay fines and fees online</a> in the myKU Portal.</p>');
+
+var extbutton = $('input[value="Login with KU Online ID & Password"]');
+extbutton.addClass('btn');
+var extauth = extbutton.parent().parent();
+if (extauth){
+$('h1:contains("KU Libraries: please login to use this service")').append(extauth);
+}
+});
+</script>
+</HTML>

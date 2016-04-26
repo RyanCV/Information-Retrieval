@@ -22,8 +22,8 @@ def candidate_files(query,files_num):
     for word in query:
         if boolean_dic.has_key(word):
             current_array = boolean_dic[word]
-            print(word)
-            print(current_array)
+            #print(word)
+            #print(current_array)
             i = 0
             for x,y in zip(result_array,current_array):
                 result_array[i] = result_array[i]|current_array[i]
@@ -42,7 +42,7 @@ def candidate_files(query,files_num):
             if out != 0:
                 files_indice.append(i*32+j)
         i+=1
-    print files_indice
+    #print files_indice
     return files_indice
 
 
