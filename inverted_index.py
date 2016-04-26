@@ -101,7 +101,7 @@ def construct_inverted_index(path):
     utils.store_datastructure('boolean_dict.pkl',final_boolean_dict)
 
 
-#construct_inverted_index('RemovedString/')
+#construct_inverted_index('Removed/')
 #a = ['addit', 'text','zwinger','zwinger']
 #t_dict = tf_of_query(a)
 #for key, value in t_dict:
