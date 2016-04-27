@@ -1,6 +1,7 @@
 #choose candidate files based on query
 #by Yang Tian
 import utils
+from utils import *
 
 
 #use boolean model to choose candidate files based on query
@@ -9,7 +10,8 @@ import utils
 #   files_num: number of all documents
 #return: list of file indice which contains at least one item in the query words
 def candidate_files(query,files_num):
-    boolean_dic = utils.read_datastructure('boolean_dictonary.pkl')
+    #boolean_dic = utils.read_datastructure('boolean_dictonary.pkl')
+    boolean_dic = get_ir_boolean_dictionary()
     parts_num = files_num/32
     if files_num%32 == 0:
         end = 32

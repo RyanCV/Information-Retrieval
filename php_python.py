@@ -8,6 +8,9 @@ import socket
 import os
 
 import process
+import utils
+
+#import togetherIndiceResult
 
 # -------------------------------------------------
 # 基本配置
@@ -52,7 +55,7 @@ CHARSET = "utf-8"       #设置字符集（和PHP交互的字符集）
 if __name__ == '__main__':
 
     print ("-------------------------------------------")
-    print ("- PPython Service")
+    print ("- PHP-Python Connection")
     print ("- Time: %s" % time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())) )
     print ("-------------------------------------------")
 
@@ -63,8 +66,13 @@ if __name__ == '__main__':
     print ("Listen port: %d" % LISTEN_PORT)
     print ("charset: %s" % CHARSET)
     print ("Server startup...")
+    
+    utils.init_all_data()
+    print ("Data Loaded!")
+    #togetherIndiceResult.together_indice_result('ku bast')
+    
 
-    while 1:  
+    while 1:
         connection,address = sock.accept()  #收到一个请求
 
         #print ("client's IP:%s, PORT:%d" % address)

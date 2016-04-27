@@ -5,7 +5,7 @@ import string
 import os
 
 def checkpuc(ch):
-    if ch.isalnum():
+    if ch.isalpha():
         return ch
     else:
         return ' '
@@ -50,6 +50,6 @@ def cleanallpage(path):
         print(filename)
         cleanpage(path,"cleaned",filename)
 
-cleanallpage('docsnew/')
-cleanallpage('ku_crawled_files/')
-print("Done.")
+#cleanallpage('docsnew/')
+#cleanallpage('ku_crawled_files/')
+#print("Done.")

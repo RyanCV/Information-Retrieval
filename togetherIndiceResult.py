@@ -22,6 +22,8 @@ from similarity import vectorlength
 from similarity import simDistance
 from similarity import computerSimilarity
 import sys
+import csv
+from utils import *
 
 
 def together_indice_result(query_string):
@@ -38,29 +40,38 @@ def together_indice_result(query_string):
     ##extract value for the final vectList
     #queryTF = extractValuePart(query)
 
-    df_file = utils.read_datastructure('df_dictonary.pkl')
-    #tf_file = utils.read_datastructure('word_dictonary.pkl')
+    
+    #df_file = utils.read_datastructure('df_dictonary.pkl')
 
 
     #queryTFIDF = tfidf_for_Query(query,df_file,tf_file)
-    queryTFIDF = tfidf_Query(query,df_file)
+    queryTFIDF = tfidf_Query(query,get_ir_df_dictionary())
 
-    candidateIndice = candidatefile.candidate_files(query,91)
+    candidateIndice = candidatefile.candidate_files(query,get_ir_doc_number())
 
     #VectorList = utils.read_datastructure('doc_tfidf_matrix.pkl')
 
-    VectorList = utils.read_datastructure('doc_tfidf_normalize.pkl')
+    #VectorList = utils.read_datastructure('doc_tfidf_normalize.pkl')
+    
     #print 'length'
     #print VectorList[10]
-    #print candidateIndice
+    print candidateIndice
 
-    CandidateList = candidateVector.extractCandidates(VectorList, candidateIndice)
+    CandidateList = candidateVector.extractCandidates(get_ir_tfidf_matrix(), candidateIndice)
     #print len(CandidateList[0])
     #print len(queryTFIDF)
 
     RankedDocList = computerSimilarity(queryTFIDF, CandidateList,candidateIndice)
 
     return RankedDocList[0]
+
+"""
+init_all_data()
+print("Loaded")
+together_indice_result('ku bast')
+"""
+
+
 
 
 

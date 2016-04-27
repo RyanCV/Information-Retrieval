@@ -6,6 +6,7 @@
 import math
 import utils
 
+#by Yang Tian
 def tfidf_Query(query,df):
     vector_length = len(df)
     query_tf = dict.fromkeys(df, 0)

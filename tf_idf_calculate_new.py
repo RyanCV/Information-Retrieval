@@ -1,10 +1,43 @@
-# Author: Yuanwei Wu
+# Author: Yuanwei Wu & Yang
 # Date: 3/16/2016, recove 3/22/2016, revised 4/3/2016, update normalize: 4/23/2016
 # Description: input: tf, df in list, 
 # output: calculate idf= log10(N/df), only output tf*idf in list
 
 import math
 import utils
+
+#by Yang Tian
+def tfidf_weight_calculation(tf_dic,df_dic,boolean_dic,doc_num):
+    tfidf_dic = {}
+    for key,value in tf_dic.iteritems():
+        #print key
+        tfidf_dic[key] = [ x*math.log10(float(doc_num)/df_dic[key]) for x in value]
+    tfidf = sorted([(k,v) for k,v in tfidf_dic.items()])
+    
+    # # change the tfidt into list, remove the keys
+    tfidf_lst = list()
+    for k3,v3 in tfidf:
+        tfidf_lst.append(v3)
+    ## save the tfidf: remove the key, and each list in represents a document vector
+    tfidf_doc = list(map(list, zip(*tfidf_lst)))
+    utils.store_datastructure('tfidf_matrix.pkl',tfidf_dic)
+    """df_list = sorted(df_dic.items())
+    tfidf_list = sorted(tfidf_dic.items())
+    boolean_list = sorted(boolean_dic.items())
+    term_info = []
+    df_info = []
+    tf_info = []
+    bool_info = []
+    for x in df_list:
+        term_info.append(x[0])
+        df_info.append(x[1])
+    for y in tfidf_list:
+        tf_info.append(y[1])
+    for z in boolean_list:
+        bool_info.append(z[1])
+    tuple_info = zip(term_info,df_info,bool_info,tf_info)
+    #utils.writedic_to_csv(tuple_info,'tfdf_info.csv')"""
+
 
 def tf_idf_calculation(tf, df):
 	tfidf = dict()
@@ -32,11 +65,23 @@ def tf_idf_calculation(tf, df):
 
 
 
+"""
+word_dic = utils.read_datastructure('word_dictonary.pkl')
+df_dic = utils.read_datastructure('df_dictonary.pkl')
+boolean_dic = utils.read_datastructure('boolean_dictonary.pkl')
+tfidf_weight_calculation(word_dic,df_dic,boolean_dic,len(word_dic))
+print('Done.')
+"""
 
-# df_file = utils.read_datastructure('df_dict.pkl')
-# tf_file = utils.read_datastructure('word_dict.pkl')
-# doc_tfidf_matrix = tf_idf_calculation(tf_file, df_file)
-# utils.store_datastructure('doc_tfidf_matrix.pkl',doc_tfidf_matrix)
+#print(len(word_dic['addit']))
+#utils.writedic_to_csv(tf_list,'tf_test.csv')
+#utils.readcsv('test.csv')
+"""
+df_file = utils.read_datastructure('df_dict.pkl')
+tf_file = utils.read_datastructure('word_dict.pkl')
+doc_tfidf_matrix = tf_idf_calculation(tf_file, df_file)
+utils.store_datastructure('doc_tfidf_matrix.pkl',doc_tfidf_matrix)
+"""
 # doc_tfidf_distance = [math.sqrt(sum(val)) for val in doc_tfidf_matrix]
 # utils.store_datastructure('doc_tfidf_distance.pkl',doc_tfidf_distance)
 # doc_tfidf_normalize = []

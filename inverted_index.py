@@ -27,10 +27,10 @@ def tf_of_query(querylist):
 #build Inverted Index from path and boolean model
 def construct_inverted_index(path):
     num_files = len([f for f in os.listdir(path)
-                     if os.path.isfile(os.path.join(path, f))])-1
+                     if os.path.isfile(os.path.join(path, f))])
     init_boolean = [0]*num_files
 
-    #print(init_boolean)
+
     word_dict = {}
     boolean_dict = {}
     filecount = 0
@@ -60,6 +60,7 @@ def construct_inverted_index(path):
                 boolean_value[filecount] = 1
                 boolean_dict[word] = boolean_value
         filecount+=1
+    #print(filecount)
     #word_dict = collections.OrderedDict(sorted(word_dict.items()))
     #print(word_dict)
     #print(sorted(boolean_dict.items()))

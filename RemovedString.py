@@ -67,12 +67,14 @@ def RemoveStopwdStem(inputfolder, outputfolder, url):
 	# os.remove(outputfolder+"/"+url)
 
 
-
+"""
 for filename in os.listdir('cleaned/'):
     print(filename)
+    if ".DS_Store" == filename:
+        continue;
     RemoveStopwdStem("cleaned","Removed",filename)
 print("Done.")
-
+"""
 
 # test the 1st file in cleaned/
 # filename = 'Acadia_National_Park.htm.cleaned'
