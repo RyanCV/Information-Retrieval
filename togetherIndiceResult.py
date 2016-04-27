@@ -87,7 +87,7 @@ def together_indice_result(query_string,pageno):
 
 #init_all_data()
 #print("Loaded")
-#together_indice_result('ku bast',1)
+#together_indice_result('Carlsbad Caverns national park',1)
 
 
 

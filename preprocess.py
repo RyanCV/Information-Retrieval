@@ -56,12 +56,13 @@ def getpath_of_files():
     for filename in os.listdir('ku_crawled_files/'):
         path_list.append(os.path.abspath("ku_crawled_files/"+filename))
     for filename in os.listdir('docsnew/'):
-        path_list.append(os.path.abspath("docsnew/"+filename))
+        path_list.append('http://localhost/docsnew/'+filename)
     print path_list
     utils.store_datastructure('filepath_list.pkl',path_list)
-
-#cleanallpage('docsnew/')
-#cleanallpage('ku_crawled_files/')
-#getpath_of_files()
-#print("Done.")
+"""
+cleanallpage('docsnew/')
+cleanallpage('ku_crawled_files/')
+getpath_of_files()
+print("Done.")
+"""
 

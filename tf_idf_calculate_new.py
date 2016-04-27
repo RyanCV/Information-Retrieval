@@ -76,6 +76,8 @@ print('Done.')
 #print(len(word_dic['addit']))
 #utils.writedic_to_csv(tf_list,'tf_test.csv')
 #utils.readcsv('test.csv')
+
+#correct
 """
 df_file = utils.read_datastructure('df_dict.pkl')
 tf_file = utils.read_datastructure('word_dict.pkl')
