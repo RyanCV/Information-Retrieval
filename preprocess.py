@@ -3,6 +3,7 @@ from lxml import html
 from lxml.html.clean import clean_html
 import string
 import os
+import utils
 
 def checkpuc(ch):
     if ch.isalpha():
@@ -50,6 +51,17 @@ def cleanallpage(path):
         print(filename)
         cleanpage(path,"cleaned",filename)
 
+def getpath_of_files():
+    path_list = []
+    for filename in os.listdir('ku_crawled_files/'):
+        path_list.append(os.path.abspath("ku_crawled_files/"+filename))
+    for filename in os.listdir('docsnew/'):
+        path_list.append(os.path.abspath("docsnew/"+filename))
+    print path_list
+    utils.store_datastructure('filepath_list.pkl',path_list)
+
 #cleanallpage('docsnew/')
 #cleanallpage('ku_crawled_files/')
+#getpath_of_files()
 #print("Done.")
+

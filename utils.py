@@ -28,11 +28,13 @@ def readcsv(csv_filename):
         print item
 
 def init_all_data():
+    global ir_file_path_list
     global ir_df_dictionary
     global ir_boolean_dictionary
     global ir_tfidf_matrix
     global ir_doc_number
     ir_doc_number = 492
+    ir_file_path_list = read_datastructure('filepath_list.pkl')
     ir_df_dictionary = read_datastructure('df_dictonary.pkl')
     ir_boolean_dictionary = read_datastructure('boolean_dictonary.pkl')
     ir_tfidf_matrix = read_datastructure('doc_tfidf_matrix.pkl')
@@ -48,3 +50,6 @@ def get_ir_boolean_dictionary():
 
 def get_ir_tfidf_matrix():
     return ir_tfidf_matrix
+
+def get_ir_file_path_list():
+    return ir_file_path_list

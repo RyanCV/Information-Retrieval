@@ -26,7 +26,7 @@ import csv
 from utils import *
 
 
-def together_indice_result(query_string):
+def together_indice_result(query_string,pageno):
     #query = sys.argv
     #query.pop(0)
     #print query
@@ -55,21 +55,39 @@ def together_indice_result(query_string):
     
     #print 'length'
     #print VectorList[10]
-    print candidateIndice
+    #print candidateIndice
 
     CandidateList = candidateVector.extractCandidates(get_ir_tfidf_matrix(), candidateIndice)
     #print len(CandidateList[0])
     #print len(queryTFIDF)
 
     RankedDocList = computerSimilarity(queryTFIDF, CandidateList,candidateIndice)
+    
+    full_path_list = get_ir_file_path_list()
+    path_list = [full_path_list[i] for i in RankedDocList[0]]
+    
+    plen = len(path_list)
+    print(plen)
+    if plen == 0:
+        return []
+    pagecount = plen/20
+    lastpage = plen%20
+    init_item = (pageno-1)*20
+    if pageno != pagecount:
+        end_item = init_item+20
+    else:
+        if lastpage != 0:
+            end_item = lastpage
+        else:
+            end_item = init_item+20
+    part_path_list = path_list[init_item:end_item]
+    print(part_path_list)
+    return part_path_list
 
-    return RankedDocList[0]
 
-"""
-init_all_data()
-print("Loaded")
-together_indice_result('ku bast')
-"""
+#init_all_data()
+#print("Loaded")
+#together_indice_result('ku bast',1)
 
 
 
