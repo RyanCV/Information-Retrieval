@@ -26,17 +26,17 @@ You are expected to do a project presentation during the last two weeks of the s
 
 You need to submit a project report will all your source code (please do NOT include crawled documents). It is strongly suggested that you make the search engine available when we grade your project report.
 
-#### Git help:
-#### https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+###### Git help:
+###### https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
-#### Niche crawler references:
-#### (Here are some useful materials for us to develop a niche crawler)
-#### https://gist.github.com/jwickett/261551/f62b5ff83d6dbfe004f9ae5941a23a2e3110c57e
-#### http://ipython.iteye.com/blog/685835
-#### http://blog.csdn.net/tingyuanss/article/details/7588700
+###### Niche crawler references:
+###### (Here are some useful materials for us to develop a niche crawler)
+###### https://gist.github.com/jwickett/261551/f62b5ff83d6dbfe004f9ae5941a23a2e3110c57e
+###### http://ipython.iteye.com/blog/685835
+###### http://blog.csdn.net/tingyuanss/article/details/7588700
 
-#### Term Proximity
-#### https://etd.ohiolink.edu/rws_etd/document/get/case1197213718/inline
+###### Term Proximity
+###### https://etd.ohiolink.edu/rws_etd/document/get/case1197213718/inline
 
-#### Relevalce feedback:
-#### https://github.com/rohanag/ADB-relevance-feedback-rocchio/blob/master/bingRelevance.py
+###### Relevalce feedback:
+###### https://github.com/rohanag/ADB-relevance-feedback-rocchio/blob/master/bingRelevance.py
