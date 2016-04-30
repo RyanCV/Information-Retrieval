@@ -28,8 +28,20 @@ def newQuery(query, relevant_doc, irrelevant_doc):
     
     totalIrreleVec = sum(irrelevantD)
     
+    if releNum ==0:
+        if irreleNum !=0:
+            newQ = a*q0  + c*totalIrreleVec/irreleNum
+            return newQ.tolist()
+        else:
+            newQ = q0
+            return newQ.tolist()
+            
+    if irreleNum ==0:
+        newQ = a*q0 + b*totalReleVec/releNum
+        return newQ.tolist()
     
-    newQ = a*q0 + b*totalReleVec/releNum + c*totalIrreleVec/irreleNum
+    else:
+        newQ = a*q0 + b*totalReleVec/releNum + c*totalIrreleVec/irreleNum
     
     return newQ.tolist()
     
