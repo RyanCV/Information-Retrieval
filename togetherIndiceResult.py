@@ -28,6 +28,7 @@ from minWindow import smallestWindow
 from minWindow import newRankedList
 import locate_terms
 from relevance_feedback import newQuery
+import numpy as np
 
 def together_indice_result(query_string,pageno):
     #query = sys.argv
@@ -184,11 +185,15 @@ def together_indice_result2(query_string,pageno):
 #print("Loaded")
 #together_indice_result2('Carlsbad Caverns national park',1)
 
-def together_indice_result3(query_string,pageno):
+def together_indice_result3(query_string,pageno,rankedRelevance):
     #query = sys.argv
     #query.pop(0)
     #print query
     #query = ' '.join(query)
+    pageno = int(pageno)
+    rankedRelevance = [int(x) for x in rankedRelevance]
+    #print rankedRelevance
+    
     query = preprocess.cleanquery(query_string)
     #print query
     query = outputStringQuery(query)
@@ -220,24 +225,56 @@ def together_indice_result3(query_string,pageno):
     #print len(CandidateList[0])
     #print len(queryTFIDF)
     
-    ### here need users to select relevant and irrelevant sites
-    releDoc = [CandidateList[i] for i in range(0,10)]
-    irreleDoc = [CandidateList[i] for i in range (11,20)]
-    
-    newQueryTFIDF = newQuery(queryTFIDF, releDoc, irreleDoc)
-
-    RankedDocList = computerSimilarity(newQueryTFIDF, CandidateList,candidateIndice)
+    RankedDocList = computerSimilarity(queryTFIDF, CandidateList,candidateIndice)
     
     docs = get_ir_preprocessed_docs_list()
 
-    proximityResult = newRankedList(docs, RankedDocList, query)
+    b4feedback = newRankedList(docs, RankedDocList, query)
+    
 
-    print proximityResult
+    releIndex = np.array([n for n,j in enumerate(rankedRelevance) if j==1])
+    
+    irreleIndex = np.array([n for n,j in enumerate(rankedRelevance) if j ==2])
+    
+    releIndex = 20*(pageno-1) + releIndex
+    irreleIndex = 20*(pageno-1) +irreleIndex
+    
+    
+    realRindex = [b4feedback[0][i] for i in releIndex]
+    realIrindex = [b4feedback[0][i] for i in irreleIndex]
+    #print realIrindex
+    
+    
+    doc_vectors = get_ir_tfidf_matrix()
+    
+    releDocs =[doc_vectors[i] for i in realRindex]
+    irreleDocs =[doc_vectors[i] for i in realIrindex]
+    #print releDocs
+    #print type(releDocs)
+    
+    ### here need users to select relevant and irrelevant sites
+    #releDoc = [CandidateList[i] for i in range(0,10)]
+    #irreleDoc = [CandidateList[i] for i in range (11,20)]
+    
+    #print len(releDocs)
+    #print len(irreleDocs)
+    newQueryTFIDF = newQuery(queryTFIDF, releDocs, irreleDocs)
+    #print queryTFIDF == newQueryTFIDF
+    newRankedDocList = computerSimilarity(newQueryTFIDF, CandidateList,candidateIndice)
+    
+    
+    docs = get_ir_preprocessed_docs_list()
+
+
+    relevant_feedback = newRankedList(docs, newRankedDocList, query)
+    #print "11111", b4feedback[0]
+    #print "22222", relevant_feedback[0]
 
     
     full_path_list = get_ir_file_path_list()
-    path_list = [full_path_list[i] for i in proximityResult[0]]
+    path_list = [full_path_list[i] for i in relevant_feedback[0]]
     
+    print relevant_feedback[0]
     plen = len(path_list)
     print(plen)
     if plen == 0:
@@ -253,9 +290,14 @@ def together_indice_result3(query_string,pageno):
         else:
             end_item = init_item+20
     part_path_list = path_list[init_item:end_item]
-    print(part_path_list)
-    return part_path_list
+    part_docid_list = relevant_feedback[0][init_item:end_item]
+    #print part_docid_list
+    highlighted_list,highlighted_str_list = locate_terms.locate_terms_indocs(query,part_docid_list)
+    allresults_count = [plen]*len(highlighted_list)
+    #print(part_path_list)
+    #print(highlighted_list)
+    return zip(part_path_list,highlighted_list,highlighted_str_list,allresults_count)
 
 #init_all_data()
 #print("Loaded")
-#together_indice_result3('Carlsbad Caverns',1)
+#together_indice_result3('wheels',1, [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
