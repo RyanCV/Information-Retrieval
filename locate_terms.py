@@ -13,7 +13,7 @@ def locate_sentence_with_indice(docstring,indice):
         end = mid_index+50
     else:
         end = len(docstring)-1   
-    return docstring[start:(end+1)]
+    return start, docstring[start:(end+1)]
 
 #parameters: 
 #query_string_list: list of processed query words
@@ -39,7 +39,10 @@ def locate_terms_indocs(query_string_list,doc_ids):
             matches_list += occur
         matches_list.sort()
         matches_list = [x for x in matches_list if x-matches_list[0] < 100]
-        str_part_list = locate_sentence_with_indice(doc_item,matches_list)
+        start, str_part_list = locate_sentence_with_indice(doc_item,matches_list)
+        matches_list = [x-start for x in matches_list]
+        #print 'matches_list:'
+        #print matches_list 
         #print 'str_part_list:'
         #print str_part_list
         result_lists.append(matches_list)

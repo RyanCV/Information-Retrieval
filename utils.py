@@ -34,12 +34,15 @@ def init_all_data():
     global ir_tfidf_matrix
     global ir_doc_number
     global ir_preprocessed_docs_list
+    global ir_path_sites
+    
     ir_doc_number = 492
-    ir_file_path_list = read_datastructure('filepath_list.pkl')
+    ir_file_path_list = read_datastructure('path_value_list.pkl')
     ir_df_dictionary = read_datastructure('df_dictonary.pkl')
     ir_boolean_dictionary = read_datastructure('boolean_dictonary.pkl')
     ir_tfidf_matrix = read_datastructure('doc_tfidf_matrix.pkl')
     ir_preprocessed_docs_list = read_datastructure('preprocessed_docs_list.pkl')
+    ir_path_sites = read_datastructure('path_value_list.pkl')
 
 def get_ir_doc_number():
     return ir_doc_number
@@ -58,3 +61,6 @@ def get_ir_file_path_list():
     
 def get_ir_preprocessed_docs_list():
     return ir_preprocessed_docs_list
+    
+def get_ir_path_sites():
+    return ir_path_sites
