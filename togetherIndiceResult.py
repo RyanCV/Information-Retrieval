@@ -26,6 +26,7 @@ import csv
 from utils import *
 from minWindow import smallestWindow
 from minWindow import newRankedList
+import locate_terms
 
 def together_indice_result(query_string,pageno):
     #query = sys.argv
@@ -68,6 +69,7 @@ def together_indice_result(query_string,pageno):
     full_path_list = get_ir_file_path_list()
     path_list = [full_path_list[i] for i in RankedDocList[0]]
     
+    print RankedDocList[0]
     plen = len(path_list)
     print(plen)
     if plen == 0:
@@ -83,13 +85,17 @@ def together_indice_result(query_string,pageno):
         else:
             end_item = init_item+20
     part_path_list = path_list[init_item:end_item]
-    print(part_path_list)
-    return part_path_list
+    part_docid_list = RankedDocList[0][init_item:end_item]
+    #print part_docid_list
+    highlighted_list,highlighted_str_list = locate_terms.locate_terms_indocs(query,part_docid_list)
+    #print(part_path_list)
+    #print(highlighted_list)
+    return zip(part_path_list,highlighted_list,highlighted_list)
 
 
-#init_all_data()
-#print("Loaded")
-#together_indice_result('Carlsbad Caverns national park',1)
+init_all_data()
+print("Loaded")
+together_indice_result('Carlsbad Caverns',1)
 
 
 def together_indice_result2(query_string,pageno):
