@@ -41,4 +41,6 @@ You need to submit a project report will all your source code (please do NOT inc
 
   Relevalce feedback:
   https://github.com/rohanag/ADB-relevance-feedback-rocchio/blob/master/bingRelevance.py
+  
+  returning value from php selected box: http://www.formget.com/php-select-option-and-php-radio-button/
 ####
