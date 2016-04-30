@@ -108,6 +108,7 @@ def together_indice_result2(query_string,pageno):
     #query.pop(0)
     #print query
     #query = ' '.join(query)
+    pageno = int(pageno)
     query = preprocess.cleanquery(query_string)
     #print query
     query = outputStringQuery(query)
@@ -150,23 +151,31 @@ def together_indice_result2(query_string,pageno):
     full_path_list = get_ir_file_path_list()
     path_list = [full_path_list[i] for i in proximityResult[0]]
     
+    print proximityResult[0]
     plen = len(path_list)
     print(plen)
     if plen == 0:
         return []
     pagecount = plen/20
     lastpage = plen%20
+    if(lastpage != 0):
+        pagecount+=1
     init_item = (pageno-1)*20
     if pageno != pagecount:
         end_item = init_item+20
     else:
         if lastpage != 0:
-            end_item = lastpage
+            end_item = init_item+lastpage
         else:
             end_item = init_item+20
     part_path_list = path_list[init_item:end_item]
-    print(part_path_list)
-    return part_path_list
+    part_docid_list = proximityResult[0][init_item:end_item]
+    #print part_docid_list
+    highlighted_list,highlighted_str_list = locate_terms.locate_terms_indocs(query,part_docid_list)
+    allresults_count = [plen]*len(highlighted_list)
+    #print(part_path_list)
+    #print(highlighted_list)
+    return zip(part_path_list,highlighted_list,highlighted_str_list,allresults_count)
 
 
 
