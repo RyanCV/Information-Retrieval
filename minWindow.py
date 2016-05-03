@@ -90,7 +90,10 @@ def newRankedList(docs, RankedDocList, query):
     term_proximity=[]
     for i in rankedIndice:
         
-        term_proximity.append(smallestWindow(query, docs[i]))
+        if len(docs[i]) == smallestWindow(query,docs[i]):
+            term_proximity.append(1000000)
+        else:
+            term_proximity.append(smallestWindow(query, docs[i]))
         
     #normalization
     #maxLength= float(max(term_proximity))

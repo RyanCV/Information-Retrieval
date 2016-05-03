@@ -14,7 +14,7 @@ def newQuery(query, relevant_doc, irrelevant_doc):
     ## set a, b and c
     a = 0.5
     b = 0.5
-    c = 0.1
+    c = -0.1
     
     q0 = np.array(query)
     relevantD = np.array(relevant_doc)
