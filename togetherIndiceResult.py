@@ -128,6 +128,7 @@ def together_indice_result2(query_string,pageno):
 
     candidateIndice = candidatefile.candidate_files(query,get_ir_doc_number())
 
+
     #VectorList = utils.read_datastructure('doc_tfidf_matrix.pkl')
 
     #VectorList = utils.read_datastructure('doc_tfidf_normalize.pkl')
@@ -145,16 +146,16 @@ def together_indice_result2(query_string,pageno):
     docs = get_ir_preprocessed_docs_list()
 
     proximityResult = newRankedList(docs, RankedDocList, query)
-
+    
     #print proximityResult
 
     
     full_path_list = get_ir_file_path_list()
     path_list = [full_path_list[i] for i in proximityResult[0]]
     
-    print proximityResult[0]
+    #print proximityResult[0]
     plen = len(path_list)
-    print(plen)
+    #print(plen)
     if plen == 0:
         return []
     pagecount = plen/20
@@ -181,9 +182,9 @@ def together_indice_result2(query_string,pageno):
 
 
 
-#init_all_data()
-#print("Loaded")
-#together_indice_result2('Carlsbad Caverns national park',1)
+init_all_data()
+print("Loaded")
+together_indice_result2('Kansas History',1)
 
 def together_indice_result3(query_string,pageno,rankedRelevance):
     #query = sys.argv
@@ -274,9 +275,9 @@ def together_indice_result3(query_string,pageno,rankedRelevance):
     full_path_list = get_ir_file_path_list()
     path_list = [full_path_list[i] for i in relevant_feedback[0]]
     
-    print relevant_feedback[0]
+    #print relevant_feedback[0]
     plen = len(path_list)
-    print(plen)
+    #print(plen)
     if plen == 0:
         return []
     pagecount = plen/20
