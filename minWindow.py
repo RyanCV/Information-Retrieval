@@ -68,7 +68,7 @@ def smallestWindow(query, document):
                     begin +=1
                         
                 if size>n-begin+1:
-                    size = n-start+1
+                    size = n-begin+1
                     start = begin
         
     return len(document[start:start+size])
@@ -98,6 +98,9 @@ def newRankedList(docs, RankedDocList, query):
     #normalization
     #maxLength= float(max(term_proximity))
     
+    for i in term_proximity:
+        print i
+    
     term_proximity = [1/float(x) for x in term_proximity]
     
     ## set  a and b
@@ -108,6 +111,8 @@ def newRankedList(docs, RankedDocList, query):
     newProximity = np.array(term_proximity)*b
     
     simAndProxi =[x+y for x,y in zip(newSim, newProximity)]
+    
+    #simAndProxi = newProximity.tolist()
     
     rankedIndices = sorted(range(len(simAndProxi)), key = lambda k: simAndProxi[k])
     
