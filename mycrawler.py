@@ -9,6 +9,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # get the domain name: not in url, then dismiss this url
+# referenced to:https://www.youtube.com/watch?v=nRW90GASSXE&list=PL6gx4Cwl9DGA8Vys-f48mAH9OKSUyav0q
 def get_net_location(url):
 	find_net_loc = urlparse.urlparse(url).netloc
 	url_split = find_net_loc.split('.')
