@@ -77,9 +77,9 @@ def together_indice_result(query_string,pageno):
     full_path_list = get_ir_file_path_list()
     path_list = [full_path_list[i] for i in RankedDocList[0]]
     
-    print RankedDocList[0]
+    #print RankedDocList[0]
     plen = len(path_list)
-    print(plen)
+    #print(plen)
     if plen == 0:
         return []
     pagecount = plen/20
@@ -187,9 +187,9 @@ def together_indice_result2(query_string,pageno):
 
 
 
-init_all_data()
-print("Loaded")
-together_indice_result2('Kansas History',1)
+#init_all_data()
+#print("Loaded")
+#together_indice_result2('Kansas History',1)
 
 def together_indice_result3(query_string,pageno,rankedRelevance):
     #query = sys.argv
