@@ -50,9 +50,14 @@ def together_indice_result(query_string,pageno):
 
 
     #queryTFIDF = tfidf_for_Query(query,df_file,tf_file)
-    queryTFIDF = tfidf_Query(query,get_ir_df_dictionary())
+    
 
     candidateIndice = candidatefile.candidate_files(query,get_ir_doc_number())
+    
+    if candidateIndice == []:
+        return []
+    
+    queryTFIDF = tfidf_Query(query,get_ir_df_dictionary())
 
     #VectorList = utils.read_datastructure('doc_tfidf_matrix.pkl')
 
