@@ -98,8 +98,7 @@ def newRankedList(docs, RankedDocList, query):
     #normalization
     #maxLength= float(max(term_proximity))
     
-    for i in term_proximity:
-        print i
+
     
     term_proximity = [1/float(x) for x in term_proximity]
     
