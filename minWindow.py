@@ -39,7 +39,7 @@ def readfiles(dicName):
 
 def smallestWindow(query, document):
     begin =0
-    size = 100000
+    size = 999999
     start =0
     Length = len(query)
     #docLength = len(document)
@@ -53,25 +53,30 @@ def smallestWindow(query, document):
     mark2 = copy.deepcopy(mark1)
     
     for n,i in enumerate(document):
-        if (document[n] in mark2) and (mark2[document[n]]>0):
+        if (document[n] in mark2) and (mark2[document[n]]!=0):
             mark1[document[n]] -=1
             if mark1[document[n]] >=0:
                 Length-=1
                 
             if Length ==0:
-                while True:
+                while Length ==0:
+                    
                     if (document[begin] in mark2) and (mark2[document[begin]]>0):
-                        if mark1[document[begin]] < 0:
-                            mark1[document[begin]] +=1
-                        else:
+                        if mark1[document[begin]] >= 0:
                             break
+                        else:
+                            #print begin, mark1[document[begin]]
+                            mark1[document[begin]] +=1
+                            #print begin, mark1[document[begin]]
                     begin +=1
-                        
-                if size>n-begin+1:
-                    size = n-begin+1
+                #updte  minwindow 
+                if size> n+1-begin:
+                    size = n+1-begin
                     start = begin
-        
-    return len(document[start:start+size])
+    end = start + size
+    minWindow = document[start:end]
+    minSize = len(minWindow)   
+    return minSize
         
         
 #print smallestWindow(["A","B"],["A","B","C","D"])
