@@ -82,18 +82,18 @@ def together_indice_result(query_string,pageno):
     #print(plen)
     if plen == 0:
         return []
-    pagecount = plen/20
-    lastpage = plen%20
+    pagecount = plen/10
+    lastpage = plen%10
     if(lastpage != 0):
         pagecount+=1
-    init_item = (pageno-1)*20
+    init_item = (pageno-1)*10
     if pageno != pagecount:
-        end_item = init_item+20
+        end_item = init_item+10
     else:
         if lastpage != 0:
             end_item = init_item+lastpage
         else:
-            end_item = init_item+20
+            end_item = init_item+10
     part_path_list = path_list[init_item:end_item]
     part_docid_list = RankedDocList[0][init_item:end_item]
     #print part_docid_list
@@ -167,18 +167,18 @@ def together_indice_result2(query_string,pageno):
     #print(plen)
     if plen == 0:
         return []
-    pagecount = plen/20
-    lastpage = plen%20
+    pagecount = plen/10
+    lastpage = plen%10
     if(lastpage != 0):
         pagecount+=1
-    init_item = (pageno-1)*20
+    init_item = (pageno-1)*10
     if pageno != pagecount:
-        end_item = init_item+20
+        end_item = init_item+10
     else:
         if lastpage != 0:
             end_item = init_item+lastpage
         else:
-            end_item = init_item+20
+            end_item = init_item+10
     part_path_list = path_list[init_item:end_item]
     part_docid_list = proximityResult[0][init_item:end_item]
     #print part_docid_list
@@ -250,8 +250,8 @@ def together_indice_result3(query_string,pageno,rankedRelevance):
     
     irreleIndex = np.array([n for n,j in enumerate(rankedRelevance) if j ==2])
     
-    releIndex = 20*(pageno-1) + releIndex
-    irreleIndex = 20*(pageno-1) +irreleIndex
+    releIndex = 10*(pageno-1) + releIndex
+    irreleIndex = 10*(pageno-1) +irreleIndex
     
     
     realRindex = [b4feedback[0][i] for i in releIndex]
@@ -268,7 +268,7 @@ def together_indice_result3(query_string,pageno,rankedRelevance):
     
     ### here need users to select relevant and irrelevant sites
     #releDoc = [CandidateList[i] for i in range(0,10)]
-    #irreleDoc = [CandidateList[i] for i in range (11,20)]
+    #irreleDoc = [CandidateList[i] for i in range (11,10)]
     
     #print len(releDocs)
     #print len(irreleDocs)
@@ -293,16 +293,16 @@ def together_indice_result3(query_string,pageno,rankedRelevance):
     #print(plen)
     if plen == 0:
         return []
-    pagecount = plen/20
-    lastpage = plen%20
-    init_item = (pageno-1)*20
+    pagecount = plen/10
+    lastpage = plen%10
+    init_item = (pageno-1)*10
     if pageno != pagecount:
-        end_item = init_item+20
+        end_item = init_item+10
     else:
         if lastpage != 0:
             end_item = lastpage
         else:
-            end_item = init_item+20
+            end_item = init_item+10
     part_path_list = path_list[init_item:end_item]
     part_docid_list = relevant_feedback[0][init_item:end_item]
     #print part_docid_list
